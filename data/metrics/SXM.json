@@ -3,5 +3,7 @@
   "population": 43923.0,
   "gdp_growth": 3.40000000000001,
   "capital_city": "Philipsburg",
-  "income_level": "High income"
+  "income_level": "High income",
+  "forest_area_pct": 8.823529,
+  "co2_per_capita": 16.42426
 }
