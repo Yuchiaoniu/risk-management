@@ -456,63 +456,92 @@ function setStatus(text, state='idle') {
 function saveState() { /* no-op: data lives in SQLite */ }
 function loadState() { return false; }
 
-// ── 從 GitHub 載入所有國家資料（永久儲存）──
-async function loadFromAPI() {
+// ── 第一層：載入輕量摘要（cells_summary.json，地圖立即顯示用）──
+async function loadSummary() {
   try {
-    // 主要來源：GitHub risk-management repo
-    const url  = `${GITHUB_RAW}/data/cells.json?t=${Date.now()}`;
+    const url  = `${GITHUB_RAW}/data/cells_summary.json?t=${Date.now()}`;
     const resp = await fetch(url);
     if (!resp.ok) throw new Error(`GitHub HTTP ${resp.status}`);
     const rows = await resp.json();
     countryData = {};
     for (const r of rows) {
       countryData[r.iso3] = {
-        name:             r.name,
-        region:           r.region,
-        priority_score:   r.priority_score,
-        cells_filled:     r.cells_filled || 0,
-        status:           r.cells_filled > 0 ? 'filled' : 'empty',
-        gdp_per_capita:   r.gdp_per_capita,
-        population:       r.population,
-        internet_usage:   r.internet_users_pct,
-        gdp_growth:       r.gdp_growth,
-        inflation:        r.inflation,
-        trade_pct_gdp:    r.trade_pct_gdp,
-        // 法人層
-        company_count_total:         r.company_count_total,
-        company_count_service:       r.company_count_service,
-        company_count_manufacturing: r.company_count_manufacturing,
-        company_count_retail:        r.company_count_retail,
-        company_count_ict:           r.company_count_ict,
-        company_count_wholesale:     r.company_count_wholesale,
+        name:           r.name,
+        region:         r.region,
+        priority_score: r.priority_score,
+        cells_filled:   r.cells_filled || 0,
+        status:         r.cells_filled > 0 ? 'filled' : 'empty',
+        _detailLoaded:  false,  // 標記詳細資料尚未載入
       };
     }
-    log(`從 GitHub 載入：${rows.length} 個格子`, 'ok');
+    log(`摘要載入完成：${rows.length} 個格子`, 'ok');
     return rows.length;
   } catch (e) {
-    log('GitHub 載入失敗，嘗試本機 API...', 'warn');
-    // Fallback：本機 SQLite API
+    log('摘要載入失敗：' + e.message, 'warn');
+    return 0;
+  }
+}
+
+// ── 第一層背景任務：載入完整資料更新地圖顏色 ──
+async function loadFullDataBackground() {
+  try {
+    const url  = `${GITHUB_RAW}/data/cells.json?t=${Date.now()}`;
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`GitHub HTTP ${resp.status}`);
+    const rows = await resp.json();
+    let updated = 0;
+    for (const r of rows) {
+      if (countryData[r.iso3]) {
+        // 保留已存在的基本結構，疊加完整指標
+        Object.assign(countryData[r.iso3], r, { _detailLoaded: true });
+        countryData[r.iso3].internet_usage = r.internet_users_pct;
+        updated++;
+      }
+    }
+    log(`完整資料更新完成：${updated} 個格子`, 'ok');
+    updateMap();     // 用完整資料重新著色
+    updateTop10();   // 更新 Top10
+    return updated;
+  } catch (e) {
+    log('背景完整資料載入失敗：' + e.message, 'warn');
+    // Fallback：本機 API
     try {
       const resp = await fetch(`${WWC_API}/cells-full`);
       if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
       const rows = await resp.json();
-      countryData = {};
       for (const r of rows) {
-        countryData[r.iso3] = {
-          name: r.name, region: r.region,
-          priority_score: r.priority_score,
-          cells_filled: r.cells_filled || 0,
-          status: r.cells_filled > 0 ? 'filled' : 'empty',
-          gdp_per_capita: r.gdp_per_capita, population: r.population,
-          internet_usage: r.internet_users_pct,
-        };
+        if (countryData[r.iso3]) {
+          Object.assign(countryData[r.iso3], {
+            gdp_per_capita: r.gdp_per_capita,
+            population:     r.population,
+            internet_usage: r.internet_users_pct,
+            _detailLoaded:  true,
+          });
+        }
       }
-      return rows.length;
-    } catch (e2) {
-      log('載入失敗：' + e2.message, 'warn');
-      return 0;
-    }
+      updateMap();
+    } catch (_) {}
+    return 0;
   }
+}
+
+// ── 第二層：點擊國家時按需載入該國完整指標 ──
+async function loadCountryDetail(iso3) {
+  if (countryData[iso3] && countryData[iso3]._detailLoaded) return; // 已載入，跳過
+  try {
+    const url  = `${GITHUB_RAW}/data/metrics/${iso3}.json?t=${Date.now()}`;
+    const resp = await fetch(url);
+    if (!resp.ok) return; // 沒有該國指標檔，不報錯
+    const metrics = await resp.json();
+    if (!countryData[iso3]) countryData[iso3] = {};
+    Object.assign(countryData[iso3], metrics, { _detailLoaded: true });
+    countryData[iso3].internet_usage = metrics.internet_users_pct;
+  } catch (_) {}
+}
+
+// ── 保留舊函式名稱供其他程式碼呼叫（重導向到 loadSummary）──
+async function loadFromAPI() {
+  return loadSummary();
 }
 
 // ── Bootstrap：觸發後端爬蟲重新抓取資料 ──
@@ -713,22 +742,131 @@ function updateTop10() {
   });
 }
 
-// ── 選中國家詳情 ──
-function selectCountry(code) {
+// ── 指標顯示名稱對照表 ──
+const METRIC_LABELS = {
+  gdp_per_capita:            '人均 GDP (USD)',
+  population:                '人口',
+  internet_users_pct:        '網路普及率 (%)',
+  gdp_growth:                'GDP 成長率 (%)',
+  inflation:                 '通貨膨脹率 (%)',
+  trade_pct_gdp:             '貿易佔 GDP (%)',
+  gov_revenue_pct_gdp:       '政府收入佔 GDP (%)',
+  capital_city:              '首都',
+  income_level:              '收入等級',
+  latitude:                  '緯度',
+  longitude:                 '經度',
+  calling_code:              '國際電話碼',
+  forest_area_pct:           '森林覆蓋率 (%)',
+  co2_per_capita:            '人均 CO₂ 排放 (噸)',
+  food_insecurity_pct:       '糧食不安全人口 (%)',
+  cereal_production_tonnes:  '穀物產量 (噸)',
+  meat_production_tonnes:    '肉類產量 (噸)',
+  fish_consumption_kg_pc:    '人均水產消費 (kg)',
+  manufacturing_pct_gdp:     '製造業佔 GDP (%)',
+  textile_exports_pct:       '紡織品出口佔比 (%)',
+  labor_force_participation: '勞動參與率 (%)',
+  female_labor_pct:          '女性勞動參與率 (%)',
+  school_enrollment_tertiary:'高等教育入學率 (%)',
+  edu_expenditure_pct_gdp:   '教育支出佔 GDP (%)',
+  renewable_energy_pct:      '再生能源佔比 (%)',
+  energy_use_kg_pc:          '人均能源消耗 (kg)',
+  fossil_fuel_energy_pct:    '化石燃料佔能源 (%)',
+  electric_power_kwh_pc:     '人均電力消耗 (kWh)',
+  tourist_arrivals:          '觀光客人次',
+  broadband_subscriptions:   '寬頻訂閱數/百人',
+  mobile_subscriptions:      '行動通訊訂閱/百人',
+  food_import_pct_gdp:       '食品進口佔 GDP (%)',
+  food_export_pct_gdp:       '食品出口佔 GDP (%)',
+  cereal_yield_kg_per_ha:    '穀物單產 (kg/公頃)',
+  food_production_index:     '糧食生產指數',
+  arable_land_pct:           '耕地面積 (%)',
+  undernourishment_pct:      '營養不足人口 (%)',
+  urban_population_pct:      '都市人口佔比 (%)',
+  urban_population_growth:   '都市人口成長率 (%)',
+  slum_population_pct:       '貧民窟人口佔比 (%)',
+  access_to_electricity_pct: '電力普及率 (%)',
+  access_to_water_pct:       '潔淨水源普及率 (%)',
+  industry_value_added_pct:  '工業產值佔 GDP (%)',
+  high_tech_exports_pct:     '高科技出口佔比 (%)',
+  research_pct_gdp:          '研發支出佔 GDP (%)',
+  patent_applications:       '專利申請數',
+  fdi_inflow_pct_gdp:        '外國直接投資佔 GDP (%)',
+  freshwater_withdrawal_pct: '淡水用水量佔資源 (%)',
+  pm25_exposure:             'PM2.5 暴露量 (µg/m³)',
+  air_passengers:            '航空旅客量',
+  air_freight_mt_km:         '航空貨運量',
+  container_port_teu:        '貨櫃港吞吐量 (TEU)',
+  logistics_performance:     '物流績效指數',
+};
+
+function formatMetricValue(key, val) {
+  if (val == null || val === '' || val === 'null') return '—';
+  if (typeof val === 'number') {
+    if (key === 'population') return (val/1e6).toFixed(2) + ' M';
+    if (key === 'gdp_per_capita') return '$' + val.toLocaleString('en', {maximumFractionDigits:0});
+    if (key === 'tourist_arrivals') return (val/1e6).toFixed(2) + ' M';
+    if (key.endsWith('_pct') || key.endsWith('_rate') || key.endsWith('_growth') || key === 'gdp_growth' || key === 'inflation' || key === 'trade_pct_gdp' || key.includes('_pct_gdp') || key.includes('_pct')) return val.toFixed(2) + '%';
+    if (val > 1e9) return (val/1e9).toFixed(2) + ' B';
+    if (val > 1e6) return (val/1e6).toFixed(2) + ' M';
+    if (val > 1000) return val.toLocaleString('en', {maximumFractionDigits:0});
+    return val.toFixed(2);
+  }
+  return String(val);
+}
+
+// ── 選中國家詳情（第二層：按需載入完整指標）──
+async function selectCountry(code) {
   selectedCode = code;
-  const d = countryData[code];
   const panel = document.getElementById('detail-panel');
 
-  if (!d) {
+  if (!countryData[code]) {
     panel.innerHTML = '<div class="panel-title">選中格子</div><div class="empty-state"><div>❓</div>無資料</div>';
     return;
   }
 
+  // 先用現有資料顯示基本面板（避免等待）
+  _renderDetailPanel(code);
+
+  // 高亮地圖
+  g && g.selectAll('.country-path')
+    .classed('selected', function() { return this.dataset.iso3 === code; });
+
+  // 【第二層】按需載入完整指標（若尚未載入）
+  if (!countryData[code]._detailLoaded) {
+    await loadCountryDetail(code);
+    // 重新渲染（有了更多指標）
+    if (selectedCode === code) _renderDetailPanel(code);
+  }
+}
+
+function _renderDetailPanel(code) {
+  const d     = countryData[code];
+  const panel = document.getElementById('detail-panel');
   const tier  = d.priority_score != null ? getTier(d.priority_score) : '—';
   const color = getColor(d);
-  const gdp   = d.gdp_per_capita ? '$' + d.gdp_per_capita.toLocaleString('en', {maximumFractionDigits:0}) : '—';
-  const pop   = d.population     ? (d.population/1e6).toFixed(1) + 'M' : '—';
-  const net   = d.internet_usage ? d.internet_usage.toFixed(1) + '%'  : '—';
+
+  // 收集所有有值的指標
+  const skipKeys = new Set(['iso3','name','region','status','_detailLoaded','cells_filled','priority_score','updated_at','internet_usage']);
+  const metricRows = Object.entries(d)
+    .filter(([k, v]) => !skipKeys.has(k) && v != null && v !== '' && v !== 'null')
+    .sort(([a], [b]) => {
+      // 已知指標優先，未知的排後面
+      const ai = Object.keys(METRIC_LABELS).indexOf(a);
+      const bi = Object.keys(METRIC_LABELS).indexOf(b);
+      if (ai === -1 && bi === -1) return a.localeCompare(b);
+      if (ai === -1) return 1;
+      if (bi === -1) return -1;
+      return ai - bi;
+    })
+    .map(([k, v]) => {
+      const label = METRIC_LABELS[k] || k.replace(/_/g,' ');
+      return `<div class="detail-row">${label} <span>${formatMetricValue(k, v)}</span></div>`;
+    })
+    .join('');
+
+  const loadingNote = d._detailLoaded
+    ? `<div style="font-size:11px;color:#475569;margin-top:4px">${Object.keys(d).filter(k=>!skipKeys.has(k) && d[k]!=null).length} 種指標</div>`
+    : `<div style="font-size:11px;color:#ca8a04;margin-top:4px">⏳ 載入完整指標中...</div>`;
 
   panel.innerHTML = `
     <div class="panel-title">選中格子</div>
@@ -736,18 +874,9 @@ function selectCountry(code) {
     <div class="score-big" style="color:${color}">${d.priority_score ?? '—'}
       <span class="tier-badge tier-${tier}" style="font-size:16px;vertical-align:middle">${tier}</span>
     </div>
-    <div class="detail-row">人均 GDP <span>${gdp}</span></div>
-    <div class="detail-row">網路普及率 <span>${net}</span></div>
-    <div class="detail-row">人口 <span>${pop}</span></div>
-    <div class="detail-row">地區 <span>${d.region || '—'}</span></div>
-    <div class="detail-row">收入等級 <span>${d.income_level || '—'}</span></div>
-    <div class="detail-row">狀態 <span style="color:${color}">${d.status || '—'}</span></div>
-    <div class="detail-row">已填充次數 <span>${d.cells_filled || 0}</span></div>
+    ${loadingNote}
+    <div style="margin-top:8px">${metricRows || '<div class="empty-state" style="padding:8px">暫無指標資料</div>'}</div>
   `;
-
-  // 高亮地圖
-  g && g.selectAll('.country-path')
-    .classed('selected', function() { return this.dataset.iso3 === code; });
 }
 
 // ── 地圖初始化 ──
@@ -821,22 +950,32 @@ async function initMap() {
   if (Object.keys(countryData).length > 0) updateUI();
 }
 
-// ── 啟動 ──
+// ── 啟動（兩層非同步載入）──
 window.addEventListener('DOMContentLoaded', async () => {
-  setStatus('從後端 API 載入資料...', 'loading');
-  log('連接後端資料庫...', 'info');
+  setStatus('載入地圖摘要...', 'loading');
+  log('從 GitHub 載入輕量摘要...', 'info');
 
-  const n = await loadFromAPI();
+  // 【第一層】載入輕量摘要（cells_summary.json，~20KB），立即顯示地圖
+  const n = await loadSummary();
   if (n > 0) {
-    log(`載入 ${n} 個格子（SQLite 後端）`, 'ok');
-    setStatus(`已載入 ${n} 個格子`, 'idle');
+    log(`摘要載入 ${n} 個格子，地圖初始化中...`, 'ok');
+    setStatus(`${n} 個格子已就緒`, 'idle');
   } else {
-    log('後端無資料，請點「Bootstrap 世界資料」', 'warn');
-    setStatus('無資料 — 請 Bootstrap', 'idle');
+    log('摘要載入失敗，嘗試完整資料...', 'warn');
+    setStatus('載入中...', 'loading');
   }
 
+  // 先初始化地圖（用已有摘要著色）
   await initMap();
   if (n > 0) updateUI();
+
+  // 【第一層背景】靜默下載完整 cells.json（~400KB），完成後更新顏色與 Top10
+  loadFullDataBackground().then(updated => {
+    if (updated > 0) {
+      log(`完整指標載入完成（${updated} 國），顏色已更新`, 'ok');
+      setStatus(`${updated} 個格子，資料完整`, 'idle');
+    }
+  });
 });
 </script>
 </body>
