@@ -5,5 +5,7 @@
   "capital_city": "Grand Turk",
   "income_level": "High income",
   "latitude": "21.4602778",
-  "longitude": "-71.141389"
+  "longitude": "-71.141389",
+  "forest_area_pct": 11.073684,
+  "co2_per_capita": 7.9697833
 }
