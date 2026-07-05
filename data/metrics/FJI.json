@@ -9,5 +9,11 @@
   "capital_city": "Suva",
   "income_level": "Upper middle income",
   "latitude": "-18.1149",
-  "longitude": "178.399"
+  "longitude": "178.399",
+  "forest_area_pct": 61.197155,
+  "co2_per_capita": 1.5103477,
+  "food_insecurity_pct": 8.5,
+  "cereal_production_tonnes": 15064.76,
+  "meat_production_tonnes": 54528.62,
+  "fish_consumption_kg_pc": 27.95
 }
