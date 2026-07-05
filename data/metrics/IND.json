@@ -10,5 +10,10 @@
   "income_level": "Lower middle income",
   "latitude": "28.6353",
   "longitude": "77.225",
-  "calling_code": "+91"
+  "calling_code": "+91",
+  "forest_area_pct": 24.349268,
+  "co2_per_capita": 1.9861692,
+  "cereal_production_tonnes": 353766050.0,
+  "meat_production_tonnes": 13209091.0,
+  "fish_consumption_kg_pc": 8.73
 }
