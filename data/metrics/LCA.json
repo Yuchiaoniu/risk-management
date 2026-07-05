@@ -7,5 +7,9 @@
   "capital_city": "Castries",
   "income_level": "Upper middle income",
   "latitude": "14",
-  "longitude": "-60.9832"
+  "longitude": "-60.9832",
+  "forest_area_pct": 53.508198,
+  "co2_per_capita": 2.8977146,
+  "meat_production_tonnes": 3004.85,
+  "fish_consumption_kg_pc": 24.94847
 }
