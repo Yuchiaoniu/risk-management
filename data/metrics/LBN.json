@@ -9,5 +9,11 @@
   "capital_city": "Beirut",
   "income_level": "Lower middle income",
   "latitude": "33.8872",
-  "longitude": "35.5134"
+  "longitude": "35.5134",
+  "forest_area_pct": 13.776735,
+  "co2_per_capita": 2.6739883,
+  "food_insecurity_pct": 11.7,
+  "cereal_production_tonnes": 195310.56,
+  "meat_production_tonnes": 184744.05,
+  "fish_consumption_kg_pc": 4.739997
 }
