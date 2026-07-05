@@ -9,5 +9,11 @@
   "capital_city": "Yamoussoukro",
   "income_level": "Lower middle income",
   "latitude": "5.332",
-  "longitude": "-4.0305"
+  "longitude": "-4.0305",
+  "forest_area_pct": 12.884963,
+  "co2_per_capita": 0.47719425,
+  "food_insecurity_pct": 8.9,
+  "cereal_production_tonnes": 3065235.0,
+  "meat_production_tonnes": 441063.7,
+  "fish_consumption_kg_pc": 23.699999
 }
