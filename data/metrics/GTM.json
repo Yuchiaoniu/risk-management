@@ -9,5 +9,11 @@
   "capital_city": "Guatemala City",
   "income_level": "Upper middle income",
   "latitude": "14.6248",
-  "longitude": "-90.5328"
+  "longitude": "-90.5328",
+  "forest_area_pct": 33.48647,
+  "co2_per_capita": 1.0596977,
+  "food_insecurity_pct": 20.8,
+  "cereal_production_tonnes": 2158161.5,
+  "meat_production_tonnes": 753191.5,
+  "fish_consumption_kg_pc": 3.7699997
 }
