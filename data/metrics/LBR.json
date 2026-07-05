@@ -7,5 +7,11 @@
   "capital_city": "Monrovia",
   "income_level": "Low income",
   "latitude": "6.30039",
-  "longitude": "-10.7957"
+  "longitude": "-10.7957",
+  "forest_area_pct": 67.36752,
+  "co2_per_capita": 0.16075158,
+  "food_insecurity_pct": 37.3,
+  "cereal_production_tonnes": 256000.0,
+  "meat_production_tonnes": 34691.77,
+  "fish_consumption_kg_pc": 4.7499957
 }
