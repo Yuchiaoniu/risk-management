@@ -8,5 +8,11 @@
   "capital_city": "Kabul",
   "income_level": "Low income",
   "latitude": "34.5228",
-  "longitude": "69.1761"
+  "longitude": "69.1761",
+  "forest_area_pct": 1.8543152,
+  "co2_per_capita": 0.25062045,
+  "food_insecurity_pct": 30.6,
+  "cereal_production_tonnes": 4802495.0,
+  "meat_production_tonnes": 234091.62,
+  "fish_consumption_kg_pc": 0.38
 }
