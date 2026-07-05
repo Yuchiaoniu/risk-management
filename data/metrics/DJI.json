@@ -8,5 +8,11 @@
   "capital_city": "Djibouti",
   "income_level": "Lower middle income",
   "latitude": "11.5806",
-  "longitude": "43.1425"
+  "longitude": "43.1425",
+  "forest_area_pct": 0.25409836,
+  "co2_per_capita": 0.4840291,
+  "food_insecurity_pct": 16.5,
+  "cereal_production_tonnes": 17.22,
+  "meat_production_tonnes": 11738.52,
+  "fish_consumption_kg_pc": 5.309949
 }
