@@ -7,5 +7,7 @@
   "capital_city": "Andorra la Vella",
   "income_level": "High income",
   "latitude": "42.5075",
-  "longitude": "1.5218"
+  "longitude": "1.5218",
+  "forest_area_pct": 38.66383,
+  "co2_per_capita": 5.311056
 }
