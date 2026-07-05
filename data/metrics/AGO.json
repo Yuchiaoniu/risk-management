@@ -9,5 +9,10 @@
   "capital_city": "Luanda",
   "income_level": "Lower middle income",
   "latitude": "-8.81155",
-  "longitude": "13.242"
+  "longitude": "13.242",
+  "forest_area_pct": 52.38024,
+  "co2_per_capita": 0.59180546,
+  "cereal_production_tonnes": 3179113.0,
+  "meat_production_tonnes": 360122.72,
+  "fish_consumption_kg_pc": 14.34
 }
