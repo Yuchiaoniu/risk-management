@@ -8,5 +8,11 @@
   "income_level": "Lower middle income",
   "latitude": "9.05804",
   "longitude": "7.48906",
-  "calling_code": "+234"
+  "calling_code": "+234",
+  "forest_area_pct": 19.365469,
+  "co2_per_capita": 0.58902264,
+  "food_insecurity_pct": 22.6,
+  "cereal_production_tonnes": 30314054.0,
+  "meat_production_tonnes": 1679581.5,
+  "fish_consumption_kg_pc": 6.9
 }
