@@ -9,5 +9,11 @@
   "capital_city": "Madrid",
   "income_level": "High income",
   "latitude": "40.4167",
-  "longitude": "-3.70327"
+  "longitude": "-3.70327",
+  "forest_area_pct": 38.046196,
+  "co2_per_capita": 4.8971643,
+  "food_insecurity_pct": 1.5,
+  "cereal_production_tonnes": 19292230.0,
+  "meat_production_tonnes": 7564708.0,
+  "fish_consumption_kg_pc": 36.799995
 }
