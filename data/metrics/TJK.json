@@ -8,5 +8,11 @@
   "capital_city": "Dushanbe",
   "income_level": "Lower middle income",
   "latitude": "38.5878",
-  "longitude": "68.7864"
+  "longitude": "68.7864",
+  "forest_area_pct": 3.0499315,
+  "co2_per_capita": 1.0332633,
+  "food_insecurity_pct": 6.7,
+  "cereal_production_tonnes": 1461222.4,
+  "meat_production_tonnes": 452314.84,
+  "fish_consumption_kg_pc": 0.9099994
 }
