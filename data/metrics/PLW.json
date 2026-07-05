@@ -8,5 +8,8 @@
   "capital_city": "Koror",
   "income_level": "High income",
   "latitude": "7.34194",
-  "longitude": "134.479"
+  "longitude": "134.479",
+  "forest_area_pct": 90.23913,
+  "co2_per_capita": 12.215194,
+  "food_insecurity_pct": 6.9
 }
