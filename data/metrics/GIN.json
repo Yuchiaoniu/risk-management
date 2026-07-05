@@ -8,5 +8,10 @@
   "capital_city": "Conakry",
   "income_level": "Lower middle income",
   "latitude": "9.51667",
-  "longitude": "-13.7"
+  "longitude": "-13.7",
+  "forest_area_pct": 20.858303,
+  "co2_per_capita": 0.2883205,
+  "cereal_production_tonnes": 4745053.0,
+  "meat_production_tonnes": 132562.48,
+  "fish_consumption_kg_pc": 10.650001
 }
