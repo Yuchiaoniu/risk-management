@@ -9,5 +9,11 @@
   "capital_city": "Ouagadougou",
   "income_level": "Low income",
   "latitude": "12.3605",
-  "longitude": "-1.53395"
+  "longitude": "-1.53395",
+  "forest_area_pct": 13.58337,
+  "co2_per_capita": 0.29064742,
+  "food_insecurity_pct": 7.2,
+  "cereal_production_tonnes": 5179059.0,
+  "meat_production_tonnes": 552048.4,
+  "fish_consumption_kg_pc": 10.490001
 }
