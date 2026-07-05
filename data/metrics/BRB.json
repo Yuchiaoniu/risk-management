@@ -7,5 +7,11 @@
   "capital_city": "Bridgetown",
   "income_level": "High income",
   "latitude": "13.0935",
-  "longitude": "-59.6105"
+  "longitude": "-59.6105",
+  "forest_area_pct": 14.651163,
+  "co2_per_capita": 4.6577086,
+  "food_insecurity_pct": 7.4,
+  "cereal_production_tonnes": 51.0,
+  "meat_production_tonnes": 16144.88,
+  "fish_consumption_kg_pc": 43.158928
 }
