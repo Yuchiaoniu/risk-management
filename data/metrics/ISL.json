@@ -9,5 +9,11 @@
   "capital_city": "Reykjavik",
   "income_level": "High income",
   "latitude": "64.1353",
-  "longitude": "-21.8952"
+  "longitude": "-21.8952",
+  "forest_area_pct": 0.5714966,
+  "co2_per_capita": 9.458432,
+  "food_insecurity_pct": 1.9,
+  "cereal_production_tonnes": 8900.0,
+  "meat_production_tonnes": 34129.8,
+  "fish_consumption_kg_pc": 83.81021
 }
