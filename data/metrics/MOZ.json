@@ -9,5 +9,10 @@
   "capital_city": "Maputo",
   "income_level": "Low income",
   "latitude": "-25.9664",
-  "longitude": "32.5713"
+  "longitude": "32.5713",
+  "forest_area_pct": 42.359943,
+  "co2_per_capita": 0.28465265,
+  "cereal_production_tonnes": 2832309.0,
+  "meat_production_tonnes": 323757.3,
+  "fish_consumption_kg_pc": 12.869999
 }
