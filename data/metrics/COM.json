@@ -8,5 +8,11 @@
   "capital_city": "Moroni",
   "income_level": "Lower middle income",
   "latitude": "-11.6986",
-  "longitude": "43.2418"
+  "longitude": "43.2418",
+  "forest_area_pct": 17.716282,
+  "co2_per_capita": 0.63734925,
+  "food_insecurity_pct": 27.4,
+  "cereal_production_tonnes": 19232.78,
+  "meat_production_tonnes": 2293.29,
+  "fish_consumption_kg_pc": 16.98
 }
