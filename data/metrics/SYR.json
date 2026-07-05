@@ -2,5 +2,10 @@
   "capital_city": "Damascus",
   "income_level": "Low income",
   "latitude": "33.5146",
-  "longitude": "36.3119"
+  "longitude": "36.3119",
+  "forest_area_pct": 2.8495672,
+  "co2_per_capita": 1.3989446,
+  "cereal_production_tonnes": 2276238.0,
+  "meat_production_tonnes": 418049.75,
+  "fish_consumption_kg_pc": 0.7999999
 }
