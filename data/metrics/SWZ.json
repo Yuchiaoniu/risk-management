@@ -8,5 +8,11 @@
   "capital_city": "Mbabane",
   "income_level": "Lower middle income",
   "latitude": "-26.5225",
-  "longitude": "31.4659"
+  "longitude": "31.4659",
+  "forest_area_pct": 25.527325,
+  "co2_per_capita": 0.8435616,
+  "food_insecurity_pct": 18.6,
+  "cereal_production_tonnes": 129719.66,
+  "meat_production_tonnes": 26282.82,
+  "fish_consumption_kg_pc": 3.7900093
 }
