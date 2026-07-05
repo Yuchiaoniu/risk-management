@@ -9,5 +9,11 @@
   "capital_city": "Rome",
   "income_level": "High income",
   "latitude": "41.8955",
-  "longitude": "12.4823"
+  "longitude": "12.4823",
+  "forest_area_pct": 31.69214,
+  "co2_per_capita": 5.704794,
+  "food_insecurity_pct": 0.5,
+  "cereal_production_tonnes": 14300570.0,
+  "meat_production_tonnes": 3376370.5,
+  "fish_consumption_kg_pc": 29.389997
 }
