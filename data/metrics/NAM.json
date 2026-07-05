@@ -9,5 +9,11 @@
   "capital_city": "Windhoek",
   "income_level": "Lower middle income",
   "latitude": "-22.5648",
-  "longitude": "17.0931"
+  "longitude": "17.0931",
+  "forest_area_pct": 9.772421,
+  "co2_per_capita": 1.181398,
+  "food_insecurity_pct": 31.8,
+  "cereal_production_tonnes": 168181.0,
+  "meat_production_tonnes": 78955.37,
+  "fish_consumption_kg_pc": 9.669961
 }
