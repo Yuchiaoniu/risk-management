@@ -5,5 +5,11 @@
   "capital_city": "Naypyidaw",
   "income_level": "Lower middle income",
   "latitude": "21.914",
-  "longitude": "95.9562"
+  "longitude": "95.9562",
+  "forest_area_pct": 43.290127,
+  "co2_per_capita": 0.58855194,
+  "food_insecurity_pct": 6.9,
+  "cereal_production_tonnes": 30705496.0,
+  "meat_production_tonnes": 1260214.4,
+  "fish_consumption_kg_pc": 40.35
 }
