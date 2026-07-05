@@ -9,5 +9,11 @@
   "capital_city": "Sarajevo",
   "income_level": "Upper middle income",
   "latitude": "43.8607",
-  "longitude": "18.4214"
+  "longitude": "18.4214",
+  "forest_area_pct": 42.146873,
+  "co2_per_capita": 6.4724236,
+  "food_insecurity_pct": 2.8,
+  "cereal_production_tonnes": 1431889.0,
+  "meat_production_tonnes": 92890.0,
+  "fish_consumption_kg_pc": 5.859997
 }
