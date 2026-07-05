@@ -6,5 +6,6 @@
   "capital_city": "Monaco",
   "income_level": "High income",
   "latitude": "43.7325",
-  "longitude": "7.41891"
+  "longitude": "7.41891",
+  "forest_area_pct": 0.0
 }
