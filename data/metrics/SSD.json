@@ -2,5 +2,10 @@
   "capital_city": "Juba",
   "income_level": "Low income",
   "latitude": "4.85",
-  "longitude": "31.6"
+  "longitude": "31.6",
+  "forest_area_pct": 11.320874,
+  "co2_per_capita": 0.14827313,
+  "food_insecurity_pct": 63.2,
+  "cereal_production_tonnes": 1063299.0,
+  "meat_production_tonnes": 230429.7
 }
