@@ -8,5 +8,10 @@
   "capital_city": "Baghdad",
   "income_level": "Upper middle income",
   "latitude": "33.3302",
-  "longitude": "44.394"
+  "longitude": "44.394",
+  "forest_area_pct": 1.6561153,
+  "co2_per_capita": 4.9385333,
+  "cereal_production_tonnes": 3724581.2,
+  "meat_production_tonnes": 286984.44,
+  "fish_consumption_kg_pc": 2.2729564
 }
