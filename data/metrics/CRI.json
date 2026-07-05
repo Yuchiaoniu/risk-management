@@ -9,5 +9,11 @@
   "capital_city": "San Jose",
   "income_level": "High income",
   "latitude": "9.63701",
-  "longitude": "-84.0089"
+  "longitude": "-84.0089",
+  "forest_area_pct": 58.27591,
+  "co2_per_capita": 1.5762514,
+  "food_insecurity_pct": 2.8,
+  "cereal_production_tonnes": 121049.0,
+  "meat_production_tonnes": 302664.8,
+  "fish_consumption_kg_pc": 17.830013
 }
