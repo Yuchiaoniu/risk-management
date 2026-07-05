@@ -4,5 +4,9 @@
   "gdp_growth": 4.89999967133534,
   "capital_city": "Marigot",
   "income_level": "High income",
-  "forest_area_pct": 24.8
+  "forest_area_pct": 24.8,
+  "urban_population_pct": 100.0,
+  "urban_population_growth": -4.65327729336626,
+  "access_to_electricity_pct": 100.0,
+  "access_to_water_pct": 99.9229384324588
 }
