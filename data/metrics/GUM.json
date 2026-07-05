@@ -7,5 +7,18 @@
   "income_level": "High income",
   "latitude": "13.4443",
   "longitude": "144.794",
-  "forest_area_pct": 52.351852
+  "forest_area_pct": 51.8518518518518,
+  "labor_force_participation": 62.265,
+  "female_labor_pct": 56.52,
+  "renewable_energy_pct": 6.7,
+  "tourist_arrivals": 328000.0,
+  "broadband_subscriptions": 1.8392057149776,
+  "arable_land_pct": 1.85185185185185,
+  "urban_population_pct": 94.2197463433641,
+  "urban_population_growth": 0.77546648413679,
+  "slum_population_pct": 0.5524,
+  "access_to_electricity_pct": 100.0,
+  "access_to_water_pct": 99.5293013959399,
+  "pm25_exposure": 3.47075894957671,
+  "container_port_teu": 190200.0
 }
