@@ -8,5 +8,11 @@
   "capital_city": "Nouakchott",
   "income_level": "Lower middle income",
   "latitude": "18.2367",
-  "longitude": "-15.9824"
+  "longitude": "-15.9824",
+  "forest_area_pct": 0.97856796,
+  "co2_per_capita": 1.0803561,
+  "food_insecurity_pct": 11.6,
+  "cereal_production_tonnes": 544116.5,
+  "meat_production_tonnes": 134115.58,
+  "fish_consumption_kg_pc": 7.5999966
 }
