@@ -9,5 +9,11 @@
   "capital_city": "Bissau",
   "income_level": "Low income",
   "latitude": "11.8037",
-  "longitude": "-15.1804"
+  "longitude": "-15.1804",
+  "forest_area_pct": 75.26821,
+  "co2_per_capita": 0.16357648,
+  "food_insecurity_pct": 9.0,
+  "cereal_production_tonnes": 301273.0,
+  "meat_production_tonnes": 26994.76,
+  "fish_consumption_kg_pc": 2.3499968
 }
