@@ -8,5 +8,10 @@
   "capital_city": "Port-Vila",
   "income_level": "Lower middle income",
   "latitude": "-17.7404",
-  "longitude": "168.321"
+  "longitude": "168.321",
+  "forest_area_pct": 75.223625,
+  "co2_per_capita": 0.6048438,
+  "cereal_production_tonnes": 986.0,
+  "meat_production_tonnes": 5406.48,
+  "fish_consumption_kg_pc": 30.038876
 }
