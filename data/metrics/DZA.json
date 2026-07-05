@@ -8,5 +8,11 @@
   "capital_city": "Algiers",
   "income_level": "Upper middle income",
   "latitude": "36.7397",
-  "longitude": "3.05097"
+  "longitude": "3.05097",
+  "forest_area_pct": 0.71126795,
+  "co2_per_capita": 4.238998,
+  "food_insecurity_pct": 5.6,
+  "cereal_production_tonnes": 4093860.2,
+  "meat_production_tonnes": 1046221.4,
+  "fish_consumption_kg_pc": 2.7499998
 }
