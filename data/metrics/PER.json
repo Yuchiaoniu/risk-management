@@ -9,5 +9,11 @@
   "capital_city": "Lima",
   "income_level": "Upper middle income",
   "latitude": "-12.0931",
-  "longitude": "-77.0465"
+  "longitude": "-77.0465",
+  "forest_area_pct": 53.403996,
+  "co2_per_capita": 1.9352938,
+  "food_insecurity_pct": 14.8,
+  "cereal_production_tonnes": 5540009.5,
+  "meat_production_tonnes": 2389930.2,
+  "fish_consumption_kg_pc": 25.940004
 }
