@@ -8,5 +8,11 @@
   "capital_city": "Kuwait City",
   "income_level": "High income",
   "latitude": "29.3721",
-  "longitude": "47.9824"
+  "longitude": "47.9824",
+  "forest_area_pct": 0.35353535,
+  "co2_per_capita": 25.242083,
+  "food_insecurity_pct": 3.4,
+  "cereal_production_tonnes": 27540.0,
+  "meat_production_tonnes": 117907.95,
+  "fish_consumption_kg_pc": 12.969997
 }
