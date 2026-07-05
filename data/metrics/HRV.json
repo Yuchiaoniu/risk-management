@@ -9,5 +9,11 @@
   "capital_city": "Zagreb",
   "income_level": "High income",
   "latitude": "45.8069",
-  "longitude": "15.9614"
+  "longitude": "15.9614",
+  "forest_area_pct": 34.68406,
+  "co2_per_capita": 4.500902,
+  "food_insecurity_pct": 1.4,
+  "cereal_production_tonnes": 3023810.0,
+  "meat_production_tonnes": 246846.66,
+  "fish_consumption_kg_pc": 19.889984
 }
