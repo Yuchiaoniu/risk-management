@@ -9,5 +9,11 @@
   "capital_city": "Asuncion",
   "income_level": "Upper middle income",
   "latitude": "-25.3005",
-  "longitude": "-57.6362"
+  "longitude": "-57.6362",
+  "forest_area_pct": 37.757008,
+  "co2_per_capita": 1.1143297,
+  "food_insecurity_pct": 6.6,
+  "cereal_production_tonnes": 6604955.0,
+  "meat_production_tonnes": 580201.1,
+  "fish_consumption_kg_pc": 5.33
 }
