@@ -3,5 +3,11 @@
   "capital_city": "Skopje",
   "income_level": "Upper middle income",
   "latitude": "42.0024",
-  "longitude": "21.4361"
+  "longitude": "21.4361",
+  "forest_area_pct": 41.200474,
+  "co2_per_capita": 3.9952326,
+  "food_insecurity_pct": 4.8,
+  "cereal_production_tonnes": 542163.75,
+  "meat_production_tonnes": 21430.0,
+  "fish_consumption_kg_pc": 8.01
 }
