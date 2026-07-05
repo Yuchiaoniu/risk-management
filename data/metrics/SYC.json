@@ -8,5 +8,9 @@
   "capital_city": "Victoria",
   "income_level": "High income",
   "latitude": "-4.6309",
-  "longitude": "55.4466"
+  "longitude": "55.4466",
+  "forest_area_pct": 59.547825,
+  "co2_per_capita": 5.0101247,
+  "meat_production_tonnes": 1461.36,
+  "fish_consumption_kg_pc": 42.90631
 }
