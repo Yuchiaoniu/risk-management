@@ -8,5 +8,10 @@
   "capital_city": "Muscat",
   "income_level": "High income",
   "latitude": "23.6105",
-  "longitude": "58.5874"
+  "longitude": "58.5874",
+  "forest_area_pct": 0.0051696287,
+  "co2_per_capita": 16.488375,
+  "cereal_production_tonnes": 236293.0,
+  "meat_production_tonnes": 92976.51,
+  "fish_consumption_kg_pc": 28.150017
 }
