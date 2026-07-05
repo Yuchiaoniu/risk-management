@@ -9,5 +9,10 @@
   "capital_city": "Brazzaville",
   "income_level": "Lower middle income",
   "latitude": "-4.2767",
-  "longitude": "15.2662"
+  "longitude": "15.2662",
+  "forest_area_pct": 63.829575,
+  "co2_per_capita": 1.446125,
+  "cereal_production_tonnes": 30613.72,
+  "meat_production_tonnes": 62067.86,
+  "fish_consumption_kg_pc": 23.19
 }
