@@ -9,5 +9,11 @@
   "capital_city": "Male",
   "income_level": "Upper middle income",
   "latitude": "4.1742",
-  "longitude": "73.5109"
+  "longitude": "73.5109",
+  "forest_area_pct": 12.4,
+  "co2_per_capita": 4.22769,
+  "food_insecurity_pct": 2.2,
+  "cereal_production_tonnes": 204.39,
+  "meat_production_tonnes": 865.7,
+  "fish_consumption_kg_pc": 79.737114
 }
