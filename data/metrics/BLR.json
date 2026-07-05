@@ -9,5 +9,11 @@
   "capital_city": "Minsk",
   "income_level": "Upper middle income",
   "latitude": "53.9678",
-  "longitude": "27.5766"
+  "longitude": "27.5766",
+  "forest_area_pct": 43.69437,
+  "co2_per_capita": 6.226867,
+  "food_insecurity_pct": 0.5,
+  "cereal_production_tonnes": 7772407.5,
+  "meat_production_tonnes": 1326639.2,
+  "fish_consumption_kg_pc": 12.460001
 }
