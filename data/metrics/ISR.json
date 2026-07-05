@@ -9,5 +9,10 @@
   "income_level": "High income",
   "latitude": "31.7717",
   "longitude": "35.2035",
-  "calling_code": "+972"
+  "calling_code": "+972",
+  "co2_per_capita": 6.8401985,
+  "food_insecurity_pct": 0.8,
+  "cereal_production_tonnes": 239234.17,
+  "meat_production_tonnes": 860050.9,
+  "fish_consumption_kg_pc": 24.749996
 }
