@@ -3,5 +3,20 @@
   "capital_city": "Road Town",
   "income_level": "High income",
   "latitude": "18.431389",
-  "longitude": "-64.623056"
+  "longitude": "-64.623056",
+  "forest_area_pct": 24.1333333333333,
+  "co2_per_capita": 4.8443384,
+  "school_enrollment_tertiary": 29.5605306799337,
+  "edu_expenditure_pct_gdp": 3.17283855528435,
+  "renewable_energy_pct": 1.3,
+  "tourist_arrivals": 83000.0,
+  "broadband_subscriptions": 24.9119606799929,
+  "mobile_subscriptions": 93.1316662866408,
+  "arable_land_pct": 6.66666666666667,
+  "urban_population_pct": 57.3951909813643,
+  "urban_population_growth": 2.21699245912221,
+  "slum_population_pct": 0.13562,
+  "access_to_electricity_pct": 100.0,
+  "access_to_water_pct": 99.8643835616439,
+  "container_port_teu": 45955.97
 }
