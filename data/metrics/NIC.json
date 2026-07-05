@@ -9,5 +9,9 @@
   "capital_city": "Managua",
   "income_level": "Lower middle income",
   "latitude": "12.1475",
-  "longitude": "-86.2734"
+  "longitude": "-86.2734",
+  "forest_area_pct": 40.46206,
+  "co2_per_capita": 0.7623672,
+  "cereal_production_tonnes": 949096.6,
+  "fish_consumption_kg_pc": 7.33999
 }
