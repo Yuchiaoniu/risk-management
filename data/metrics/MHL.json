@@ -7,5 +7,8 @@
   "capital_city": "Majuro",
   "income_level": "Upper middle income",
   "latitude": "7.11046",
-  "longitude": "171.135"
+  "longitude": "171.135",
+  "forest_area_pct": 53.944443,
+  "co2_per_capita": 3.7019005,
+  "fish_consumption_kg_pc": 44.548203
 }
