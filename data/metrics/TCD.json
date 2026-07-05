@@ -8,5 +8,10 @@
   "capital_city": "N'Djamena",
   "income_level": "Low income",
   "latitude": "12.1048",
-  "longitude": "15.0445"
+  "longitude": "15.0445",
+  "forest_area_pct": 3.274282,
+  "co2_per_capita": 0.15173951,
+  "food_insecurity_pct": 25.2,
+  "cereal_production_tonnes": 2798641.0,
+  "meat_production_tonnes": 1026008.1
 }
