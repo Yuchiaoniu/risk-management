@@ -10,5 +10,11 @@
   "income_level": "Upper middle income",
   "latitude": "6.92148",
   "longitude": "79.8528",
-  "calling_code": "+94"
+  "calling_code": "+94",
+  "forest_area_pct": 34.60178,
+  "co2_per_capita": 0.80477285,
+  "food_insecurity_pct": 1.2,
+  "cereal_production_tonnes": 3663231.0,
+  "meat_production_tonnes": 291946.0,
+  "fish_consumption_kg_pc": 22.730003
 }
