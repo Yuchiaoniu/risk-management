@@ -8,5 +8,11 @@
   "capital_city": "Banjul",
   "income_level": "Low income",
   "latitude": "13.4495",
-  "longitude": "-16.5885"
+  "longitude": "-16.5885",
+  "forest_area_pct": 23.281225,
+  "co2_per_capita": 0.3064694,
+  "food_insecurity_pct": 25.5,
+  "cereal_production_tonnes": 107382.38,
+  "meat_production_tonnes": 8278.5,
+  "fish_consumption_kg_pc": 20.17003
 }
