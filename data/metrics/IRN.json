@@ -8,5 +8,11 @@
   "capital_city": "Tehran",
   "income_level": "Upper middle income",
   "latitude": "35.6878",
-  "longitude": "51.4447"
+  "longitude": "51.4447",
+  "forest_area_pct": 6.626194,
+  "co2_per_capita": 8.569505,
+  "food_insecurity_pct": 6.4,
+  "cereal_production_tonnes": 20423028.0,
+  "meat_production_tonnes": 2801496.5,
+  "fish_consumption_kg_pc": 11.3
 }
