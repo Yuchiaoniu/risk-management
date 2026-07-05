@@ -6,5 +6,7 @@
   "capital_city": "Hamilton",
   "income_level": "High income",
   "latitude": "32.3293",
-  "longitude": "-64.706"
+  "longitude": "-64.706",
+  "forest_area_pct": 14.444445,
+  "co2_per_capita": 8.193772
 }
