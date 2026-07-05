@@ -8,5 +8,11 @@
   "capital_city": "Podgorica",
   "income_level": "Upper middle income",
   "latitude": "42.4602",
-  "longitude": "19.2595"
+  "longitude": "19.2595",
+  "forest_area_pct": 61.486988,
+  "co2_per_capita": 4.0595264,
+  "food_insecurity_pct": 2.5,
+  "cereal_production_tonnes": 6632.9,
+  "meat_production_tonnes": 15218.09,
+  "fish_consumption_kg_pc": 11.919944
 }
