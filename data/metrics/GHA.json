@@ -9,5 +9,11 @@
   "capital_city": "Accra",
   "income_level": "Lower middle income",
   "latitude": "5.57045",
-  "longitude": "-0.20795"
+  "longitude": "-0.20795",
+  "forest_area_pct": 30.384516,
+  "co2_per_capita": 0.6258142,
+  "food_insecurity_pct": 8.2,
+  "cereal_production_tonnes": 5136562.5,
+  "meat_production_tonnes": 323365.16,
+  "fish_consumption_kg_pc": 23.619997
 }
