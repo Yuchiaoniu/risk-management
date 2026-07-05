@@ -9,5 +9,11 @@
   "capital_city": "Tbilisi",
   "income_level": "Upper middle income",
   "latitude": "41.71",
-  "longitude": "44.793"
+  "longitude": "44.793",
+  "forest_area_pct": 44.61793,
+  "co2_per_capita": 3.1622012,
+  "food_insecurity_pct": 7.5,
+  "cereal_production_tonnes": 377780.03,
+  "meat_production_tonnes": 88812.27,
+  "fish_consumption_kg_pc": 10.329989
 }
