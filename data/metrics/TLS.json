@@ -9,5 +9,10 @@
   "capital_city": "Dili",
   "income_level": "Lower middle income",
   "latitude": "-8.56667",
-  "longitude": "125.567"
+  "longitude": "125.567",
+  "forest_area_pct": 71.13127,
+  "co2_per_capita": 0.48899838,
+  "cereal_production_tonnes": 172500.0,
+  "meat_production_tonnes": 30784.63,
+  "fish_consumption_kg_pc": 6.96999
 }
