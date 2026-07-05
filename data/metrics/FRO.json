@@ -6,5 +6,8 @@
   "capital_city": "Torshavn",
   "income_level": "High income",
   "latitude": "61.8926",
-  "longitude": "-6.91181"
+  "longitude": "-6.91181",
+  "forest_area_pct": 0.05839416,
+  "co2_per_capita": 13.377783,
+  "meat_production_tonnes": 708.46
 }
