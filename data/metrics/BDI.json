@@ -8,5 +8,10 @@
   "capital_city": "Bujumbura",
   "income_level": "Low income",
   "latitude": "-3.3784",
-  "longitude": "29.3639"
+  "longitude": "29.3639",
+  "forest_area_pct": 10.889408,
+  "co2_per_capita": 0.06587466,
+  "food_insecurity_pct": 20.9,
+  "cereal_production_tonnes": 957805.1,
+  "meat_production_tonnes": 47876.22
 }
