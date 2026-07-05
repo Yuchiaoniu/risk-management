@@ -8,5 +8,11 @@
   "capital_city": "Tripoli",
   "income_level": "Upper middle income",
   "latitude": "32.8578",
-  "longitude": "13.1072"
+  "longitude": "13.1072",
+  "forest_area_pct": 0.11745456,
+  "co2_per_capita": 8.163843,
+  "food_insecurity_pct": 19.9,
+  "cereal_production_tonnes": 209824.8,
+  "meat_production_tonnes": 184575.81,
+  "fish_consumption_kg_pc": 12.880002
 }
