@@ -9,5 +9,22 @@
   "capital_city": "San Marino",
   "income_level": "High income",
   "latitude": "43.9322",
-  "longitude": "12.4486"
+  "longitude": "12.4486",
+  "forest_area_pct": 16.6666666666667,
+  "manufacturing_pct_gdp": 31.7668375385299,
+  "literacy_rate_adult_pct": 99.9100036621094,
+  "school_enrollment_tertiary": 57.5487465181059,
+  "edu_expenditure_pct_gdp": 2.89753007888794,
+  "tourist_arrivals": 1904000.0,
+  "broadband_subscriptions": 35.7876210032268,
+  "mobile_subscriptions": 120.269873863303,
+  "arable_land_pct": 33.0833333333333,
+  "urban_population_pct": 97.1870254171573,
+  "urban_population_growth": 0.420187737527092,
+  "access_to_electricity_pct": 100.0,
+  "access_to_water_pct": 99.9999961845643,
+  "industry_value_added_pct": 35.7653554128177,
+  "patent_applications": 7.0,
+  "fdi_inflow_pct_gdp": -0.893473147832222,
+  "pm25_exposure": 12.7360737522911
 }
