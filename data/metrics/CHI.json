@@ -2,5 +2,13 @@
   "gdp_per_capita": 74585.5224096294,
   "population": 168466.0,
   "gdp_growth": 3.71500590367266,
-  "income_level": "High income"
+  "income_level": "High income",
+  "manufacturing_pct_gdp": 0.807307045871538,
+  "labor_force_participation": 56.356,
+  "female_labor_pct": 49.249,
+  "urban_population_pct": 32.6430856346098,
+  "urban_population_growth": 0.0109110747516771,
+  "access_to_electricity_pct": 100.0,
+  "industry_value_added_pct": 8.22051703911843,
+  "forest_area_pct": 5.15151515151515
 }
