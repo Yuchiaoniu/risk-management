@@ -9,5 +9,10 @@
   "capital_city": "Nicosia",
   "income_level": "High income",
   "latitude": "35.1676",
-  "longitude": "33.3736"
+  "longitude": "33.3736",
+  "forest_area_pct": 18.654978,
+  "co2_per_capita": 5.3108797,
+  "cereal_production_tonnes": 57480.0,
+  "meat_production_tonnes": 73884.17,
+  "fish_consumption_kg_pc": 17.959986
 }
