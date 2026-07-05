@@ -8,5 +8,9 @@
   "capital_city": "Bandar Seri Begawan",
   "income_level": "High income",
   "latitude": "4.94199",
-  "longitude": "114.946"
+  "longitude": "114.946",
+  "forest_area_pct": 72.10626,
+  "co2_per_capita": 26.8725,
+  "cereal_production_tonnes": 3562.6,
+  "meat_production_tonnes": 30581.12
 }
