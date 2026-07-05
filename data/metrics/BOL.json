@@ -8,5 +8,10 @@
   "capital_city": "La Paz",
   "income_level": "Lower middle income",
   "latitude": "-13.9908",
-  "longitude": "-66.1936"
+  "longitude": "-66.1936",
+  "forest_area_pct": 51.074783,
+  "co2_per_capita": 1.9448458,
+  "cereal_production_tonnes": 2615641.2,
+  "meat_production_tonnes": 1130531.6,
+  "fish_consumption_kg_pc": 2.1199996
 }
