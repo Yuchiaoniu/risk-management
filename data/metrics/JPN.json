@@ -9,5 +9,10 @@
   "income_level": "High income",
   "latitude": "35.67",
   "longitude": "139.77",
-  "calling_code": "+81"
+  "calling_code": "+81",
+  "forest_area_pct": 68.35885,
+  "co2_per_capita": 8.237319,
+  "food_insecurity_pct": 1.2,
+  "cereal_production_tonnes": 11718523.0,
+  "meat_production_tonnes": 4198551.0
 }
