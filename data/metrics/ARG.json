@@ -10,5 +10,11 @@
   "income_level": "Upper middle income",
   "latitude": "-34.6118",
   "longitude": "-58.4173",
-  "calling_code": "+54"
+  "calling_code": "+54",
+  "forest_area_pct": 17.289526,
+  "co2_per_capita": 4.047052,
+  "food_insecurity_pct": 13.1,
+  "cereal_production_tonnes": 81989896.0,
+  "meat_production_tonnes": 6427706.0,
+  "fish_consumption_kg_pc": 7.1099997
 }
