@@ -9,5 +9,11 @@
   "capital_city": "Kathmandu",
   "income_level": "Lower middle income",
   "latitude": "27.6939",
-  "longitude": "85.3157"
+  "longitude": "85.3157",
+  "forest_area_pct": 43.250298,
+  "co2_per_capita": 0.5925866,
+  "food_insecurity_pct": 13.5,
+  "cereal_production_tonnes": 11128345.0,
+  "meat_production_tonnes": 447767.0,
+  "fish_consumption_kg_pc": 4.2799997
 }
