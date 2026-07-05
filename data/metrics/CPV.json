@@ -8,5 +8,11 @@
   "capital_city": "Praia",
   "income_level": "Upper middle income",
   "latitude": "14.9218",
-  "longitude": "-23.5087"
+  "longitude": "-23.5087",
+  "forest_area_pct": 12.05459,
+  "co2_per_capita": 1.1498797,
+  "food_insecurity_pct": 6.0,
+  "cereal_production_tonnes": 221.6,
+  "meat_production_tonnes": 4614.99,
+  "fish_consumption_kg_pc": 10.669898
 }
