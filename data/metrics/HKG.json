@@ -8,5 +8,8 @@
   "income_level": "High income",
   "latitude": "22.3964",
   "longitude": "114.109",
-  "calling_code": "+852"
+  "calling_code": "+852",
+  "co2_per_capita": 4.120568,
+  "meat_production_tonnes": 140991.19,
+  "fish_consumption_kg_pc": 69.109924
 }
