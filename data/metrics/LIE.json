@@ -5,5 +5,7 @@
   "capital_city": "Vaduz",
   "income_level": "High income",
   "latitude": "47.1411",
-  "longitude": "9.52148"
+  "longitude": "9.52148",
+  "forest_area_pct": 35.225,
+  "co2_per_capita": 3.2623925
 }
