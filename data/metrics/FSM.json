@@ -8,5 +8,10 @@
   "capital_city": "Palikir",
   "income_level": "Upper middle income",
   "latitude": "6.91771",
-  "longitude": "158.185"
+  "longitude": "158.185",
+  "forest_area_pct": 92.07143,
+  "co2_per_capita": 1.2907457,
+  "cereal_production_tonnes": 290.32,
+  "meat_production_tonnes": 1481.83,
+  "fish_consumption_kg_pc": 48.983044
 }
