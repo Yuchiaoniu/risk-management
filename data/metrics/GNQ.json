@@ -9,5 +9,8 @@
   "capital_city": "Malabo",
   "income_level": "Upper middle income",
   "latitude": "3.7523",
-  "longitude": "8.7741"
+  "longitude": "8.7741",
+  "forest_area_pct": 86.98966,
+  "co2_per_capita": 4.1567073,
+  "meat_production_tonnes": 655.58
 }
