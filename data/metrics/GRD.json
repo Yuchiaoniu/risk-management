@@ -7,5 +7,11 @@
   "capital_city": "Saint George's",
   "income_level": "Upper middle income",
   "latitude": "12.0653",
-  "longitude": "-61.7449"
+  "longitude": "-61.7449",
+  "forest_area_pct": 52.058823,
+  "co2_per_capita": 2.928238,
+  "food_insecurity_pct": 5.3,
+  "cereal_production_tonnes": 388.4,
+  "meat_production_tonnes": 1781.2,
+  "fish_consumption_kg_pc": 20.32757
 }
