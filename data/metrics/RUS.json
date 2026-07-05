@@ -9,5 +9,11 @@
   "capital_city": "Moscow",
   "income_level": "High income",
   "latitude": "55.7558",
-  "longitude": "37.6176"
+  "longitude": "37.6176",
+  "forest_area_pct": 50.63677,
+  "co2_per_capita": 11.508876,
+  "food_insecurity_pct": 0.5,
+  "cereal_production_tonnes": 153102990.0,
+  "meat_production_tonnes": 12865115.0,
+  "fish_consumption_kg_pc": 22.8
 }
