@@ -7,5 +7,11 @@
   "capital_city": "Paramaribo",
   "income_level": "Upper middle income",
   "latitude": "5.8232",
-  "longitude": "-55.1679"
+  "longitude": "-55.1679",
+  "forest_area_pct": 91.87856,
+  "co2_per_capita": 4.537399,
+  "food_insecurity_pct": 7.2,
+  "cereal_production_tonnes": 184264.0,
+  "meat_production_tonnes": 12564.97,
+  "fish_consumption_kg_pc": 16.669947
 }
