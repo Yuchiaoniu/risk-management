@@ -6,5 +6,7 @@
   "capital_city": "Oranjestad",
   "income_level": "High income",
   "latitude": "12.5167",
-  "longitude": "-70.0167"
+  "longitude": "-70.0167",
+  "forest_area_pct": 2.7222223,
+  "co2_per_capita": 8.241623
 }
