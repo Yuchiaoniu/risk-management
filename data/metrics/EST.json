@@ -9,5 +9,11 @@
   "capital_city": "Tallinn",
   "income_level": "High income",
   "latitude": "59.4392",
-  "longitude": "24.7586"
+  "longitude": "24.7586",
+  "forest_area_pct": 57.206787,
+  "co2_per_capita": 8.863261,
+  "food_insecurity_pct": 1.0,
+  "cereal_production_tonnes": 1528560.0,
+  "meat_production_tonnes": 71781.5,
+  "fish_consumption_kg_pc": 12.700046
 }
