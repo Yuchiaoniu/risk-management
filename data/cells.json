@@ -17,7 +17,13 @@
     "income_level": "High income",
     "latitude": "38.8895",
     "longitude": "-77.032",
-    "calling_code": "+1"
+    "calling_code": "+1",
+    "forest_area_pct": 33.800022,
+    "co2_per_capita": 14.802047,
+    "food_insecurity_pct": 0.8,
+    "cereal_production_tonnes": 408899970.0,
+    "meat_production_tonnes": 47793756.0,
+    "fish_consumption_kg_pc": 21.94
   },
   {
     "iso3": "DNK",
@@ -37,7 +43,13 @@
     "income_level": "High income",
     "latitude": "55.6763",
     "longitude": "12.5681",
-    "calling_code": "+45"
+    "calling_code": "+45",
+    "forest_area_pct": 15.867,
+    "co2_per_capita": 4.9288173,
+    "food_insecurity_pct": 1.9,
+    "cereal_production_tonnes": 9464200.0,
+    "meat_production_tonnes": 1603763.4,
+    "fish_consumption_kg_pc": 22.560022
   },
   {
     "iso3": "NOR",
@@ -57,7 +69,13 @@
     "income_level": "High income",
     "latitude": "59.9138",
     "longitude": "10.7387",
-    "calling_code": "+47"
+    "calling_code": "+47",
+    "forest_area_pct": 33.267567,
+    "co2_per_capita": 7.4829626,
+    "food_insecurity_pct": 1.4,
+    "cereal_production_tonnes": 1325000.0,
+    "meat_production_tonnes": 364440.0,
+    "fish_consumption_kg_pc": 49.100025
   },
   {
     "iso3": "LUX",
@@ -76,7 +94,13 @@
     "capital_city": "Luxembourg",
     "income_level": "High income",
     "latitude": "49.61",
-    "longitude": "6.1296"
+    "longitude": "6.1296",
+    "forest_area_pct": 34.453827,
+    "co2_per_capita": 11.134566,
+    "food_insecurity_pct": 0.6,
+    "cereal_production_tonnes": 170660.0,
+    "meat_production_tonnes": 19809.21,
+    "fish_consumption_kg_pc": 30.289955
   },
   {
     "iso3": "MCO",
@@ -92,7 +116,8 @@
     "capital_city": "Monaco",
     "income_level": "High income",
     "latitude": "43.7325",
-    "longitude": "7.41891"
+    "longitude": "7.41891",
+    "forest_area_pct": 0.0
   },
   {
     "iso3": "LIE",
@@ -107,7 +132,9 @@
     "capital_city": "Vaduz",
     "income_level": "High income",
     "latitude": "47.1411",
-    "longitude": "9.52148"
+    "longitude": "9.52148",
+    "forest_area_pct": 35.225,
+    "co2_per_capita": 3.2623925
   },
   {
     "iso3": "ISL",
@@ -126,7 +153,13 @@
     "capital_city": "Reykjavik",
     "income_level": "High income",
     "latitude": "64.1353",
-    "longitude": "-21.8952"
+    "longitude": "-21.8952",
+    "forest_area_pct": 0.5714966,
+    "co2_per_capita": 9.458432,
+    "food_insecurity_pct": 1.9,
+    "cereal_production_tonnes": 8900.0,
+    "meat_production_tonnes": 34129.8,
+    "fish_consumption_kg_pc": 83.81021
   },
   {
     "iso3": "QAT",
@@ -144,7 +177,12 @@
     "capital_city": "Doha",
     "income_level": "High income",
     "latitude": "25.2948",
-    "longitude": "51.5082"
+    "longitude": "51.5082",
+    "forest_area_pct": 0.12184508,
+    "co2_per_capita": 37.88961,
+    "cereal_production_tonnes": 1193.9,
+    "meat_production_tonnes": 33813.58,
+    "fish_consumption_kg_pc": 22.029957
   },
   {
     "iso3": "CHE",
@@ -164,7 +202,13 @@
     "income_level": "High income",
     "latitude": "46.948",
     "longitude": "7.44821",
-    "calling_code": "+41"
+    "calling_code": "+41",
+    "forest_area_pct": 31.883165,
+    "co2_per_capita": 3.7477124,
+    "food_insecurity_pct": 1.1,
+    "cereal_production_tonnes": 865060.0,
+    "meat_production_tonnes": 480606.9,
+    "fish_consumption_kg_pc": 16.459991
   },
   {
     "iso3": "NLD",
@@ -184,7 +228,13 @@
     "income_level": "High income",
     "latitude": "52.3738",
     "longitude": "4.89095",
-    "calling_code": "+31"
+    "calling_code": "+31",
+    "forest_area_pct": 10.915652,
+    "co2_per_capita": 7.1213217,
+    "food_insecurity_pct": 1.9,
+    "cereal_production_tonnes": 1651500.0,
+    "meat_production_tonnes": 2687882.8,
+    "fish_consumption_kg_pc": 19.079992
   },
   {
     "iso3": "IRL",
@@ -204,7 +254,13 @@
     "income_level": "High income",
     "latitude": "53.3441",
     "longitude": "-6.26749",
-    "calling_code": "+353"
+    "calling_code": "+353",
+    "forest_area_pct": 11.630512,
+    "co2_per_capita": 7.177214,
+    "food_insecurity_pct": 1.7,
+    "cereal_production_tonnes": 2485680.0,
+    "meat_production_tonnes": 1160634.0,
+    "fish_consumption_kg_pc": 19.270004
   },
   {
     "iso3": "SGP",
@@ -224,7 +280,11 @@
     "income_level": "High income",
     "latitude": "1.28941",
     "longitude": "103.85",
-    "calling_code": "+65"
+    "calling_code": "+65",
+    "forest_area_pct": 22.005571,
+    "co2_per_capita": 8.6610365,
+    "food_insecurity_pct": 2.5,
+    "meat_production_tonnes": 56511.03
   },
   {
     "iso3": "MAC",
@@ -242,7 +302,10 @@
     "gov_revenue_pct_gdp": 31.7892238969514,
     "income_level": "High income",
     "latitude": "22.1667",
-    "longitude": "113.55"
+    "longitude": "113.55",
+    "co2_per_capita": 1.4889758,
+    "meat_production_tonnes": 8864.39,
+    "fish_consumption_kg_pc": 61.119484
   },
   {
     "iso3": "AUS",
@@ -262,7 +325,13 @@
     "income_level": "High income",
     "latitude": "-35.282",
     "longitude": "149.129",
-    "calling_code": "+61"
+    "calling_code": "+61",
+    "forest_area_pct": 17.335526,
+    "co2_per_capita": 14.65893,
+    "food_insecurity_pct": 4.2,
+    "cereal_production_tonnes": 59607884.0,
+    "meat_production_tonnes": 5577060.5,
+    "fish_consumption_kg_pc": 24.239994
   },
   {
     "iso3": "SWE",
@@ -282,7 +351,13 @@
     "income_level": "High income",
     "latitude": "59.3327",
     "longitude": "18.0645",
-    "calling_code": "+46"
+    "calling_code": "+46",
+    "forest_area_pct": 68.58672,
+    "co2_per_capita": 3.4653375,
+    "food_insecurity_pct": 1.8,
+    "cereal_production_tonnes": 5823200.0,
+    "meat_production_tonnes": 570910.0,
+    "fish_consumption_kg_pc": 30.619993
   },
   {
     "iso3": "AUT",
@@ -302,7 +377,13 @@
     "income_level": "High income",
     "latitude": "48.2201",
     "longitude": "16.3798",
-    "calling_code": "+43"
+    "calling_code": "+43",
+    "forest_area_pct": 47.172054,
+    "co2_per_capita": 6.779517,
+    "food_insecurity_pct": 1.8,
+    "cereal_production_tonnes": 5205750.0,
+    "meat_production_tonnes": 814265.3,
+    "fish_consumption_kg_pc": 14.119993
   },
   {
     "iso3": "BEL",
@@ -322,7 +403,13 @@
     "income_level": "High income",
     "latitude": "50.8371",
     "longitude": "4.36761",
-    "calling_code": "+32"
+    "calling_code": "+32",
+    "forest_area_pct": 21.988588,
+    "co2_per_capita": 7.6375527,
+    "food_insecurity_pct": 2.0,
+    "cereal_production_tonnes": 2779540.0,
+    "meat_production_tonnes": 1735124.0,
+    "fish_consumption_kg_pc": 23.929998
   },
   {
     "iso3": "SMR",
@@ -341,7 +428,8 @@
     "capital_city": "San Marino",
     "income_level": "High income",
     "latitude": "43.9322",
-    "longitude": "12.4486"
+    "longitude": "12.4486",
+    "forest_area_pct": 16.666666
   },
   {
     "iso3": "DEU",
@@ -361,7 +449,13 @@
     "income_level": "High income",
     "latitude": "52.5235",
     "longitude": "13.4115",
-    "calling_code": "+49"
+    "calling_code": "+49",
+    "forest_area_pct": 32.809135,
+    "co2_per_capita": 7.942359,
+    "food_insecurity_pct": 1.5,
+    "cereal_production_tonnes": 43479000.0,
+    "meat_production_tonnes": 6875680.0,
+    "fish_consumption_kg_pc": 12.979999
   },
   {
     "iso3": "GBR",
@@ -381,7 +475,13 @@
     "income_level": "High income",
     "latitude": "51.5002",
     "longitude": "-0.126236",
-    "calling_code": "+44"
+    "calling_code": "+44",
+    "forest_area_pct": 13.341049,
+    "co2_per_capita": 4.563232,
+    "food_insecurity_pct": 2.5,
+    "cereal_production_tonnes": 24362312.0,
+    "meat_production_tonnes": 4171521.5,
+    "fish_consumption_kg_pc": 17.699999
   },
   {
     "iso3": "HKG",
@@ -399,7 +499,10 @@
     "income_level": "High income",
     "latitude": "22.3964",
     "longitude": "114.109",
-    "calling_code": "+852"
+    "calling_code": "+852",
+    "co2_per_capita": 4.120568,
+    "meat_production_tonnes": 140991.19,
+    "fish_consumption_kg_pc": 69.109924
   },
   {
     "iso3": "ISR",
@@ -418,7 +521,12 @@
     "income_level": "High income",
     "latitude": "31.7717",
     "longitude": "35.2035",
-    "calling_code": "+972"
+    "calling_code": "+972",
+    "co2_per_capita": 6.8401985,
+    "food_insecurity_pct": 0.8,
+    "cereal_production_tonnes": 239234.17,
+    "meat_production_tonnes": 860050.9,
+    "fish_consumption_kg_pc": 24.749996
   },
   {
     "iso3": "CAN",
@@ -438,7 +546,13 @@
     "income_level": "High income",
     "latitude": "45.4215",
     "longitude": "-75.6919",
-    "calling_code": "+1"
+    "calling_code": "+1",
+    "forest_area_pct": 41.969585,
+    "co2_per_capita": 14.107159,
+    "food_insecurity_pct": 1.5,
+    "cereal_production_tonnes": 65578428.0,
+    "meat_production_tonnes": 5193179.5,
+    "fish_consumption_kg_pc": 20.820002
   },
   {
     "iso3": "FIN",
@@ -458,7 +572,13 @@
     "income_level": "High income",
     "latitude": "60.1608",
     "longitude": "24.9525",
-    "calling_code": "+358"
+    "calling_code": "+358",
+    "forest_area_pct": 74.167366,
+    "co2_per_capita": 6.5245185,
+    "food_insecurity_pct": 3.0,
+    "cereal_production_tonnes": 3590090.0,
+    "meat_production_tonnes": 397311.0,
+    "fish_consumption_kg_pc": 31.490028
   },
   {
     "iso3": "AND",
@@ -475,7 +595,9 @@
     "capital_city": "Andorra la Vella",
     "income_level": "High income",
     "latitude": "42.5075",
-    "longitude": "1.5218"
+    "longitude": "1.5218",
+    "forest_area_pct": 38.66383,
+    "co2_per_capita": 5.311056
   },
   {
     "iso3": "NZL",
@@ -495,7 +617,13 @@
     "income_level": "High income",
     "latitude": "-41.2865",
     "longitude": "174.776",
-    "calling_code": "+64"
+    "calling_code": "+64",
+    "forest_area_pct": 38.10276,
+    "co2_per_capita": 6.229061,
+    "food_insecurity_pct": 3.8,
+    "cereal_production_tonnes": 968265.4,
+    "meat_production_tonnes": 1488597.4,
+    "fish_consumption_kg_pc": 24.610014
   },
   {
     "iso3": "MLT",
@@ -514,7 +642,13 @@
     "capital_city": "Valletta",
     "income_level": "High income",
     "latitude": "35.9042",
-    "longitude": "14.5189"
+    "longitude": "14.5189",
+    "forest_area_pct": 1.44375,
+    "co2_per_capita": 3.3590784,
+    "food_insecurity_pct": 2.0,
+    "cereal_production_tonnes": 0.0,
+    "meat_production_tonnes": 10437.85,
+    "fish_consumption_kg_pc": 31.099768
   },
   {
     "iso3": "FRA",
@@ -534,7 +668,13 @@
     "income_level": "High income",
     "latitude": "48.8566",
     "longitude": "2.35097",
-    "calling_code": "+33"
+    "calling_code": "+33",
+    "forest_area_pct": 31.845818,
+    "co2_per_capita": 4.4555726,
+    "food_insecurity_pct": 2.3,
+    "cereal_production_tonnes": 59927490.0,
+    "meat_production_tonnes": 5183265.5,
+    "fish_consumption_kg_pc": 32.639996
   },
   {
     "iso3": "ITA",
@@ -553,7 +693,13 @@
     "capital_city": "Rome",
     "income_level": "High income",
     "latitude": "41.8955",
-    "longitude": "12.4823"
+    "longitude": "12.4823",
+    "forest_area_pct": 31.69214,
+    "co2_per_capita": 5.704794,
+    "food_insecurity_pct": 0.5,
+    "cereal_production_tonnes": 14300570.0,
+    "meat_production_tonnes": 3376370.5,
+    "fish_consumption_kg_pc": 29.389997
   },
   {
     "iso3": "ESP",
@@ -572,7 +718,13 @@
     "capital_city": "Madrid",
     "income_level": "High income",
     "latitude": "40.4167",
-    "longitude": "-3.70327"
+    "longitude": "-3.70327",
+    "forest_area_pct": 38.046196,
+    "co2_per_capita": 4.8971643,
+    "food_insecurity_pct": 1.5,
+    "cereal_production_tonnes": 19292230.0,
+    "meat_production_tonnes": 7564708.0,
+    "fish_consumption_kg_pc": 36.799995
   },
   {
     "iso3": "CYP",
@@ -591,7 +743,12 @@
     "capital_city": "Nicosia",
     "income_level": "High income",
     "latitude": "35.1676",
-    "longitude": "33.3736"
+    "longitude": "33.3736",
+    "forest_area_pct": 18.654978,
+    "co2_per_capita": 5.3108797,
+    "cereal_production_tonnes": 57480.0,
+    "meat_production_tonnes": 73884.17,
+    "fish_consumption_kg_pc": 17.959986
   },
   {
     "iso3": "KOR",
@@ -611,7 +768,13 @@
     "income_level": "High income",
     "latitude": "37.5323",
     "longitude": "126.957",
-    "calling_code": "+82"
+    "calling_code": "+82",
+    "forest_area_pct": 64.49002,
+    "co2_per_capita": 11.719733,
+    "food_insecurity_pct": 0.9,
+    "cereal_production_tonnes": 5219729.5,
+    "meat_production_tonnes": 2840561.2,
+    "fish_consumption_kg_pc": 52.819992
   },
   {
     "iso3": "BHS",
@@ -630,7 +793,13 @@
     "capital_city": "Nassau",
     "income_level": "High income",
     "latitude": "25.0661",
-    "longitude": "-77.339"
+    "longitude": "-77.339",
+    "forest_area_pct": 50.935066,
+    "co2_per_capita": 7.4507422,
+    "food_insecurity_pct": 3.4,
+    "cereal_production_tonnes": 600.78,
+    "meat_production_tonnes": 6480.07,
+    "fish_consumption_kg_pc": 27.679169
   },
   {
     "iso3": "PRI",
@@ -647,7 +816,10 @@
     "capital_city": "San Juan",
     "income_level": "High income",
     "latitude": "18.23",
-    "longitude": "-66"
+    "longitude": "-66",
+    "forest_area_pct": 51.51071,
+    "cereal_production_tonnes": 3566.0,
+    "meat_production_tonnes": 35720.83
   },
   {
     "iso3": "SVN",
@@ -666,7 +838,13 @@
     "capital_city": "Ljubljana",
     "income_level": "High income",
     "latitude": "46.0546",
-    "longitude": "14.5044"
+    "longitude": "14.5044",
+    "forest_area_pct": 61.767445,
+    "co2_per_capita": 6.017234,
+    "food_insecurity_pct": 0.9,
+    "cereal_production_tonnes": 576200.0,
+    "meat_production_tonnes": 134637.98,
+    "fish_consumption_kg_pc": 11.2100315
   },
   {
     "iso3": "KWT",
@@ -684,7 +862,13 @@
     "capital_city": "Kuwait City",
     "income_level": "High income",
     "latitude": "29.3721",
-    "longitude": "47.9824"
+    "longitude": "47.9824",
+    "forest_area_pct": 0.35353535,
+    "co2_per_capita": 25.242083,
+    "food_insecurity_pct": 3.4,
+    "cereal_production_tonnes": 27540.0,
+    "meat_production_tonnes": 117907.95,
+    "fish_consumption_kg_pc": 12.969997
   },
   {
     "iso3": "CHN",
@@ -704,7 +888,12 @@
     "income_level": "Upper middle income",
     "latitude": "40.0495",
     "longitude": "116.286",
-    "calling_code": "+86"
+    "calling_code": "+86",
+    "forest_area_pct": 23.509167,
+    "co2_per_capita": 8.217776,
+    "cereal_production_tonnes": 632097500.0,
+    "meat_production_tonnes": 97859400.0,
+    "fish_consumption_kg_pc": 41.68
   },
   {
     "iso3": "JPN",
@@ -723,7 +912,12 @@
     "income_level": "High income",
     "latitude": "35.67",
     "longitude": "139.77",
-    "calling_code": "+81"
+    "calling_code": "+81",
+    "forest_area_pct": 68.35885,
+    "co2_per_capita": 8.237319,
+    "food_insecurity_pct": 1.2,
+    "cereal_production_tonnes": 11718523.0,
+    "meat_production_tonnes": 4198551.0
   },
   {
     "iso3": "EST",
@@ -742,7 +936,13 @@
     "capital_city": "Tallinn",
     "income_level": "High income",
     "latitude": "59.4392",
-    "longitude": "24.7586"
+    "longitude": "24.7586",
+    "forest_area_pct": 57.206787,
+    "co2_per_capita": 8.863261,
+    "food_insecurity_pct": 1.0,
+    "cereal_production_tonnes": 1528560.0,
+    "meat_production_tonnes": 71781.5,
+    "fish_consumption_kg_pc": 12.700046
   },
   {
     "iso3": "BHR",
@@ -760,7 +960,11 @@
     "capital_city": "Manama",
     "income_level": "High income",
     "latitude": "26.1921",
-    "longitude": "50.5354"
+    "longitude": "50.5354",
+    "forest_area_pct": 3.101266,
+    "co2_per_capita": 24.66764,
+    "meat_production_tonnes": 38363.56,
+    "fish_consumption_kg_pc": 19.75995
   },
   {
     "iso3": "BRN",
@@ -778,7 +982,11 @@
     "capital_city": "Bandar Seri Begawan",
     "income_level": "High income",
     "latitude": "4.94199",
-    "longitude": "114.946"
+    "longitude": "114.946",
+    "forest_area_pct": 72.10626,
+    "co2_per_capita": 26.8725,
+    "cereal_production_tonnes": 3562.6,
+    "meat_production_tonnes": 30581.12
   },
   {
     "iso3": "CZE",
@@ -798,7 +1006,13 @@
     "income_level": "High income",
     "latitude": "50.0878",
     "longitude": "14.4205",
-    "calling_code": "+420"
+    "calling_code": "+420",
+    "forest_area_pct": 37.99578,
+    "co2_per_capita": 8.904502,
+    "food_insecurity_pct": 2.2,
+    "cereal_production_tonnes": 8218420.0,
+    "meat_production_tonnes": 475907.75,
+    "fish_consumption_kg_pc": 10.369998
   },
   {
     "iso3": "TWN",
@@ -818,7 +1032,11 @@
     "company_count_wholesale": 180000.0,
     "company_count_manufacturing": 90000.0,
     "company_count_retail": 95000.0,
-    "company_count_ict": 55000.0
+    "company_count_ict": 55000.0,
+    "co2_per_capita": 11.698872,
+    "cereal_production_tonnes": 1813358.2,
+    "meat_production_tonnes": 1571993.8,
+    "fish_consumption_kg_pc": 30.400007
   },
   {
     "iso3": "LTU",
@@ -837,7 +1055,13 @@
     "capital_city": "Vilnius",
     "income_level": "High income",
     "latitude": "54.6896",
-    "longitude": "25.2799"
+    "longitude": "25.2799",
+    "forest_area_pct": 35.22171,
+    "co2_per_capita": 4.5777125,
+    "food_insecurity_pct": 1.3,
+    "cereal_production_tonnes": 5623660.0,
+    "meat_production_tonnes": 200637.9,
+    "fish_consumption_kg_pc": 28.509962
   },
   {
     "iso3": "PRT",
@@ -857,7 +1081,13 @@
     "income_level": "High income",
     "latitude": "38.7072",
     "longitude": "-9.13552",
-    "calling_code": "+351"
+    "calling_code": "+351",
+    "forest_area_pct": 36.461067,
+    "co2_per_capita": 3.9092069,
+    "food_insecurity_pct": 3.3,
+    "cereal_production_tonnes": 1018080.0,
+    "meat_production_tonnes": 889814.0,
+    "fish_consumption_kg_pc": 53.49003
   },
   {
     "iso3": "GUY",
@@ -874,7 +1104,13 @@
     "capital_city": "Georgetown",
     "income_level": "High income",
     "latitude": "6.80461",
-    "longitude": "-58.1548"
+    "longitude": "-58.1548",
+    "forest_area_pct": 93.51135,
+    "co2_per_capita": 5.351061,
+    "food_insecurity_pct": 4.7,
+    "cereal_production_tonnes": 933600.0,
+    "meat_production_tonnes": 87418.03,
+    "fish_consumption_kg_pc": 24.75979
   },
   {
     "iso3": "SVK",
@@ -893,7 +1129,12 @@
     "capital_city": "Bratislava",
     "income_level": "High income",
     "latitude": "48.1484",
-    "longitude": "17.1073"
+    "longitude": "17.1073",
+    "forest_area_pct": 40.205364,
+    "co2_per_capita": 5.771668,
+    "food_insecurity_pct": 2.0,
+    "cereal_production_tonnes": 3382800.0,
+    "fish_consumption_kg_pc": 10.609985
   },
   {
     "iso3": "POL",
@@ -913,7 +1154,13 @@
     "income_level": "High income",
     "latitude": "52.26",
     "longitude": "21.02",
-    "calling_code": "+48"
+    "calling_code": "+48",
+    "forest_area_pct": 30.939789,
+    "co2_per_capita": 8.20336,
+    "food_insecurity_pct": 0.9,
+    "cereal_production_tonnes": 34987760.0,
+    "meat_production_tonnes": 5455245.5,
+    "fish_consumption_kg_pc": 11.149998
   },
   {
     "iso3": "HUN",
@@ -933,7 +1180,13 @@
     "income_level": "High income",
     "latitude": "47.4984",
     "longitude": "19.0408",
-    "calling_code": "+36"
+    "calling_code": "+36",
+    "forest_area_pct": 22.606552,
+    "co2_per_capita": 4.674298,
+    "food_insecurity_pct": 3.6,
+    "cereal_production_tonnes": 9060660.0,
+    "meat_production_tonnes": 1037031.25,
+    "fish_consumption_kg_pc": 6.4599967
   },
   {
     "iso3": "LVA",
@@ -952,7 +1205,13 @@
     "capital_city": "Riga",
     "income_level": "High income",
     "latitude": "56.9465",
-    "longitude": "24.1048"
+    "longitude": "24.1048",
+    "forest_area_pct": 55.28999,
+    "co2_per_capita": 3.5129132,
+    "food_insecurity_pct": 1.6,
+    "cereal_production_tonnes": 3243700.0,
+    "meat_production_tonnes": 90661.93,
+    "fish_consumption_kg_pc": 24.490013
   },
   {
     "iso3": "URY",
@@ -971,7 +1230,13 @@
     "capital_city": "Montevideo",
     "income_level": "High income",
     "latitude": "-34.8941",
-    "longitude": "-56.0675"
+    "longitude": "-56.0675",
+    "forest_area_pct": 11.144007,
+    "co2_per_capita": 2.212046,
+    "food_insecurity_pct": 2.9,
+    "cereal_production_tonnes": 4597619.5,
+    "meat_production_tonnes": 695238.4,
+    "fish_consumption_kg_pc": 11.92999
   },
   {
     "iso3": "BMU",
@@ -987,7 +1252,9 @@
     "capital_city": "Hamilton",
     "income_level": "High income",
     "latitude": "32.3293",
-    "longitude": "-64.706"
+    "longitude": "-64.706",
+    "forest_area_pct": 14.444445,
+    "co2_per_capita": 8.193772
   },
   {
     "iso3": "CHI",
@@ -1014,7 +1281,8 @@
     "capital_city": "George Town",
     "income_level": "High income",
     "latitude": "19.3022",
-    "longitude": "-81.3857"
+    "longitude": "-81.3857",
+    "forest_area_pct": 53.0
   },
   {
     "iso3": "FRO",
@@ -1030,7 +1298,10 @@
     "capital_city": "Torshavn",
     "income_level": "High income",
     "latitude": "61.8926",
-    "longitude": "-6.91181"
+    "longitude": "-6.91181",
+    "forest_area_pct": 0.05839416,
+    "co2_per_capita": 13.377783,
+    "meat_production_tonnes": 708.46
   },
   {
     "iso3": "IMN",
@@ -1045,7 +1316,8 @@
     "capital_city": "Douglas",
     "income_level": "High income",
     "latitude": "54.1509",
-    "longitude": "-4.47928"
+    "longitude": "-4.47928",
+    "forest_area_pct": 6.4385967
   },
   {
     "iso3": "GRC",
@@ -1065,7 +1337,13 @@
     "income_level": "High income",
     "latitude": "37.9792",
     "longitude": "23.7166",
-    "calling_code": "+30"
+    "calling_code": "+30",
+    "forest_area_pct": 36.949574,
+    "co2_per_capita": 5.532692,
+    "food_insecurity_pct": 1.5,
+    "cereal_production_tonnes": 3203370.0,
+    "meat_production_tonnes": 429398.7,
+    "fish_consumption_kg_pc": 19.63
   },
   {
     "iso3": "HRV",
@@ -1084,7 +1362,13 @@
     "capital_city": "Zagreb",
     "income_level": "High income",
     "latitude": "45.8069",
-    "longitude": "15.9614"
+    "longitude": "15.9614",
+    "forest_area_pct": 34.68406,
+    "co2_per_capita": 4.500902,
+    "food_insecurity_pct": 1.4,
+    "cereal_production_tonnes": 3023810.0,
+    "meat_production_tonnes": 246846.66,
+    "fish_consumption_kg_pc": 19.889984
   },
   {
     "iso3": "ROU",
@@ -1104,7 +1388,13 @@
     "income_level": "High income",
     "latitude": "44.4479",
     "longitude": "26.0979",
-    "calling_code": "+40"
+    "calling_code": "+40",
+    "forest_area_pct": 30.140238,
+    "co2_per_capita": 3.8183794,
+    "food_insecurity_pct": 7.1,
+    "cereal_production_tonnes": 18860480.0,
+    "meat_production_tonnes": 993030.4,
+    "fish_consumption_kg_pc": 8.699999
   },
   {
     "iso3": "OMN",
@@ -1122,7 +1412,12 @@
     "capital_city": "Muscat",
     "income_level": "High income",
     "latitude": "23.6105",
-    "longitude": "58.5874"
+    "longitude": "58.5874",
+    "forest_area_pct": 0.0051696287,
+    "co2_per_capita": 16.488375,
+    "cereal_production_tonnes": 236293.0,
+    "meat_production_tonnes": 92976.51,
+    "fish_consumption_kg_pc": 28.150017
   },
   {
     "iso3": "RUS",
@@ -1141,7 +1436,13 @@
     "capital_city": "Moscow",
     "income_level": "High income",
     "latitude": "55.7558",
-    "longitude": "37.6176"
+    "longitude": "37.6176",
+    "forest_area_pct": 50.63677,
+    "co2_per_capita": 11.508876,
+    "food_insecurity_pct": 0.5,
+    "cereal_production_tonnes": 153102990.0,
+    "meat_production_tonnes": 12865115.0,
+    "fish_consumption_kg_pc": 22.8
   },
   {
     "iso3": "CHL",
@@ -1161,7 +1462,13 @@
     "income_level": "High income",
     "latitude": "-33.475",
     "longitude": "-70.6475",
-    "calling_code": "+56"
+    "calling_code": "+56",
+    "forest_area_pct": 24.452795,
+    "co2_per_capita": 4.385191,
+    "food_insecurity_pct": 3.7,
+    "cereal_production_tonnes": 2588504.8,
+    "meat_production_tonnes": 1564175.1,
+    "fish_consumption_kg_pc": 14.359998
   },
   {
     "iso3": "TUR",
@@ -1181,7 +1488,12 @@
     "income_level": "Upper middle income",
     "latitude": "39.7153",
     "longitude": "32.3606",
-    "calling_code": "+90"
+    "calling_code": "+90",
+    "forest_area_pct": 29.02361,
+    "co2_per_capita": 5.095457,
+    "cereal_production_tonnes": 38667030.0,
+    "meat_production_tonnes": 4676491.5,
+    "fish_consumption_kg_pc": 5.32
   },
   {
     "iso3": "KNA",
@@ -1198,7 +1510,11 @@
     "capital_city": "Basseterre",
     "income_level": "High income",
     "latitude": "17.3",
-    "longitude": "-62.7309"
+    "longitude": "-62.7309",
+    "forest_area_pct": 42.307693,
+    "co2_per_capita": 5.3636484,
+    "meat_production_tonnes": 136.51,
+    "fish_consumption_kg_pc": 36.402092
   },
   {
     "iso3": "BRB",
@@ -1215,7 +1531,13 @@
     "capital_city": "Bridgetown",
     "income_level": "High income",
     "latitude": "13.0935",
-    "longitude": "-59.6105"
+    "longitude": "-59.6105",
+    "forest_area_pct": 14.651163,
+    "co2_per_capita": 4.6577086,
+    "food_insecurity_pct": 7.4,
+    "cereal_production_tonnes": 51.0,
+    "meat_production_tonnes": 16144.88,
+    "fish_consumption_kg_pc": 43.158928
   },
   {
     "iso3": "CRI",
@@ -1234,7 +1556,13 @@
     "capital_city": "San Jose",
     "income_level": "High income",
     "latitude": "9.63701",
-    "longitude": "-84.0089"
+    "longitude": "-84.0089",
+    "forest_area_pct": 58.27591,
+    "co2_per_capita": 1.5762514,
+    "food_insecurity_pct": 2.8,
+    "cereal_production_tonnes": 121049.0,
+    "meat_production_tonnes": 302664.8,
+    "fish_consumption_kg_pc": 17.830013
   },
   {
     "iso3": "SYC",
@@ -1252,7 +1580,11 @@
     "capital_city": "Victoria",
     "income_level": "High income",
     "latitude": "-4.6309",
-    "longitude": "55.4466"
+    "longitude": "55.4466",
+    "forest_area_pct": 59.547825,
+    "co2_per_capita": 5.0101247,
+    "meat_production_tonnes": 1461.36,
+    "fish_consumption_kg_pc": 42.90631
   },
   {
     "iso3": "MYS",
@@ -1272,7 +1604,13 @@
     "income_level": "Upper middle income",
     "latitude": "3.12433",
     "longitude": "101.684",
-    "calling_code": "+60"
+    "calling_code": "+60",
+    "forest_area_pct": 58.209526,
+    "co2_per_capita": 8.124508,
+    "food_insecurity_pct": 5.8,
+    "cereal_production_tonnes": 2282576.0,
+    "meat_production_tonnes": 1853548.8,
+    "fish_consumption_kg_pc": 51.030006
   },
   {
     "iso3": "BGR",
@@ -1291,7 +1629,13 @@
     "capital_city": "Sofia",
     "income_level": "High income",
     "latitude": "42.7105",
-    "longitude": "23.3238"
+    "longitude": "23.3238",
+    "forest_area_pct": 36.00405,
+    "co2_per_capita": 6.8755846,
+    "food_insecurity_pct": 2.5,
+    "cereal_production_tonnes": 9790690.0,
+    "meat_production_tonnes": 237062.92,
+    "fish_consumption_kg_pc": 7.179994
   },
   {
     "iso3": "KAZ",
@@ -1310,7 +1654,13 @@
     "capital_city": "Astana",
     "income_level": "Upper middle income",
     "latitude": "51.1879",
-    "longitude": "71.4382"
+    "longitude": "71.4382",
+    "forest_area_pct": 1.2834426,
+    "co2_per_capita": 13.693581,
+    "food_insecurity_pct": 0.6,
+    "cereal_production_tonnes": 21722294.0,
+    "meat_production_tonnes": 1169029.5,
+    "fish_consumption_kg_pc": 3.9299982
   },
   {
     "iso3": "PLW",
@@ -1328,7 +1678,10 @@
     "capital_city": "Koror",
     "income_level": "High income",
     "latitude": "7.34194",
-    "longitude": "134.479"
+    "longitude": "134.479",
+    "forest_area_pct": 90.23913,
+    "co2_per_capita": 12.215194,
+    "food_insecurity_pct": 6.9
   },
   {
     "iso3": "ATG",
@@ -1346,7 +1699,13 @@
     "capital_city": "Saint John's",
     "income_level": "High income",
     "latitude": "17.1175",
-    "longitude": "-61.8456"
+    "longitude": "-61.8456",
+    "forest_area_pct": 18.304546,
+    "co2_per_capita": 6.9125686,
+    "food_insecurity_pct": 3.4,
+    "cereal_production_tonnes": 51.53,
+    "meat_production_tonnes": 138.47,
+    "fish_consumption_kg_pc": 54.513573
   },
   {
     "iso3": "ARG",
@@ -1366,7 +1725,13 @@
     "income_level": "Upper middle income",
     "latitude": "-34.6118",
     "longitude": "-58.4173",
-    "calling_code": "+54"
+    "calling_code": "+54",
+    "forest_area_pct": 17.289526,
+    "co2_per_capita": 4.047052,
+    "food_insecurity_pct": 13.1,
+    "cereal_production_tonnes": 81989896.0,
+    "meat_production_tonnes": 6427706.0,
+    "fish_consumption_kg_pc": 7.1099997
   },
   {
     "iso3": "GRL",
@@ -1382,7 +1747,9 @@
     "capital_city": "Nuuk",
     "income_level": "High income",
     "latitude": "64.1836",
-    "longitude": "-51.7214"
+    "longitude": "-51.7214",
+    "forest_area_pct": 0.0005359971,
+    "co2_per_capita": 10.483111
   },
   {
     "iso3": "MNE",
@@ -1400,7 +1767,13 @@
     "capital_city": "Podgorica",
     "income_level": "Upper middle income",
     "latitude": "42.4602",
-    "longitude": "19.2595"
+    "longitude": "19.2595",
+    "forest_area_pct": 61.486988,
+    "co2_per_capita": 4.0595264,
+    "food_insecurity_pct": 2.5,
+    "cereal_production_tonnes": 6632.9,
+    "meat_production_tonnes": 15218.09,
+    "fish_consumption_kg_pc": 11.919944
   },
   {
     "iso3": "SRB",
@@ -1419,7 +1792,13 @@
     "capital_city": "Belgrade",
     "income_level": "Upper middle income",
     "latitude": "44.8024",
-    "longitude": "20.4656"
+    "longitude": "20.4656",
+    "forest_area_pct": 39.439648,
+    "co2_per_capita": 6.547047,
+    "food_insecurity_pct": 3.0,
+    "cereal_production_tonnes": 8037635.0,
+    "meat_production_tonnes": 545828.75,
+    "fish_consumption_kg_pc": 8.449995
   },
   {
     "iso3": "IND",
@@ -1439,7 +1818,12 @@
     "income_level": "Lower middle income",
     "latitude": "28.6353",
     "longitude": "77.225",
-    "calling_code": "+91"
+    "calling_code": "+91",
+    "forest_area_pct": 24.349268,
+    "co2_per_capita": 1.9861692,
+    "cereal_production_tonnes": 353766050.0,
+    "meat_production_tonnes": 13209091.0,
+    "fish_consumption_kg_pc": 8.73
   },
   {
     "iso3": "BLR",
@@ -1458,7 +1842,13 @@
     "capital_city": "Minsk",
     "income_level": "Upper middle income",
     "latitude": "53.9678",
-    "longitude": "27.5766"
+    "longitude": "27.5766",
+    "forest_area_pct": 43.69437,
+    "co2_per_capita": 6.226867,
+    "food_insecurity_pct": 0.5,
+    "cereal_production_tonnes": 7772407.5,
+    "meat_production_tonnes": 1326639.2,
+    "fish_consumption_kg_pc": 12.460001
   },
   {
     "iso3": "MEX",
@@ -1478,7 +1868,13 @@
     "income_level": "Upper middle income",
     "latitude": "19.427",
     "longitude": "-99.1276",
-    "calling_code": "+52"
+    "calling_code": "+52",
+    "forest_area_pct": 34.351017,
+    "co2_per_capita": 3.5284045,
+    "food_insecurity_pct": 3.0,
+    "cereal_production_tonnes": 36330010.0,
+    "meat_production_tonnes": 8353546.5,
+    "fish_consumption_kg_pc": 13.55
   },
   {
     "iso3": "MDV",
@@ -1497,7 +1893,13 @@
     "capital_city": "Male",
     "income_level": "Upper middle income",
     "latitude": "4.1742",
-    "longitude": "73.5109"
+    "longitude": "73.5109",
+    "forest_area_pct": 12.4,
+    "co2_per_capita": 4.22769,
+    "food_insecurity_pct": 2.2,
+    "cereal_production_tonnes": 204.39,
+    "meat_production_tonnes": 865.7,
+    "fish_consumption_kg_pc": 79.737114
   },
   {
     "iso3": "DOM",
@@ -1516,7 +1918,13 @@
     "capital_city": "Santo Domingo",
     "income_level": "Upper middle income",
     "latitude": "18.479",
-    "longitude": "-69.8908"
+    "longitude": "-69.8908",
+    "forest_area_pct": 46.28763,
+    "co2_per_capita": 2.7802987,
+    "food_insecurity_pct": 19.0,
+    "cereal_production_tonnes": 1069149.1,
+    "meat_production_tonnes": 555538.1,
+    "fish_consumption_kg_pc": 17.14
   },
   {
     "iso3": "PAN",
@@ -1535,7 +1943,12 @@
     "capital_city": "Panama City",
     "income_level": "High income",
     "latitude": "8.99427",
-    "longitude": "-79.5188"
+    "longitude": "-79.5188",
+    "forest_area_pct": 62.3708,
+    "co2_per_capita": 2.6602929,
+    "cereal_production_tonnes": 520917.0,
+    "meat_production_tonnes": 301414.94,
+    "fish_consumption_kg_pc": 14.890006
   },
   {
     "iso3": "NRU",
@@ -1553,7 +1966,12 @@
     "capital_city": "Yaren District",
     "income_level": "High income",
     "latitude": "-0.5477",
-    "longitude": "166.920867"
+    "longitude": "166.920867",
+    "forest_area_pct": 0.0,
+    "co2_per_capita": 4.9893417,
+    "food_insecurity_pct": 9.2,
+    "meat_production_tonnes": 78.52,
+    "fish_consumption_kg_pc": 26.016201
   },
   {
     "iso3": "BRA",
@@ -1573,7 +1991,13 @@
     "income_level": "Upper middle income",
     "latitude": "-15.7801",
     "longitude": "-47.9292",
-    "calling_code": "+55"
+    "calling_code": "+55",
+    "forest_area_pct": 59.715538,
+    "co2_per_capita": 2.2826612,
+    "food_insecurity_pct": 6.6,
+    "cereal_production_tonnes": 135743840.0,
+    "meat_production_tonnes": 29642574.0,
+    "fish_consumption_kg_pc": 8.18
   },
   {
     "iso3": "ALB",
@@ -1592,7 +2016,13 @@
     "capital_city": "Tirane",
     "income_level": "Upper middle income",
     "latitude": "41.3317",
-    "longitude": "19.8172"
+    "longitude": "19.8172",
+    "forest_area_pct": 34.343067,
+    "co2_per_capita": 1.5908402,
+    "food_insecurity_pct": 8.2,
+    "cereal_production_tonnes": 690850.0,
+    "meat_production_tonnes": 66669.3,
+    "fish_consumption_kg_pc": 8.6
   },
   {
     "iso3": "THA",
@@ -1612,7 +2042,13 @@
     "income_level": "Upper middle income",
     "latitude": "13.7308",
     "longitude": "100.521",
-    "calling_code": "+66"
+    "calling_code": "+66",
+    "forest_area_pct": 39.537952,
+    "co2_per_capita": 3.7997093,
+    "food_insecurity_pct": 1.1,
+    "cereal_production_tonnes": 38093910.0,
+    "meat_production_tonnes": 3066007.2,
+    "fish_consumption_kg_pc": 28.619999
   },
   {
     "iso3": "BIH",
@@ -1631,7 +2067,13 @@
     "capital_city": "Sarajevo",
     "income_level": "Upper middle income",
     "latitude": "43.8607",
-    "longitude": "18.4214"
+    "longitude": "18.4214",
+    "forest_area_pct": 42.146873,
+    "co2_per_capita": 6.4724236,
+    "food_insecurity_pct": 2.8,
+    "cereal_production_tonnes": 1431889.0,
+    "meat_production_tonnes": 92890.0,
+    "fish_consumption_kg_pc": 5.859997
   },
   {
     "iso3": "JOR",
@@ -1649,7 +2091,12 @@
     "capital_city": "Amman",
     "income_level": "Upper middle income",
     "latitude": "31.9497",
-    "longitude": "35.9263"
+    "longitude": "35.9263",
+    "forest_area_pct": 0.79622495,
+    "co2_per_capita": 1.9924614,
+    "cereal_production_tonnes": 50899.5,
+    "meat_production_tonnes": 382909.72,
+    "fish_consumption_kg_pc": 4.7699957
   },
   {
     "iso3": "JAM",
@@ -1666,7 +2113,13 @@
     "capital_city": "Kingston",
     "income_level": "Upper middle income",
     "latitude": "17.9927",
-    "longitude": "-76.792"
+    "longitude": "-76.792",
+    "forest_area_pct": 55.472393,
+    "co2_per_capita": 2.7852037,
+    "food_insecurity_pct": 26.6,
+    "cereal_production_tonnes": 2426.0,
+    "meat_production_tonnes": 159369.33,
+    "fish_consumption_kg_pc": 27.85005
   },
   {
     "iso3": "AZE",
@@ -1685,7 +2138,13 @@
     "capital_city": "Baku",
     "income_level": "Upper middle income",
     "latitude": "40.3834",
-    "longitude": "49.8932"
+    "longitude": "49.8932",
+    "forest_area_pct": 14.176455,
+    "co2_per_capita": 3.999354,
+    "food_insecurity_pct": 0.7,
+    "cereal_production_tonnes": 3055969.8,
+    "meat_production_tonnes": 367361.47,
+    "fish_consumption_kg_pc": 2.1400003
   },
   {
     "iso3": "DMA",
@@ -1702,7 +2161,12 @@
     "capital_city": "Roseau",
     "income_level": "Upper middle income",
     "latitude": "15.2976",
-    "longitude": "-61.39"
+    "longitude": "-61.39",
+    "forest_area_pct": 76.70133,
+    "co2_per_capita": 2.4663935,
+    "food_insecurity_pct": 5.8,
+    "cereal_production_tonnes": 193.13,
+    "meat_production_tonnes": 1405.45
   },
   {
     "iso3": "GEO",
@@ -1721,7 +2185,13 @@
     "capital_city": "Tbilisi",
     "income_level": "Upper middle income",
     "latitude": "41.71",
-    "longitude": "44.793"
+    "longitude": "44.793",
+    "forest_area_pct": 44.61793,
+    "co2_per_capita": 3.1622012,
+    "food_insecurity_pct": 7.5,
+    "cereal_production_tonnes": 377780.03,
+    "meat_production_tonnes": 88812.27,
+    "fish_consumption_kg_pc": 10.329989
   },
   {
     "iso3": "PER",
@@ -1740,7 +2210,13 @@
     "capital_city": "Lima",
     "income_level": "Upper middle income",
     "latitude": "-12.0931",
-    "longitude": "-77.0465"
+    "longitude": "-77.0465",
+    "forest_area_pct": 53.403996,
+    "co2_per_capita": 1.9352938,
+    "food_insecurity_pct": 14.8,
+    "cereal_production_tonnes": 5540009.5,
+    "meat_production_tonnes": 2389930.2,
+    "fish_consumption_kg_pc": 25.940004
   },
   {
     "iso3": "MAR",
@@ -1759,7 +2235,12 @@
     "capital_city": "Rabat",
     "income_level": "Lower middle income",
     "latitude": "33.9905",
-    "longitude": "-6.8704"
+    "longitude": "-6.8704",
+    "forest_area_pct": 12.758423,
+    "co2_per_capita": 1.8693061,
+    "cereal_production_tonnes": 3511705.2,
+    "meat_production_tonnes": 1222410.5,
+    "fish_consumption_kg_pc": 16.709991
   },
   {
     "iso3": "SUR",
@@ -1776,7 +2257,13 @@
     "capital_city": "Paramaribo",
     "income_level": "Upper middle income",
     "latitude": "5.8232",
-    "longitude": "-55.1679"
+    "longitude": "-55.1679",
+    "forest_area_pct": 91.87856,
+    "co2_per_capita": 4.537399,
+    "food_insecurity_pct": 7.2,
+    "cereal_production_tonnes": 184264.0,
+    "meat_production_tonnes": 12564.97,
+    "fish_consumption_kg_pc": 16.669947
   },
   {
     "iso3": "VCT",
@@ -1793,7 +2280,12 @@
     "capital_city": "Kingstown",
     "income_level": "Upper middle income",
     "latitude": "13.2035",
-    "longitude": "-61.2653"
+    "longitude": "-61.2653",
+    "forest_area_pct": 73.23077,
+    "co2_per_capita": 2.417115,
+    "cereal_production_tonnes": 640.0,
+    "meat_production_tonnes": 499.0,
+    "fish_consumption_kg_pc": 20.047823
   },
   {
     "iso3": "ARM",
@@ -1812,7 +2304,13 @@
     "capital_city": "Yerevan",
     "income_level": "Upper middle income",
     "latitude": "40.1596",
-    "longitude": "44.509"
+    "longitude": "44.509",
+    "forest_area_pct": 11.732912,
+    "co2_per_capita": 2.6723685,
+    "food_insecurity_pct": 0.5,
+    "cereal_production_tonnes": 239505.3,
+    "meat_production_tonnes": 105514.98,
+    "fish_consumption_kg_pc": 4.859987
   },
   {
     "iso3": "BTN",
@@ -1830,7 +2328,12 @@
     "capital_city": "Thimphu",
     "income_level": "Lower middle income",
     "latitude": "27.5768",
-    "longitude": "89.6177"
+    "longitude": "89.6177",
+    "forest_area_pct": 71.019295,
+    "co2_per_capita": 1.9843147,
+    "cereal_production_tonnes": 71354.25,
+    "meat_production_tonnes": 4553.39,
+    "fish_consumption_kg_pc": 6.2599525
   },
   {
     "iso3": "MUS",
@@ -1849,7 +2352,13 @@
     "capital_city": "Port Louis",
     "income_level": "Upper middle income",
     "latitude": "-20.1605",
-    "longitude": "57.4977"
+    "longitude": "57.4977",
+    "forest_area_pct": 19.173761,
+    "co2_per_capita": 3.3826706,
+    "food_insecurity_pct": 10.2,
+    "cereal_production_tonnes": 823.1,
+    "meat_production_tonnes": 54740.84,
+    "fish_consumption_kg_pc": 29.399975
   },
   {
     "iso3": "MNG",
@@ -1868,7 +2377,13 @@
     "capital_city": "Ulaanbaatar",
     "income_level": "Upper middle income",
     "latitude": "47.9129",
-    "longitude": "106.937"
+    "longitude": "106.937",
+    "forest_area_pct": 9.103222,
+    "co2_per_capita": 11.944179,
+    "food_insecurity_pct": 0.6,
+    "cereal_production_tonnes": 428648.88,
+    "meat_production_tonnes": 378314.47,
+    "fish_consumption_kg_pc": 1.0299976
   },
   {
     "iso3": "UZB",
@@ -1887,7 +2402,13 @@
     "capital_city": "Tashkent",
     "income_level": "Lower middle income",
     "latitude": "41.3052",
-    "longitude": "69.269"
+    "longitude": "69.269",
+    "forest_area_pct": 8.464816,
+    "co2_per_capita": 3.4089596,
+    "food_insecurity_pct": 6.3,
+    "cereal_production_tonnes": 7518003.0,
+    "meat_production_tonnes": 1614338.6,
+    "fish_consumption_kg_pc": 5.2099996
   },
   {
     "iso3": "KGZ",
@@ -1906,7 +2427,13 @@
     "capital_city": "Bishkek",
     "income_level": "Lower middle income",
     "latitude": "42.8851",
-    "longitude": "74.6057"
+    "longitude": "74.6057",
+    "forest_area_pct": 6.544442,
+    "co2_per_capita": 1.6551521,
+    "food_insecurity_pct": 1.1,
+    "cereal_production_tonnes": 1912670.4,
+    "meat_production_tonnes": 258625.31,
+    "fish_consumption_kg_pc": 1.4599994
   },
   {
     "iso3": "COL",
@@ -1926,7 +2453,13 @@
     "income_level": "Upper middle income",
     "latitude": "4.60987",
     "longitude": "-74.082",
-    "calling_code": "+57"
+    "calling_code": "+57",
+    "forest_area_pct": 54.069397,
+    "co2_per_capita": 1.7286528,
+    "food_insecurity_pct": 5.3,
+    "cereal_production_tonnes": 4558570.5,
+    "meat_production_tonnes": 3160733.5,
+    "fish_consumption_kg_pc": 10.309999
   },
   {
     "iso3": "LCA",
@@ -1943,7 +2476,11 @@
     "capital_city": "Castries",
     "income_level": "Upper middle income",
     "latitude": "14",
-    "longitude": "-60.9832"
+    "longitude": "-60.9832",
+    "forest_area_pct": 53.508198,
+    "co2_per_capita": 2.8977146,
+    "meat_production_tonnes": 3004.85,
+    "fish_consumption_kg_pc": 24.94847
   },
   {
     "iso3": "VNM",
@@ -1962,7 +2499,13 @@
     "income_level": "Upper middle income",
     "latitude": "21.0069",
     "longitude": "105.825",
-    "calling_code": "+84"
+    "calling_code": "+84",
+    "forest_area_pct": 46.89991,
+    "co2_per_capita": 3.2368684,
+    "food_insecurity_pct": 2.1,
+    "cereal_production_tonnes": 47085610.0,
+    "meat_production_tonnes": 5598991.0,
+    "fish_consumption_kg_pc": 40.06
   },
   {
     "iso3": "IRN",
@@ -1980,7 +2523,13 @@
     "capital_city": "Tehran",
     "income_level": "Upper middle income",
     "latitude": "35.6878",
-    "longitude": "51.4447"
+    "longitude": "51.4447",
+    "forest_area_pct": 6.626194,
+    "co2_per_capita": 8.569505,
+    "food_insecurity_pct": 6.4,
+    "cereal_production_tonnes": 20423028.0,
+    "meat_production_tonnes": 2801496.5,
+    "fish_consumption_kg_pc": 11.3
   },
   {
     "iso3": "PRY",
@@ -1999,7 +2548,13 @@
     "capital_city": "Asuncion",
     "income_level": "Upper middle income",
     "latitude": "-25.3005",
-    "longitude": "-57.6362"
+    "longitude": "-57.6362",
+    "forest_area_pct": 37.757008,
+    "co2_per_capita": 1.1143297,
+    "food_insecurity_pct": 6.6,
+    "cereal_production_tonnes": 6604955.0,
+    "meat_production_tonnes": 580201.1,
+    "fish_consumption_kg_pc": 5.33
   },
   {
     "iso3": "BLZ",
@@ -2017,7 +2572,12 @@
     "capital_city": "Belmopan",
     "income_level": "Upper middle income",
     "latitude": "17.2534",
-    "longitude": "-88.7713"
+    "longitude": "-88.7713",
+    "forest_area_pct": 58.97317,
+    "co2_per_capita": 1.7970879,
+    "cereal_production_tonnes": 146715.0,
+    "meat_production_tonnes": 28601.79,
+    "fish_consumption_kg_pc": 16.939917
   },
   {
     "iso3": "UKR",
@@ -2037,7 +2597,13 @@
     "income_level": "Upper middle income",
     "latitude": "50.4536",
     "longitude": "30.5038",
-    "calling_code": "+380"
+    "calling_code": "+380",
+    "forest_area_pct": 17.152225,
+    "co2_per_capita": 3.4846325,
+    "food_insecurity_pct": 5.3,
+    "cereal_production_tonnes": 53536000.0,
+    "meat_production_tonnes": 2105950.0,
+    "fish_consumption_kg_pc": 16.860004
   },
   {
     "iso3": "LBY",
@@ -2055,7 +2621,13 @@
     "capital_city": "Tripoli",
     "income_level": "Upper middle income",
     "latitude": "32.8578",
-    "longitude": "13.1072"
+    "longitude": "13.1072",
+    "forest_area_pct": 0.11745456,
+    "co2_per_capita": 8.163843,
+    "food_insecurity_pct": 19.9,
+    "cereal_production_tonnes": 209824.8,
+    "meat_production_tonnes": 184575.81,
+    "fish_consumption_kg_pc": 12.880002
   },
   {
     "iso3": "MDA",
@@ -2074,7 +2646,13 @@
     "capital_city": "Chisinau",
     "income_level": "Upper middle income",
     "latitude": "47.0167",
-    "longitude": "28.8497"
+    "longitude": "28.8497",
+    "forest_area_pct": 11.329279,
+    "co2_per_capita": 1.7018101,
+    "food_insecurity_pct": 5.3,
+    "cereal_production_tonnes": 1758059.0,
+    "meat_production_tonnes": 78232.38,
+    "fish_consumption_kg_pc": 16.30432
   },
   {
     "iso3": "GRD",
@@ -2091,7 +2669,13 @@
     "capital_city": "Saint George's",
     "income_level": "Upper middle income",
     "latitude": "12.0653",
-    "longitude": "-61.7449"
+    "longitude": "-61.7449",
+    "forest_area_pct": 52.058823,
+    "co2_per_capita": 2.928238,
+    "food_insecurity_pct": 5.3,
+    "cereal_production_tonnes": 388.4,
+    "meat_production_tonnes": 1781.2,
+    "fish_consumption_kg_pc": 20.32757
   },
   {
     "iso3": "KIR",
@@ -2110,7 +2694,12 @@
     "capital_city": "Tarawa",
     "income_level": "Lower middle income",
     "latitude": "1.32905",
-    "longitude": "172.979"
+    "longitude": "172.979",
+    "forest_area_pct": 1.3209877,
+    "co2_per_capita": 0.53352547,
+    "food_insecurity_pct": 6.9,
+    "meat_production_tonnes": 2242.19,
+    "fish_consumption_kg_pc": 72.27454
   },
   {
     "iso3": "IRQ",
@@ -2128,7 +2717,12 @@
     "capital_city": "Baghdad",
     "income_level": "Upper middle income",
     "latitude": "33.3302",
-    "longitude": "44.394"
+    "longitude": "44.394",
+    "forest_area_pct": 1.6561153,
+    "co2_per_capita": 4.9385333,
+    "cereal_production_tonnes": 3724581.2,
+    "meat_production_tonnes": 286984.44,
+    "fish_consumption_kg_pc": 2.2729564
   },
   {
     "iso3": "ECU",
@@ -2147,7 +2741,13 @@
     "capital_city": "Quito",
     "income_level": "Upper middle income",
     "latitude": "-0.229498",
-    "longitude": "-78.5243"
+    "longitude": "-78.5243",
+    "forest_area_pct": 50.052086,
+    "co2_per_capita": 2.36007,
+    "food_insecurity_pct": 12.7,
+    "cereal_production_tonnes": 2928676.0,
+    "meat_production_tonnes": 1035577.44,
+    "fish_consumption_kg_pc": 6.4500003
   },
   {
     "iso3": "IDN",
@@ -2166,7 +2766,13 @@
     "income_level": "Upper middle income",
     "latitude": "-6.19752",
     "longitude": "106.83",
-    "calling_code": "+62"
+    "calling_code": "+62",
+    "forest_area_pct": 50.53663,
+    "co2_per_capita": 2.7185707,
+    "food_insecurity_pct": 0.5,
+    "cereal_production_tonnes": 71276250.0,
+    "meat_production_tonnes": 5113220.0,
+    "fish_consumption_kg_pc": 40.42
   },
   {
     "iso3": "DZA",
@@ -2184,7 +2790,13 @@
     "capital_city": "Algiers",
     "income_level": "Upper middle income",
     "latitude": "36.7397",
-    "longitude": "3.05097"
+    "longitude": "3.05097",
+    "forest_area_pct": 0.71126795,
+    "co2_per_capita": 4.238998,
+    "food_insecurity_pct": 5.6,
+    "cereal_production_tonnes": 4093860.2,
+    "meat_production_tonnes": 1046221.4,
+    "fish_consumption_kg_pc": 2.7499998
   },
   {
     "iso3": "BOL",
@@ -2202,7 +2814,12 @@
     "capital_city": "La Paz",
     "income_level": "Lower middle income",
     "latitude": "-13.9908",
-    "longitude": "-66.1936"
+    "longitude": "-66.1936",
+    "forest_area_pct": 51.074783,
+    "co2_per_capita": 1.9448458,
+    "cereal_production_tonnes": 2615641.2,
+    "meat_production_tonnes": 1130531.6,
+    "fish_consumption_kg_pc": 2.1199996
   },
   {
     "iso3": "VIR",
@@ -2218,7 +2835,8 @@
     "capital_city": "Charlotte Amalie",
     "income_level": "High income",
     "latitude": "18.3358",
-    "longitude": "-64.8963"
+    "longitude": "-64.8963",
+    "forest_area_pct": 57.314285
   },
   {
     "iso3": "LBN",
@@ -2237,7 +2855,13 @@
     "capital_city": "Beirut",
     "income_level": "Lower middle income",
     "latitude": "33.8872",
-    "longitude": "35.5134"
+    "longitude": "35.5134",
+    "forest_area_pct": 13.776735,
+    "co2_per_capita": 2.6739883,
+    "food_insecurity_pct": 11.7,
+    "cereal_production_tonnes": 195310.56,
+    "meat_production_tonnes": 184744.05,
+    "fish_consumption_kg_pc": 4.739997
   },
   {
     "iso3": "FJI",
@@ -2256,7 +2880,13 @@
     "capital_city": "Suva",
     "income_level": "Upper middle income",
     "latitude": "-18.1149",
-    "longitude": "178.399"
+    "longitude": "178.399",
+    "forest_area_pct": 61.197155,
+    "co2_per_capita": 1.5103477,
+    "food_insecurity_pct": 8.5,
+    "cereal_production_tonnes": 15064.76,
+    "meat_production_tonnes": 54528.62,
+    "fish_consumption_kg_pc": 27.95
   },
   {
     "iso3": "SXM",
@@ -2269,7 +2899,9 @@
     "population": 43923.0,
     "gdp_growth": 3.40000000000001,
     "capital_city": "Philipsburg",
-    "income_level": "High income"
+    "income_level": "High income",
+    "forest_area_pct": 8.823529,
+    "co2_per_capita": 16.42426
   },
   {
     "iso3": "CPV",
@@ -2287,7 +2919,13 @@
     "capital_city": "Praia",
     "income_level": "Upper middle income",
     "latitude": "14.9218",
-    "longitude": "-23.5087"
+    "longitude": "-23.5087",
+    "forest_area_pct": 12.05459,
+    "co2_per_capita": 1.1498797,
+    "food_insecurity_pct": 6.0,
+    "cereal_production_tonnes": 221.6,
+    "meat_production_tonnes": 4614.99,
+    "fish_consumption_kg_pc": 10.669898
   },
   {
     "iso3": "TUN",
@@ -2305,7 +2943,13 @@
     "capital_city": "Tunis",
     "income_level": "Lower middle income",
     "latitude": "36.7899",
-    "longitude": "10.21"
+    "longitude": "10.21",
+    "forest_area_pct": 4.4844103,
+    "co2_per_capita": 2.5401497,
+    "food_insecurity_pct": 11.3,
+    "cereal_production_tonnes": 1713881.0,
+    "meat_production_tonnes": 376757.72,
+    "fish_consumption_kg_pc": 15.879994
   },
   {
     "iso3": "GAB",
@@ -2324,7 +2968,12 @@
     "capital_city": "Libreville",
     "income_level": "Upper middle income",
     "latitude": "0.38832",
-    "longitude": "9.45162"
+    "longitude": "9.45162",
+    "forest_area_pct": 91.52109,
+    "co2_per_capita": 2.3792052,
+    "cereal_production_tonnes": 47770.23,
+    "meat_production_tonnes": 41672.85,
+    "fish_consumption_kg_pc": 27.03
   },
   {
     "iso3": "GUM",
@@ -2340,7 +2989,8 @@
     "capital_city": "Agana",
     "income_level": "High income",
     "latitude": "13.4443",
-    "longitude": "144.794"
+    "longitude": "144.794",
+    "forest_area_pct": 52.351852
   },
   {
     "iso3": "VEN",
@@ -2357,7 +3007,12 @@
     "capital_city": "Caracas",
     "income_level": "Lower middle income",
     "latitude": "9.08165",
-    "longitude": "-69.8371"
+    "longitude": "-69.8371",
+    "forest_area_pct": 53.608536,
+    "co2_per_capita": 3.8430314,
+    "cereal_production_tonnes": 3267433.0,
+    "meat_production_tonnes": 1098888.9,
+    "fish_consumption_kg_pc": 8.749996
   },
   {
     "iso3": "MHL",
@@ -2374,7 +3029,10 @@
     "capital_city": "Majuro",
     "income_level": "Upper middle income",
     "latitude": "7.11046",
-    "longitude": "171.135"
+    "longitude": "171.135",
+    "forest_area_pct": 53.944443,
+    "co2_per_capita": 3.7019005,
+    "fish_consumption_kg_pc": 44.548203
   },
   {
     "iso3": "TON",
@@ -2393,7 +3051,12 @@
     "capital_city": "Nuku'alofa",
     "income_level": "Upper middle income",
     "latitude": "-21.136",
-    "longitude": "-175.216"
+    "longitude": "-175.216",
+    "forest_area_pct": 12.125,
+    "co2_per_capita": 1.3951054,
+    "food_insecurity_pct": 2.6,
+    "meat_production_tonnes": 2466.62,
+    "fish_consumption_kg_pc": 28.576448
   },
   {
     "iso3": "GHA",
@@ -2412,7 +3075,13 @@
     "capital_city": "Accra",
     "income_level": "Lower middle income",
     "latitude": "5.57045",
-    "longitude": "-0.20795"
+    "longitude": "-0.20795",
+    "forest_area_pct": 30.384516,
+    "co2_per_capita": 0.6258142,
+    "food_insecurity_pct": 8.2,
+    "cereal_production_tonnes": 5136562.5,
+    "meat_production_tonnes": 323365.16,
+    "fish_consumption_kg_pc": 23.619997
   },
   {
     "iso3": "PHL",
@@ -2432,7 +3101,13 @@
     "income_level": "Upper middle income",
     "latitude": "14.5515",
     "longitude": "121.035",
-    "calling_code": "+63"
+    "calling_code": "+63",
+    "forest_area_pct": 24.378174,
+    "co2_per_capita": 1.3246514,
+    "food_insecurity_pct": 2.5,
+    "cereal_production_tonnes": 28012712.0,
+    "meat_production_tonnes": 3267645.2,
+    "fish_consumption_kg_pc": 26.34
   },
   {
     "iso3": "ABW",
@@ -2448,7 +3123,9 @@
     "capital_city": "Oranjestad",
     "income_level": "High income",
     "latitude": "12.5167",
-    "longitude": "-70.0167"
+    "longitude": "-70.0167",
+    "forest_area_pct": 2.7222223,
+    "co2_per_capita": 8.241623
   },
   {
     "iso3": "SLV",
@@ -2467,7 +3144,13 @@
     "capital_city": "San Salvador",
     "income_level": "Upper middle income",
     "latitude": "13.7034",
-    "longitude": "-89.2073"
+    "longitude": "-89.2073",
+    "forest_area_pct": 32.89073,
+    "co2_per_capita": 1.2599217,
+    "food_insecurity_pct": 15.8,
+    "cereal_production_tonnes": 900080.0,
+    "meat_production_tonnes": 191382.84,
+    "fish_consumption_kg_pc": 7.21999
   },
   {
     "iso3": "GNQ",
@@ -2486,7 +3169,10 @@
     "capital_city": "Malabo",
     "income_level": "Upper middle income",
     "latitude": "3.7523",
-    "longitude": "8.7741"
+    "longitude": "8.7741",
+    "forest_area_pct": 86.98966,
+    "co2_per_capita": 4.1567073,
+    "meat_production_tonnes": 655.58
   },
   {
     "iso3": "TCA",
@@ -2501,7 +3187,9 @@
     "capital_city": "Grand Turk",
     "income_level": "High income",
     "latitude": "21.4602778",
-    "longitude": "-71.141389"
+    "longitude": "-71.141389",
+    "forest_area_pct": 11.073684,
+    "co2_per_capita": 7.9697833
   },
   {
     "iso3": "NAM",
@@ -2520,7 +3208,13 @@
     "capital_city": "Windhoek",
     "income_level": "Lower middle income",
     "latitude": "-22.5648",
-    "longitude": "17.0931"
+    "longitude": "17.0931",
+    "forest_area_pct": 9.772421,
+    "co2_per_capita": 1.181398,
+    "food_insecurity_pct": 31.8,
+    "cereal_production_tonnes": 168181.0,
+    "meat_production_tonnes": 78955.37,
+    "fish_consumption_kg_pc": 9.669961
   },
   {
     "iso3": "KHM",
@@ -2539,7 +3233,13 @@
     "capital_city": "Phnom Penh",
     "income_level": "Lower middle income",
     "latitude": "11.5556",
-    "longitude": "104.874"
+    "longitude": "104.874",
+    "forest_area_pct": 42.873928,
+    "co2_per_capita": 1.2129679,
+    "food_insecurity_pct": 4.3,
+    "cereal_production_tonnes": 13014700.0,
+    "meat_production_tonnes": 192857.7,
+    "fish_consumption_kg_pc": 39.41999
   },
   {
     "iso3": "GTM",
@@ -2558,7 +3258,13 @@
     "capital_city": "Guatemala City",
     "income_level": "Upper middle income",
     "latitude": "14.6248",
-    "longitude": "-90.5328"
+    "longitude": "-90.5328",
+    "forest_area_pct": 33.48647,
+    "co2_per_capita": 1.0596977,
+    "food_insecurity_pct": 20.8,
+    "cereal_production_tonnes": 2158161.5,
+    "meat_production_tonnes": 753191.5,
+    "fish_consumption_kg_pc": 3.7699997
   },
   {
     "iso3": "BWA",
@@ -2577,7 +3283,13 @@
     "capital_city": "Gaborone",
     "income_level": "Upper middle income",
     "latitude": "-24.6544",
-    "longitude": "25.9201"
+    "longitude": "25.9201",
+    "forest_area_pct": 27.756075,
+    "co2_per_capita": 3.0311775,
+    "food_insecurity_pct": 26.6,
+    "cereal_production_tonnes": 115579.91,
+    "meat_production_tonnes": 101746.55,
+    "fish_consumption_kg_pc": 2.2199981
   },
   {
     "iso3": "DJI",
@@ -2595,7 +3307,13 @@
     "capital_city": "Djibouti",
     "income_level": "Lower middle income",
     "latitude": "11.5806",
-    "longitude": "43.1425"
+    "longitude": "43.1425",
+    "forest_area_pct": 0.25409836,
+    "co2_per_capita": 0.4840291,
+    "food_insecurity_pct": 16.5,
+    "cereal_production_tonnes": 17.22,
+    "meat_production_tonnes": 11738.52,
+    "fish_consumption_kg_pc": 5.309949
   },
   {
     "iso3": "SWZ",
@@ -2613,7 +3331,13 @@
     "capital_city": "Mbabane",
     "income_level": "Lower middle income",
     "latitude": "-26.5225",
-    "longitude": "31.4659"
+    "longitude": "31.4659",
+    "forest_area_pct": 25.527325,
+    "co2_per_capita": 0.8435616,
+    "food_insecurity_pct": 18.6,
+    "cereal_production_tonnes": 129719.66,
+    "meat_production_tonnes": 26282.82,
+    "fish_consumption_kg_pc": 3.7900093
   },
   {
     "iso3": "CUB",
@@ -2629,7 +3353,11 @@
     "capital_city": "Havana",
     "income_level": "Upper middle income",
     "latitude": "23.1333",
-    "longitude": "-82.3667"
+    "longitude": "-82.3667",
+    "forest_area_pct": 34.813293,
+    "co2_per_capita": 2.1029758,
+    "cereal_production_tonnes": 314516.88,
+    "meat_production_tonnes": 101472.47
   },
   {
     "iso3": "LAO",
@@ -2647,7 +3375,13 @@
     "capital_city": "Vientiane",
     "income_level": "Lower middle income",
     "latitude": "18.5826",
-    "longitude": "102.177"
+    "longitude": "102.177",
+    "forest_area_pct": 57.09435,
+    "co2_per_capita": 2.9830346,
+    "food_insecurity_pct": 6.2,
+    "cereal_production_tonnes": 4244390.0,
+    "meat_production_tonnes": 231256.4,
+    "fish_consumption_kg_pc": 28.51996
   },
   {
     "iso3": "PAK",
@@ -2666,7 +3400,13 @@
     "income_level": "Lower middle income",
     "latitude": "30.5167",
     "longitude": "72.8",
-    "calling_code": "+92"
+    "calling_code": "+92",
+    "forest_area_pct": 4.033463,
+    "co2_per_capita": 0.8697954,
+    "food_insecurity_pct": 11.4,
+    "cereal_production_tonnes": 48519330.0,
+    "meat_production_tonnes": 5850952.5,
+    "fish_consumption_kg_pc": 1.35
   },
   {
     "iso3": "NIC",
@@ -2685,7 +3425,11 @@
     "capital_city": "Managua",
     "income_level": "Lower middle income",
     "latitude": "12.1475",
-    "longitude": "-86.2734"
+    "longitude": "-86.2734",
+    "forest_area_pct": 40.46206,
+    "co2_per_capita": 0.7623672,
+    "cereal_production_tonnes": 949096.6,
+    "fish_consumption_kg_pc": 7.33999
   },
   {
     "iso3": "STP",
@@ -2703,7 +3447,13 @@
     "capital_city": "Sao Tome",
     "income_level": "Lower middle income",
     "latitude": "0.20618",
-    "longitude": "6.6071"
+    "longitude": "6.6071",
+    "forest_area_pct": 57.475,
+    "co2_per_capita": 0.59902877,
+    "food_insecurity_pct": 14.1,
+    "cereal_production_tonnes": 780.65,
+    "meat_production_tonnes": 1724.66,
+    "fish_consumption_kg_pc": 26.518621
   },
   {
     "iso3": "HND",
@@ -2721,7 +3471,13 @@
     "capital_city": "Tegucigalpa",
     "income_level": "Lower middle income",
     "latitude": "15.1333",
-    "longitude": "-87.4667"
+    "longitude": "-87.4667",
+    "forest_area_pct": 54.180088,
+    "co2_per_capita": 1.1221477,
+    "food_insecurity_pct": 15.3,
+    "cereal_production_tonnes": 751006.9,
+    "meat_production_tonnes": 302166.1,
+    "fish_consumption_kg_pc": 4.3899984
   },
   {
     "iso3": "LKA",
@@ -2741,7 +3497,13 @@
     "income_level": "Upper middle income",
     "latitude": "6.92148",
     "longitude": "79.8528",
-    "calling_code": "+94"
+    "calling_code": "+94",
+    "forest_area_pct": 34.60178,
+    "co2_per_capita": 0.80477285,
+    "food_insecurity_pct": 1.2,
+    "cereal_production_tonnes": 3663231.0,
+    "meat_production_tonnes": 291946.0,
+    "fish_consumption_kg_pc": 22.730003
   },
   {
     "iso3": "SEN",
@@ -2760,7 +3522,13 @@
     "capital_city": "Dakar",
     "income_level": "Lower middle income",
     "latitude": "14.7247",
-    "longitude": "-17.4734"
+    "longitude": "-17.4734",
+    "forest_area_pct": 45.24739,
+    "co2_per_capita": 0.8006707,
+    "food_insecurity_pct": 4.0,
+    "cereal_production_tonnes": 3663690.0,
+    "meat_production_tonnes": 341094.0,
+    "fish_consumption_kg_pc": 13.749998
   },
   {
     "iso3": "BGD",
@@ -2780,7 +3548,12 @@
     "income_level": "Lower middle income",
     "latitude": "23.7055",
     "longitude": "90.4113",
-    "calling_code": "+880"
+    "calling_code": "+880",
+    "forest_area_pct": 14.422462,
+    "co2_per_capita": 0.6030491,
+    "cereal_production_tonnes": 63136360.0,
+    "meat_production_tonnes": 777844.2,
+    "fish_consumption_kg_pc": 26.98
   },
   {
     "iso3": "NCL",
@@ -2796,7 +3569,12 @@
     "capital_city": "Noum'ea",
     "income_level": "High income",
     "latitude": "-22.2677",
-    "longitude": "166.464"
+    "longitude": "166.464",
+    "forest_area_pct": 48.82987,
+    "co2_per_capita": 17.816309,
+    "cereal_production_tonnes": 4247.0,
+    "meat_production_tonnes": 6852.47,
+    "fish_consumption_kg_pc": 22.499302
   },
   {
     "iso3": "TJK",
@@ -2814,7 +3592,13 @@
     "capital_city": "Dushanbe",
     "income_level": "Lower middle income",
     "latitude": "38.5878",
-    "longitude": "68.7864"
+    "longitude": "68.7864",
+    "forest_area_pct": 3.0499315,
+    "co2_per_capita": 1.0332633,
+    "food_insecurity_pct": 6.7,
+    "cereal_production_tonnes": 1461222.4,
+    "meat_production_tonnes": 452314.84,
+    "fish_consumption_kg_pc": 0.9099994
   },
   {
     "iso3": "LSO",
@@ -2833,7 +3617,13 @@
     "capital_city": "Maseru",
     "income_level": "Lower middle income",
     "latitude": "-29.5208",
-    "longitude": "27.7167"
+    "longitude": "27.7167",
+    "forest_area_pct": 1.1370224,
+    "co2_per_capita": 1.1160188,
+    "food_insecurity_pct": 25.3,
+    "cereal_production_tonnes": 82449.58,
+    "meat_production_tonnes": 8836.89,
+    "fish_consumption_kg_pc": 1.919995
   },
   {
     "iso3": "HTI",
@@ -2851,7 +3641,13 @@
     "capital_city": "Port-au-Prince",
     "income_level": "Lower middle income",
     "latitude": "18.5392",
-    "longitude": "-72.3288"
+    "longitude": "-72.3288",
+    "forest_area_pct": 13.298259,
+    "co2_per_capita": 0.2495167,
+    "food_insecurity_pct": 42.4,
+    "cereal_production_tonnes": 340000.0,
+    "meat_production_tonnes": 108359.69,
+    "fish_consumption_kg_pc": 5.419999
   },
   {
     "iso3": "COG",
@@ -2870,7 +3666,12 @@
     "capital_city": "Brazzaville",
     "income_level": "Lower middle income",
     "latitude": "-4.2767",
-    "longitude": "15.2662"
+    "longitude": "15.2662",
+    "forest_area_pct": 63.829575,
+    "co2_per_capita": 1.446125,
+    "cereal_production_tonnes": 30613.72,
+    "meat_production_tonnes": 62067.86,
+    "fish_consumption_kg_pc": 23.19
   },
   {
     "iso3": "GMB",
@@ -2888,7 +3689,13 @@
     "capital_city": "Banjul",
     "income_level": "Low income",
     "latitude": "13.4495",
-    "longitude": "-16.5885"
+    "longitude": "-16.5885",
+    "forest_area_pct": 23.281225,
+    "co2_per_capita": 0.3064694,
+    "food_insecurity_pct": 25.5,
+    "cereal_production_tonnes": 107382.38,
+    "meat_production_tonnes": 8278.5,
+    "fish_consumption_kg_pc": 20.17003
   },
   {
     "iso3": "CMR",
@@ -2907,7 +3714,13 @@
     "capital_city": "Yaounde",
     "income_level": "Lower middle income",
     "latitude": "3.8721",
-    "longitude": "11.5174"
+    "longitude": "11.5174",
+    "forest_area_pct": 41.486416,
+    "co2_per_capita": 0.3543776,
+    "food_insecurity_pct": 25.4,
+    "cereal_production_tonnes": 3843696.2,
+    "meat_production_tonnes": 418230.8,
+    "fish_consumption_kg_pc": 18.12
   },
   {
     "iso3": "NGA",
@@ -2925,7 +3738,13 @@
     "income_level": "Lower middle income",
     "latitude": "9.05804",
     "longitude": "7.48906",
-    "calling_code": "+234"
+    "calling_code": "+234",
+    "forest_area_pct": 19.365469,
+    "co2_per_capita": 0.58902264,
+    "food_insecurity_pct": 22.6,
+    "cereal_production_tonnes": 30314054.0,
+    "meat_production_tonnes": 1679581.5,
+    "fish_consumption_kg_pc": 6.9
   },
   {
     "iso3": "MRT",
@@ -2943,7 +3762,13 @@
     "capital_city": "Nouakchott",
     "income_level": "Lower middle income",
     "latitude": "18.2367",
-    "longitude": "-15.9824"
+    "longitude": "-15.9824",
+    "forest_area_pct": 0.97856796,
+    "co2_per_capita": 1.0803561,
+    "food_insecurity_pct": 11.6,
+    "cereal_production_tonnes": 544116.5,
+    "meat_production_tonnes": 134115.58,
+    "fish_consumption_kg_pc": 7.5999966
   },
   {
     "iso3": "NPL",
@@ -2962,7 +3787,13 @@
     "capital_city": "Kathmandu",
     "income_level": "Lower middle income",
     "latitude": "27.6939",
-    "longitude": "85.3157"
+    "longitude": "85.3157",
+    "forest_area_pct": 43.250298,
+    "co2_per_capita": 0.5925866,
+    "food_insecurity_pct": 13.5,
+    "cereal_production_tonnes": 11128345.0,
+    "meat_production_tonnes": 447767.0,
+    "fish_consumption_kg_pc": 4.2799997
   },
   {
     "iso3": "CIV",
@@ -2981,7 +3812,13 @@
     "capital_city": "Yamoussoukro",
     "income_level": "Lower middle income",
     "latitude": "5.332",
-    "longitude": "-4.0305"
+    "longitude": "-4.0305",
+    "forest_area_pct": 12.884963,
+    "co2_per_capita": 0.47719425,
+    "food_insecurity_pct": 8.9,
+    "cereal_production_tonnes": 3065235.0,
+    "meat_production_tonnes": 441063.7,
+    "fish_consumption_kg_pc": 23.699999
   },
   {
     "iso3": "FSM",
@@ -2999,7 +3836,12 @@
     "capital_city": "Palikir",
     "income_level": "Upper middle income",
     "latitude": "6.91771",
-    "longitude": "158.185"
+    "longitude": "158.185",
+    "forest_area_pct": 92.07143,
+    "co2_per_capita": 1.2907457,
+    "cereal_production_tonnes": 290.32,
+    "meat_production_tonnes": 1481.83,
+    "fish_consumption_kg_pc": 48.983044
   },
   {
     "iso3": "ZWE",
@@ -3017,7 +3859,13 @@
     "capital_city": "Harare",
     "income_level": "Lower middle income",
     "latitude": "-17.8312",
-    "longitude": "31.0672"
+    "longitude": "31.0672",
+    "forest_area_pct": 36.132893,
+    "co2_per_capita": 0.7612047,
+    "food_insecurity_pct": 26.1,
+    "cereal_production_tonnes": 1290692.8,
+    "meat_production_tonnes": 948763.9,
+    "fish_consumption_kg_pc": 2.6299987
   },
   {
     "iso3": "AGO",
@@ -3036,7 +3884,12 @@
     "capital_city": "Luanda",
     "income_level": "Lower middle income",
     "latitude": "-8.81155",
-    "longitude": "13.242"
+    "longitude": "13.242",
+    "forest_area_pct": 52.38024,
+    "co2_per_capita": 0.59180546,
+    "cereal_production_tonnes": 3179113.0,
+    "meat_production_tonnes": 360122.72,
+    "fish_consumption_kg_pc": 14.34
   },
   {
     "iso3": "CUW",
@@ -3049,7 +3902,9 @@
     "population": 156263.0,
     "gdp_growth": 5.02690015475606,
     "capital_city": "Willemstad",
-    "income_level": "High income"
+    "income_level": "High income",
+    "forest_area_pct": 0.15765765,
+    "co2_per_capita": 11.920108
   },
   {
     "iso3": "PYF",
@@ -3065,7 +3920,11 @@
     "capital_city": "Papeete",
     "income_level": "High income",
     "latitude": "-17.535",
-    "longitude": "-149.57"
+    "longitude": "-149.57",
+    "forest_area_pct": 43.059635,
+    "co2_per_capita": 3.1623607,
+    "meat_production_tonnes": 1800.73,
+    "fish_consumption_kg_pc": 50.509098
   },
   {
     "iso3": "MAF",
@@ -3078,7 +3937,8 @@
     "population": 24941.0,
     "gdp_growth": 4.89999967133534,
     "capital_city": "Marigot",
-    "income_level": "High income"
+    "income_level": "High income",
+    "forest_area_pct": 24.8
   },
   {
     "iso3": "TGO",
@@ -3097,7 +3957,12 @@
     "capital_city": "Lome",
     "income_level": "Lower middle income",
     "latitude": "6.1228",
-    "longitude": "1.2255"
+    "longitude": "1.2255",
+    "forest_area_pct": 22.289024,
+    "co2_per_capita": 0.33942214,
+    "food_insecurity_pct": 10.9,
+    "cereal_production_tonnes": 1439850.0,
+    "meat_production_tonnes": 81198.88
   },
   {
     "iso3": "KEN",
@@ -3116,7 +3981,13 @@
     "capital_city": "Nairobi",
     "income_level": "Lower middle income",
     "latitude": "-1.27975",
-    "longitude": "36.8126"
+    "longitude": "36.8126",
+    "forest_area_pct": 6.423604,
+    "co2_per_capita": 0.37868083,
+    "food_insecurity_pct": 28.0,
+    "cereal_production_tonnes": 3846845.0,
+    "meat_production_tonnes": 656460.0,
+    "fish_consumption_kg_pc": 2.8599994
   },
   {
     "iso3": "MLI",
@@ -3134,7 +4005,12 @@
     "capital_city": "Bamako",
     "income_level": "Low income",
     "latitude": "13.5667",
-    "longitude": "-7.50034"
+    "longitude": "-7.50034",
+    "forest_area_pct": 8.917819,
+    "co2_per_capita": 0.3042441,
+    "food_insecurity_pct": 2.7,
+    "cereal_production_tonnes": 10289006.0,
+    "meat_production_tonnes": 177136.33
   },
   {
     "iso3": "BEN",
@@ -3152,7 +4028,12 @@
     "capital_city": "Porto-Novo",
     "income_level": "Lower middle income",
     "latitude": "6.4779",
-    "longitude": "2.6323"
+    "longitude": "2.6323",
+    "forest_area_pct": 29.113142,
+    "co2_per_capita": 0.44276863,
+    "food_insecurity_pct": 15.8,
+    "cereal_production_tonnes": 2297373.0,
+    "meat_production_tonnes": 128504.11
   },
   {
     "iso3": "TLS",
@@ -3171,7 +4052,12 @@
     "capital_city": "Dili",
     "income_level": "Lower middle income",
     "latitude": "-8.56667",
-    "longitude": "125.567"
+    "longitude": "125.567",
+    "forest_area_pct": 71.13127,
+    "co2_per_capita": 0.48899838,
+    "cereal_production_tonnes": 172500.0,
+    "meat_production_tonnes": 30784.63,
+    "fish_consumption_kg_pc": 6.96999
   },
   {
     "iso3": "GIN",
@@ -3189,7 +4075,12 @@
     "capital_city": "Conakry",
     "income_level": "Lower middle income",
     "latitude": "9.51667",
-    "longitude": "-13.7"
+    "longitude": "-13.7",
+    "forest_area_pct": 20.858303,
+    "co2_per_capita": 0.2883205,
+    "cereal_production_tonnes": 4745053.0,
+    "meat_production_tonnes": 132562.48,
+    "fish_consumption_kg_pc": 10.650001
   },
   {
     "iso3": "ASM",
@@ -3205,7 +4096,8 @@
     "capital_city": "Pago Pago",
     "income_level": "High income",
     "latitude": "-14.2846",
-    "longitude": "-170.691"
+    "longitude": "-170.691",
+    "forest_area_pct": 79.25
   },
   {
     "iso3": "COM",
@@ -3223,7 +4115,13 @@
     "capital_city": "Moroni",
     "income_level": "Lower middle income",
     "latitude": "-11.6986",
-    "longitude": "43.2418"
+    "longitude": "43.2418",
+    "forest_area_pct": 17.716282,
+    "co2_per_capita": 0.63734925,
+    "food_insecurity_pct": 27.4,
+    "cereal_production_tonnes": 19232.78,
+    "meat_production_tonnes": 2293.29,
+    "fish_consumption_kg_pc": 16.98
   },
   {
     "iso3": "TZA",
@@ -3242,7 +4140,13 @@
     "capital_city": "Dodoma",
     "income_level": "Lower middle income",
     "latitude": "-6.17486",
-    "longitude": "35.7382"
+    "longitude": "35.7382",
+    "forest_area_pct": 51.113117,
+    "co2_per_capita": 0.30446345,
+    "food_insecurity_pct": 25.4,
+    "cereal_production_tonnes": 11933644.0,
+    "meat_production_tonnes": 1079368.0,
+    "fish_consumption_kg_pc": 6.4
   },
   {
     "iso3": "RWA",
@@ -3261,7 +4165,12 @@
     "capital_city": "Kigali",
     "income_level": "Low income",
     "latitude": "-1.95325",
-    "longitude": "30.0587"
+    "longitude": "30.0587",
+    "forest_area_pct": 23.364004,
+    "co2_per_capita": 0.14337575,
+    "cereal_production_tonnes": 807219.2,
+    "meat_production_tonnes": 99076.23,
+    "fish_consumption_kg_pc": 5.1499987
   },
   {
     "iso3": "LBR",
@@ -3278,7 +4187,13 @@
     "capital_city": "Monrovia",
     "income_level": "Low income",
     "latitude": "6.30039",
-    "longitude": "-10.7957"
+    "longitude": "-10.7957",
+    "forest_area_pct": 67.36752,
+    "co2_per_capita": 0.16075158,
+    "food_insecurity_pct": 37.3,
+    "cereal_production_tonnes": 256000.0,
+    "meat_production_tonnes": 34691.77,
+    "fish_consumption_kg_pc": 4.7499957
   },
   {
     "iso3": "SLB",
@@ -3297,7 +4212,12 @@
     "capital_city": "Honiara",
     "income_level": "Lower middle income",
     "latitude": "-9.42676",
-    "longitude": "159.949"
+    "longitude": "159.949",
+    "forest_area_pct": 89.92019,
+    "co2_per_capita": 0.36244535,
+    "cereal_production_tonnes": 2746.77,
+    "meat_production_tonnes": 3626.72,
+    "fish_consumption_kg_pc": 30.489847
   },
   {
     "iso3": "GNB",
@@ -3316,7 +4236,13 @@
     "capital_city": "Bissau",
     "income_level": "Low income",
     "latitude": "11.8037",
-    "longitude": "-15.1804"
+    "longitude": "-15.1804",
+    "forest_area_pct": 75.26821,
+    "co2_per_capita": 0.16357648,
+    "food_insecurity_pct": 9.0,
+    "cereal_production_tonnes": 301273.0,
+    "meat_production_tonnes": 26994.76,
+    "fish_consumption_kg_pc": 2.3499968
   },
   {
     "iso3": "BFA",
@@ -3335,7 +4261,13 @@
     "capital_city": "Ouagadougou",
     "income_level": "Low income",
     "latitude": "12.3605",
-    "longitude": "-1.53395"
+    "longitude": "-1.53395",
+    "forest_area_pct": 13.58337,
+    "co2_per_capita": 0.29064742,
+    "food_insecurity_pct": 7.2,
+    "cereal_production_tonnes": 5179059.0,
+    "meat_production_tonnes": 552048.4,
+    "fish_consumption_kg_pc": 10.490001
   },
   {
     "iso3": "SOM",
@@ -3353,7 +4285,11 @@
     "capital_city": "Mogadishu",
     "income_level": "Low income",
     "latitude": "2.07515",
-    "longitude": "45.3254"
+    "longitude": "45.3254",
+    "forest_area_pct": 8.183043,
+    "co2_per_capita": 0.07141981,
+    "cereal_production_tonnes": 140056.42,
+    "meat_production_tonnes": 180333.6
   },
   {
     "iso3": "ETH",
@@ -3372,7 +4308,13 @@
     "capital_city": "Addis Ababa",
     "income_level": "Low income",
     "latitude": "9.02274",
-    "longitude": "38.7468"
+    "longitude": "38.7468",
+    "forest_area_pct": 23.713858,
+    "co2_per_capita": 0.13526215,
+    "food_insecurity_pct": 19.7,
+    "cereal_production_tonnes": 31183280.0,
+    "meat_production_tonnes": 912483.94,
+    "fish_consumption_kg_pc": 0.49999997
   },
   {
     "iso3": "SLE",
@@ -3390,7 +4332,13 @@
     "capital_city": "Freetown",
     "income_level": "Low income",
     "latitude": "8.4821",
-    "longitude": "-13.2134"
+    "longitude": "-13.2134",
+    "forest_area_pct": 34.845856,
+    "co2_per_capita": 0.17441697,
+    "food_insecurity_pct": 32.3,
+    "cereal_production_tonnes": 1531941.5,
+    "meat_production_tonnes": 48715.95,
+    "fish_consumption_kg_pc": 24.449963
   },
   {
     "iso3": "PNG",
@@ -3408,7 +4356,12 @@
     "capital_city": "Port Moresby",
     "income_level": "Lower middle income",
     "latitude": "-9.47357",
-    "longitude": "147.194"
+    "longitude": "147.194",
+    "forest_area_pct": 75.17546,
+    "co2_per_capita": 0.82680374,
+    "cereal_production_tonnes": 18862.9,
+    "meat_production_tonnes": 531162.2,
+    "fish_consumption_kg_pc": 7.100001
   },
   {
     "iso3": "COD",
@@ -3426,7 +4379,13 @@
     "capital_city": "Kinshasa",
     "income_level": "Low income",
     "latitude": "-4.325",
-    "longitude": "15.3222"
+    "longitude": "15.3222",
+    "forest_area_pct": 61.89569,
+    "co2_per_capita": 0.057544336,
+    "food_insecurity_pct": 41.7,
+    "cereal_production_tonnes": 4035104.0,
+    "meat_production_tonnes": 256276.84,
+    "fish_consumption_kg_pc": 3.2899997
   },
   {
     "iso3": "MOZ",
@@ -3445,7 +4404,12 @@
     "capital_city": "Maputo",
     "income_level": "Low income",
     "latitude": "-25.9664",
-    "longitude": "32.5713"
+    "longitude": "32.5713",
+    "forest_area_pct": 42.359943,
+    "co2_per_capita": 0.28465265,
+    "cereal_production_tonnes": 2832309.0,
+    "meat_production_tonnes": 323757.3,
+    "fish_consumption_kg_pc": 12.869999
   },
   {
     "iso3": "MWI",
@@ -3464,7 +4428,13 @@
     "capital_city": "Lilongwe",
     "income_level": "Low income",
     "latitude": "-13.9899",
-    "longitude": "33.7703"
+    "longitude": "33.7703",
+    "forest_area_pct": 23.331566,
+    "co2_per_capita": 0.08757896,
+    "food_insecurity_pct": 53.5,
+    "cereal_production_tonnes": 4010714.0,
+    "meat_production_tonnes": 703100.5,
+    "fish_consumption_kg_pc": 8.77
   },
   {
     "iso3": "MDG",
@@ -3483,7 +4453,13 @@
     "capital_city": "Antananarivo",
     "income_level": "Low income",
     "latitude": "-20.4667",
-    "longitude": "45.7167"
+    "longitude": "45.7167",
+    "forest_area_pct": 17.908546,
+    "co2_per_capita": 0.13830549,
+    "food_insecurity_pct": 14.9,
+    "cereal_production_tonnes": 5144257.5,
+    "meat_production_tonnes": 161609.6,
+    "fish_consumption_kg_pc": 3.6699991
   },
   {
     "iso3": "ZMB",
@@ -3502,7 +4478,13 @@
     "capital_city": "Lusaka",
     "income_level": "Lower middle income",
     "latitude": "-15.3982",
-    "longitude": "28.2937"
+    "longitude": "28.2937",
+    "forest_area_pct": 60.887173,
+    "co2_per_capita": 0.5427949,
+    "food_insecurity_pct": 19.0,
+    "cereal_production_tonnes": 3056715.5,
+    "meat_production_tonnes": 369605.34,
+    "fish_consumption_kg_pc": 12.890002
   },
   {
     "iso3": "AFG",
@@ -3520,7 +4502,13 @@
     "capital_city": "Kabul",
     "income_level": "Low income",
     "latitude": "34.5228",
-    "longitude": "69.1761"
+    "longitude": "69.1761",
+    "forest_area_pct": 1.8543152,
+    "co2_per_capita": 0.25062045,
+    "food_insecurity_pct": 30.6,
+    "cereal_production_tonnes": 4802495.0,
+    "meat_production_tonnes": 234091.62,
+    "fish_consumption_kg_pc": 0.38
   },
   {
     "iso3": "NER",
@@ -3538,7 +4526,13 @@
     "capital_city": "Niamey",
     "income_level": "Low income",
     "latitude": "13.514",
-    "longitude": "2.1073"
+    "longitude": "2.1073",
+    "forest_area_pct": 0.8484882,
+    "co2_per_capita": 0.12645128,
+    "food_insecurity_pct": 7.5,
+    "cereal_production_tonnes": 5962437.5,
+    "meat_production_tonnes": 193878.34,
+    "fish_consumption_kg_pc": 1.8700005
   },
   {
     "iso3": "XKX",
@@ -3573,7 +4567,12 @@
     "capital_city": "N'Djamena",
     "income_level": "Low income",
     "latitude": "12.1048",
-    "longitude": "15.0445"
+    "longitude": "15.0445",
+    "forest_area_pct": 3.274282,
+    "co2_per_capita": 0.15173951,
+    "food_insecurity_pct": 25.2,
+    "cereal_production_tonnes": 2798641.0,
+    "meat_production_tonnes": 1026008.1
   },
   {
     "iso3": "TKM",
@@ -3589,7 +4588,12 @@
     "capital_city": "Ashgabat",
     "income_level": "Upper middle income",
     "latitude": "37.9509",
-    "longitude": "58.3794"
+    "longitude": "58.3794",
+    "forest_area_pct": 4.958185,
+    "co2_per_capita": 14.11619,
+    "cereal_production_tonnes": 1556079.2,
+    "meat_production_tonnes": 393734.03,
+    "fish_consumption_kg_pc": 2.3600008
   },
   {
     "iso3": "UGA",
@@ -3608,7 +4612,13 @@
     "capital_city": "Kampala",
     "income_level": "Low income",
     "latitude": "0.314269",
-    "longitude": "32.5729"
+    "longitude": "32.5729",
+    "forest_area_pct": 12.368153,
+    "co2_per_capita": 0.12952651,
+    "food_insecurity_pct": 17.7,
+    "cereal_production_tonnes": 5525000.0,
+    "meat_production_tonnes": 642364.6,
+    "fish_consumption_kg_pc": 15.409999
   },
   {
     "iso3": "TUV",
@@ -3623,7 +4633,11 @@
     "capital_city": "Funafuti",
     "income_level": "Upper middle income",
     "latitude": "-8.6314877",
-    "longitude": "179.089567"
+    "longitude": "179.089567",
+    "forest_area_pct": 34.333332,
+    "co2_per_capita": 1.0978825,
+    "meat_production_tonnes": 191.62,
+    "fish_consumption_kg_pc": 55.823357
   },
   {
     "iso3": "WSM",
@@ -3641,7 +4655,12 @@
     "capital_city": "Apia",
     "income_level": "Upper middle income",
     "latitude": "-13.8314",
-    "longitude": "-171.752"
+    "longitude": "-171.752",
+    "forest_area_pct": 58.15827,
+    "co2_per_capita": 1.0961072,
+    "food_insecurity_pct": 4.3,
+    "meat_production_tonnes": 3058.98,
+    "fish_consumption_kg_pc": 46.617203
   },
   {
     "iso3": "BDI",
@@ -3659,7 +4678,12 @@
     "capital_city": "Bujumbura",
     "income_level": "Low income",
     "latitude": "-3.3784",
-    "longitude": "29.3639"
+    "longitude": "29.3639",
+    "forest_area_pct": 10.889408,
+    "co2_per_capita": 0.06587466,
+    "food_insecurity_pct": 20.9,
+    "cereal_production_tonnes": 957805.1,
+    "meat_production_tonnes": 47876.22
   },
   {
     "iso3": "VUT",
@@ -3677,7 +4701,12 @@
     "capital_city": "Port-Vila",
     "income_level": "Lower middle income",
     "latitude": "-17.7404",
-    "longitude": "168.321"
+    "longitude": "168.321",
+    "forest_area_pct": 75.223625,
+    "co2_per_capita": 0.6048438,
+    "cereal_production_tonnes": 986.0,
+    "meat_production_tonnes": 5406.48,
+    "fish_consumption_kg_pc": 30.038876
   },
   {
     "iso3": "MMR",
@@ -3692,7 +4721,13 @@
     "capital_city": "Naypyidaw",
     "income_level": "Lower middle income",
     "latitude": "21.914",
-    "longitude": "95.9562"
+    "longitude": "95.9562",
+    "forest_area_pct": 43.290127,
+    "co2_per_capita": 0.58855194,
+    "food_insecurity_pct": 6.9,
+    "cereal_production_tonnes": 30705496.0,
+    "meat_production_tonnes": 1260214.4,
+    "fish_consumption_kg_pc": 40.35
   },
   {
     "iso3": "SDN",
@@ -3709,7 +4744,11 @@
     "capital_city": "Khartoum",
     "income_level": "Low income",
     "latitude": "15.5932",
-    "longitude": "32.5363"
+    "longitude": "32.5363",
+    "forest_area_pct": 12.1397,
+    "co2_per_capita": 0.35494992,
+    "cereal_production_tonnes": 7451248.0,
+    "meat_production_tonnes": 973481.8
   },
   {
     "iso3": "YEM",
@@ -3722,7 +4761,12 @@
     "capital_city": "Sana'a",
     "income_level": "Low income",
     "latitude": "15.352",
-    "longitude": "44.2075"
+    "longitude": "44.2075",
+    "forest_area_pct": 1.0398318,
+    "co2_per_capita": 0.27218696,
+    "cereal_production_tonnes": 491666.0,
+    "meat_production_tonnes": 453606.8,
+    "fish_consumption_kg_pc": 2.02
   },
   {
     "iso3": "PRK",
@@ -3735,7 +4779,11 @@
     "capital_city": "Pyongyang",
     "income_level": "Low income",
     "latitude": "39.0319",
-    "longitude": "125.754"
+    "longitude": "125.754",
+    "forest_area_pct": 63.80289,
+    "co2_per_capita": 2.13794,
+    "cereal_production_tonnes": 4777898.5,
+    "meat_production_tonnes": 344588.53
   },
   {
     "iso3": "ERI",
@@ -3748,7 +4796,11 @@
     "capital_city": "Asmara",
     "income_level": "Low income",
     "latitude": "15.3315",
-    "longitude": "38.9183"
+    "longitude": "38.9183",
+    "forest_area_pct": 12.11112,
+    "co2_per_capita": 0.2106724,
+    "cereal_production_tonnes": 305159.84,
+    "meat_production_tonnes": 43426.48
   },
   {
     "iso3": "ARE",
@@ -3763,7 +4815,12 @@
     "income_level": "High income",
     "latitude": "24.4764",
     "longitude": "54.3705",
-    "calling_code": "+971"
+    "calling_code": "+971",
+    "forest_area_pct": 4.5513377,
+    "co2_per_capita": 20.220825,
+    "cereal_production_tonnes": 21429.0,
+    "meat_production_tonnes": 191558.31,
+    "fish_consumption_kg_pc": 23.109982
   },
   {
     "iso3": "CAF",
@@ -3776,7 +4833,12 @@
     "capital_city": "Bangui",
     "income_level": "Low income",
     "latitude": "5.63056",
-    "longitude": "21.6407"
+    "longitude": "21.6407",
+    "forest_area_pct": 72.684456,
+    "co2_per_capita": 0.07402691,
+    "food_insecurity_pct": 56.3,
+    "cereal_production_tonnes": 294070.16,
+    "meat_production_tonnes": 191151.14
   },
   {
     "iso3": "EGY",
@@ -3789,7 +4851,13 @@
     "income_level": "Lower middle income",
     "latitude": "30.0982",
     "longitude": "31.2461",
-    "calling_code": "+20"
+    "calling_code": "+20",
+    "forest_area_pct": 0.004104676,
+    "co2_per_capita": 2.2189891,
+    "food_insecurity_pct": 10.4,
+    "cereal_production_tonnes": 22005502.0,
+    "meat_production_tonnes": 3382565.0,
+    "fish_consumption_kg_pc": 20.5
   },
   {
     "iso3": "GIB",
@@ -3812,7 +4880,13 @@
     "capital_city": "Skopje",
     "income_level": "Upper middle income",
     "latitude": "42.0024",
-    "longitude": "21.4361"
+    "longitude": "21.4361",
+    "forest_area_pct": 41.200474,
+    "co2_per_capita": 3.9952326,
+    "food_insecurity_pct": 4.8,
+    "cereal_production_tonnes": 542163.75,
+    "meat_production_tonnes": 21430.0,
+    "fish_consumption_kg_pc": 8.01
   },
   {
     "iso3": "MNP",
@@ -3824,7 +4898,8 @@
     "capital_city": "Saipan",
     "income_level": "High income",
     "latitude": "15.1935",
-    "longitude": "145.765"
+    "longitude": "145.765",
+    "forest_area_pct": 52.95652
   },
   {
     "iso3": "PSE",
@@ -3833,7 +4908,10 @@
     "priority_score": 0.0,
     "cells_filled": 1,
     "updated_at": "2026-07-05",
-    "income_level": "Lower middle income"
+    "income_level": "Lower middle income",
+    "co2_per_capita": 0.8862943,
+    "food_insecurity_pct": 4.5,
+    "cereal_production_tonnes": 46264.64
   },
   {
     "iso3": "SAU",
@@ -3849,7 +4927,12 @@
     "income_level": "High income",
     "latitude": "24.6748",
     "longitude": "46.6977",
-    "calling_code": "+966"
+    "calling_code": "+966",
+    "forest_area_pct": 1.2883486,
+    "co2_per_capita": 20.729954,
+    "cereal_production_tonnes": 1068752.0,
+    "meat_production_tonnes": 1084904.2,
+    "fish_consumption_kg_pc": 12.92
   },
   {
     "iso3": "SSD",
@@ -3861,7 +4944,12 @@
     "capital_city": "Juba",
     "income_level": "Low income",
     "latitude": "4.85",
-    "longitude": "31.6"
+    "longitude": "31.6",
+    "forest_area_pct": 11.320874,
+    "co2_per_capita": 0.14827313,
+    "food_insecurity_pct": 63.2,
+    "cereal_production_tonnes": 1063299.0,
+    "meat_production_tonnes": 230429.7
   },
   {
     "iso3": "SYR",
@@ -3873,7 +4961,12 @@
     "capital_city": "Damascus",
     "income_level": "Low income",
     "latitude": "33.5146",
-    "longitude": "36.3119"
+    "longitude": "36.3119",
+    "forest_area_pct": 2.8495672,
+    "co2_per_capita": 1.3989446,
+    "cereal_production_tonnes": 2276238.0,
+    "meat_production_tonnes": 418049.75,
+    "fish_consumption_kg_pc": 0.7999999
   },
   {
     "iso3": "TTO",
@@ -3885,7 +4978,13 @@
     "capital_city": "Port-of-Spain",
     "income_level": "High income",
     "latitude": "10.6596",
-    "longitude": "-61.4789"
+    "longitude": "-61.4789",
+    "forest_area_pct": 44.39493,
+    "co2_per_capita": 25.063381,
+    "food_insecurity_pct": 6.9,
+    "cereal_production_tonnes": 125.0,
+    "meat_production_tonnes": 49512.0,
+    "fish_consumption_kg_pc": 17.959904
   },
   {
     "iso3": "VGB",
@@ -3898,7 +4997,9 @@
     "capital_city": "Road Town",
     "income_level": "High income",
     "latitude": "18.431389",
-    "longitude": "-64.623056"
+    "longitude": "-64.623056",
+    "forest_area_pct": 66.46667,
+    "co2_per_capita": 4.8443384
   },
   {
     "iso3": "ZAF",
@@ -3912,6 +5013,12 @@
     "income_level": "Upper middle income",
     "latitude": "-25.746",
     "longitude": "28.1871",
-    "calling_code": "+27"
+    "calling_code": "+27",
+    "forest_area_pct": 18.573359,
+    "co2_per_capita": 6.8738866,
+    "food_insecurity_pct": 8.4,
+    "cereal_production_tonnes": 18036976.0,
+    "meat_production_tonnes": 3625721.2,
+    "fish_consumption_kg_pc": 5.5899997
   }
 ]
