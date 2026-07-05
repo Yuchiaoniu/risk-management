@@ -8,5 +8,11 @@
   "capital_city": "Kinshasa",
   "income_level": "Low income",
   "latitude": "-4.325",
-  "longitude": "15.3222"
+  "longitude": "15.3222",
+  "forest_area_pct": 61.89569,
+  "co2_per_capita": 0.057544336,
+  "food_insecurity_pct": 41.7,
+  "cereal_production_tonnes": 4035104.0,
+  "meat_production_tonnes": 256276.84,
+  "fish_consumption_kg_pc": 3.2899997
 }
