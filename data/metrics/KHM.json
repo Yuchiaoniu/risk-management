@@ -9,5 +9,11 @@
   "capital_city": "Phnom Penh",
   "income_level": "Lower middle income",
   "latitude": "11.5556",
-  "longitude": "104.874"
+  "longitude": "104.874",
+  "forest_area_pct": 42.873928,
+  "co2_per_capita": 1.2129679,
+  "food_insecurity_pct": 4.3,
+  "cereal_production_tonnes": 13014700.0,
+  "meat_production_tonnes": 192857.7,
+  "fish_consumption_kg_pc": 39.41999
 }
