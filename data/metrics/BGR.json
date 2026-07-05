@@ -9,5 +9,11 @@
   "capital_city": "Sofia",
   "income_level": "High income",
   "latitude": "42.7105",
-  "longitude": "23.3238"
+  "longitude": "23.3238",
+  "forest_area_pct": 36.00405,
+  "co2_per_capita": 6.8755846,
+  "food_insecurity_pct": 2.5,
+  "cereal_production_tonnes": 9790690.0,
+  "meat_production_tonnes": 237062.92,
+  "fish_consumption_kg_pc": 7.179994
 }
