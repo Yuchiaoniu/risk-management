@@ -3,5 +3,11 @@
   "income_level": "Lower middle income",
   "latitude": "30.0982",
   "longitude": "31.2461",
-  "calling_code": "+20"
+  "calling_code": "+20",
+  "forest_area_pct": 0.004104676,
+  "co2_per_capita": 15.6889805767143,
+  "food_insecurity_pct": 10.4,
+  "cereal_production_tonnes": 22005502.0,
+  "meat_production_tonnes": 3382565.0,
+  "fish_consumption_kg_pc": 20.5
 }
