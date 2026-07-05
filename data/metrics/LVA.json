@@ -9,5 +9,11 @@
   "capital_city": "Riga",
   "income_level": "High income",
   "latitude": "56.9465",
-  "longitude": "24.1048"
+  "longitude": "24.1048",
+  "forest_area_pct": 55.28999,
+  "co2_per_capita": 3.5129132,
+  "food_insecurity_pct": 1.6,
+  "cereal_production_tonnes": 3243700.0,
+  "meat_production_tonnes": 90661.93,
+  "fish_consumption_kg_pc": 24.490013
 }
