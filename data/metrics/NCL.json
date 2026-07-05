@@ -6,5 +6,10 @@
   "capital_city": "Noum'ea",
   "income_level": "High income",
   "latitude": "-22.2677",
-  "longitude": "166.464"
+  "longitude": "166.464",
+  "forest_area_pct": 48.82987,
+  "co2_per_capita": 17.816309,
+  "cereal_production_tonnes": 4247.0,
+  "meat_production_tonnes": 6852.47,
+  "fish_consumption_kg_pc": 22.499302
 }
