@@ -9,5 +9,10 @@
   "capital_city": "Tarawa",
   "income_level": "Lower middle income",
   "latitude": "1.32905",
-  "longitude": "172.979"
+  "longitude": "172.979",
+  "forest_area_pct": 1.3209877,
+  "co2_per_capita": 0.53352547,
+  "food_insecurity_pct": 6.9,
+  "meat_production_tonnes": 2242.19,
+  "fish_consumption_kg_pc": 72.27454
 }
