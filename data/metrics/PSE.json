@@ -1,3 +1,6 @@
 {
-  "income_level": "Lower middle income"
+  "income_level": "Lower middle income",
+  "co2_per_capita": 0.8862943,
+  "food_insecurity_pct": 4.5,
+  "cereal_production_tonnes": 46264.64
 }
