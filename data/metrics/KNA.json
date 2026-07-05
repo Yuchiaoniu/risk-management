@@ -7,5 +7,9 @@
   "capital_city": "Basseterre",
   "income_level": "High income",
   "latitude": "17.3",
-  "longitude": "-62.7309"
+  "longitude": "-62.7309",
+  "forest_area_pct": 42.307693,
+  "co2_per_capita": 5.3636484,
+  "meat_production_tonnes": 136.51,
+  "fish_consumption_kg_pc": 36.402092
 }
