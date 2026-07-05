@@ -1,0 +1,15 @@
+{
+  "total_countries": 218,
+  "countries_with_metrics": 218,
+  "last_updated": "2026-07-05T13:17:53Z",
+  "data_sources": [
+    "WorldBank",
+    "REST Countries",
+    "OSM"
+  ],
+  "layers": [
+    "country",
+    "government",
+    "legal_entity"
+  ]
+}
