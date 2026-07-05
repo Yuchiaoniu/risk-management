@@ -3,5 +3,10 @@
   "capital_city": "Bangui",
   "income_level": "Low income",
   "latitude": "5.63056",
-  "longitude": "21.6407"
+  "longitude": "21.6407",
+  "forest_area_pct": 72.684456,
+  "co2_per_capita": 0.07402691,
+  "food_insecurity_pct": 56.3,
+  "cereal_production_tonnes": 294070.16,
+  "meat_production_tonnes": 191151.14
 }
