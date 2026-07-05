@@ -9,5 +9,10 @@
   "capital_city": "Rabat",
   "income_level": "Lower middle income",
   "latitude": "33.9905",
-  "longitude": "-6.8704"
+  "longitude": "-6.8704",
+  "forest_area_pct": 12.758423,
+  "co2_per_capita": 1.8693061,
+  "cereal_production_tonnes": 3511705.2,
+  "meat_production_tonnes": 1222410.5,
+  "fish_consumption_kg_pc": 16.709991
 }
