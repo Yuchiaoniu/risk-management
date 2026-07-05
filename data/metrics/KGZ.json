@@ -9,5 +9,11 @@
   "capital_city": "Bishkek",
   "income_level": "Lower middle income",
   "latitude": "42.8851",
-  "longitude": "74.6057"
+  "longitude": "74.6057",
+  "forest_area_pct": 6.544442,
+  "co2_per_capita": 1.6551521,
+  "food_insecurity_pct": 1.1,
+  "cereal_production_tonnes": 1912670.4,
+  "meat_production_tonnes": 258625.31,
+  "fish_consumption_kg_pc": 1.4599994
 }
