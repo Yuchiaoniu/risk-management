@@ -8,5 +8,10 @@
   "capital_city": "Yaren District",
   "income_level": "High income",
   "latitude": "-0.5477",
-  "longitude": "166.920867"
+  "longitude": "166.920867",
+  "forest_area_pct": 0.0,
+  "co2_per_capita": 4.9893417,
+  "food_insecurity_pct": 9.2,
+  "meat_production_tonnes": 78.52,
+  "fish_consumption_kg_pc": 26.016201
 }
