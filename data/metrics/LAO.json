@@ -8,5 +8,11 @@
   "capital_city": "Vientiane",
   "income_level": "Lower middle income",
   "latitude": "18.5826",
-  "longitude": "102.177"
+  "longitude": "102.177",
+  "forest_area_pct": 57.09435,
+  "co2_per_capita": 2.9830346,
+  "food_insecurity_pct": 6.2,
+  "cereal_production_tonnes": 4244390.0,
+  "meat_production_tonnes": 231256.4,
+  "fish_consumption_kg_pc": 28.51996
 }
