@@ -6,5 +6,9 @@
   "capital_city": "Papeete",
   "income_level": "High income",
   "latitude": "-17.535",
-  "longitude": "-149.57"
+  "longitude": "-149.57",
+  "forest_area_pct": 43.059635,
+  "co2_per_capita": 3.1623607,
+  "meat_production_tonnes": 1800.73,
+  "fish_consumption_kg_pc": 50.509098
 }
