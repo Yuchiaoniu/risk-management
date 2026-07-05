@@ -8,5 +8,11 @@
   "capital_city": "Saint John's",
   "income_level": "High income",
   "latitude": "17.1175",
-  "longitude": "-61.8456"
+  "longitude": "-61.8456",
+  "forest_area_pct": 18.304546,
+  "co2_per_capita": 6.9125686,
+  "food_insecurity_pct": 3.4,
+  "cereal_production_tonnes": 51.53,
+  "meat_production_tonnes": 138.47,
+  "fish_consumption_kg_pc": 54.513573
 }
