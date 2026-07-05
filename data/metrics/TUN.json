@@ -8,5 +8,11 @@
   "capital_city": "Tunis",
   "income_level": "Lower middle income",
   "latitude": "36.7899",
-  "longitude": "10.21"
+  "longitude": "10.21",
+  "forest_area_pct": 4.4844103,
+  "co2_per_capita": 2.5401497,
+  "food_insecurity_pct": 11.3,
+  "cereal_production_tonnes": 1713881.0,
+  "meat_production_tonnes": 376757.72,
+  "fish_consumption_kg_pc": 15.879994
 }
