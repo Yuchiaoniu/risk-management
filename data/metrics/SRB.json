@@ -9,5 +9,11 @@
   "capital_city": "Belgrade",
   "income_level": "Upper middle income",
   "latitude": "44.8024",
-  "longitude": "20.4656"
+  "longitude": "20.4656",
+  "forest_area_pct": 39.439648,
+  "co2_per_capita": 6.547047,
+  "food_insecurity_pct": 3.0,
+  "cereal_production_tonnes": 8037635.0,
+  "meat_production_tonnes": 545828.75,
+  "fish_consumption_kg_pc": 8.449995
 }
