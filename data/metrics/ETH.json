@@ -9,5 +9,11 @@
   "capital_city": "Addis Ababa",
   "income_level": "Low income",
   "latitude": "9.02274",
-  "longitude": "38.7468"
+  "longitude": "38.7468",
+  "forest_area_pct": 23.713858,
+  "co2_per_capita": 0.13526215,
+  "food_insecurity_pct": 19.7,
+  "cereal_production_tonnes": 31183280.0,
+  "meat_production_tonnes": 912483.94,
+  "fish_consumption_kg_pc": 0.49999997
 }
