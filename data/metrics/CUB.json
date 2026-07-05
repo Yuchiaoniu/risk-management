@@ -6,5 +6,9 @@
   "capital_city": "Havana",
   "income_level": "Upper middle income",
   "latitude": "23.1333",
-  "longitude": "-82.3667"
+  "longitude": "-82.3667",
+  "forest_area_pct": 34.813293,
+  "co2_per_capita": 2.1029758,
+  "cereal_production_tonnes": 314516.88,
+  "meat_production_tonnes": 101472.47
 }
