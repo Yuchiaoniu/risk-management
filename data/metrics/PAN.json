@@ -9,5 +9,10 @@
   "capital_city": "Panama City",
   "income_level": "High income",
   "latitude": "8.99427",
-  "longitude": "-79.5188"
+  "longitude": "-79.5188",
+  "forest_area_pct": 62.3708,
+  "co2_per_capita": 2.6602929,
+  "cereal_production_tonnes": 520917.0,
+  "meat_production_tonnes": 301414.94,
+  "fish_consumption_kg_pc": 14.890006
 }
