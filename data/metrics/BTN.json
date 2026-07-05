@@ -8,5 +8,10 @@
   "capital_city": "Thimphu",
   "income_level": "Lower middle income",
   "latitude": "27.5768",
-  "longitude": "89.6177"
+  "longitude": "89.6177",
+  "forest_area_pct": 71.019295,
+  "co2_per_capita": 1.9843147,
+  "cereal_production_tonnes": 71354.25,
+  "meat_production_tonnes": 4553.39,
+  "fish_consumption_kg_pc": 6.2599525
 }
