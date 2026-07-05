@@ -9,5 +9,11 @@
   "capital_city": "Gaborone",
   "income_level": "Upper middle income",
   "latitude": "-24.6544",
-  "longitude": "25.9201"
+  "longitude": "25.9201",
+  "forest_area_pct": 27.756075,
+  "co2_per_capita": 3.0311775,
+  "food_insecurity_pct": 26.6,
+  "cereal_production_tonnes": 115579.91,
+  "meat_production_tonnes": 101746.55,
+  "fish_consumption_kg_pc": 2.2199981
 }
