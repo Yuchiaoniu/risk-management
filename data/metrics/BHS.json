@@ -9,5 +9,11 @@
   "capital_city": "Nassau",
   "income_level": "High income",
   "latitude": "25.0661",
-  "longitude": "-77.339"
+  "longitude": "-77.339",
+  "forest_area_pct": 50.935066,
+  "co2_per_capita": 7.4507422,
+  "food_insecurity_pct": 3.4,
+  "cereal_production_tonnes": 600.78,
+  "meat_production_tonnes": 6480.07,
+  "fish_consumption_kg_pc": 27.679169
 }
