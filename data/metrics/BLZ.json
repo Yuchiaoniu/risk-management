@@ -8,5 +8,10 @@
   "capital_city": "Belmopan",
   "income_level": "Upper middle income",
   "latitude": "17.2534",
-  "longitude": "-88.7713"
+  "longitude": "-88.7713",
+  "forest_area_pct": 58.97317,
+  "co2_per_capita": 1.7970879,
+  "cereal_production_tonnes": 146715.0,
+  "meat_production_tonnes": 28601.79,
+  "fish_consumption_kg_pc": 16.939917
 }
