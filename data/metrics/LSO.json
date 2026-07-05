@@ -9,5 +9,11 @@
   "capital_city": "Maseru",
   "income_level": "Lower middle income",
   "latitude": "-29.5208",
-  "longitude": "27.7167"
+  "longitude": "27.7167",
+  "forest_area_pct": 1.1370224,
+  "co2_per_capita": 1.1160188,
+  "food_insecurity_pct": 25.3,
+  "cereal_production_tonnes": 82449.58,
+  "meat_production_tonnes": 8836.89,
+  "fish_consumption_kg_pc": 1.919995
 }
