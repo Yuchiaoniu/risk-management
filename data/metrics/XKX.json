@@ -7,5 +7,11 @@
   "capital_city": "Pristina",
   "income_level": "Upper middle income",
   "latitude": "42.565",
-  "longitude": "20.926"
+  "longitude": "20.926",
+  "manufacturing_pct_gdp": 12.5372167119175,
+  "mobile_subscriptions": 34.5402009143477,
+  "urban_population_pct": 50.9260971650398,
+  "urban_population_growth": 0.0921921998443815,
+  "industry_value_added_pct": 24.9706910316042,
+  "fdi_inflow_pct_gdp": 7.67480496325567
 }
