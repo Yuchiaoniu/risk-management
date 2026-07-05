@@ -9,5 +9,11 @@
   "capital_city": "Lilongwe",
   "income_level": "Low income",
   "latitude": "-13.9899",
-  "longitude": "33.7703"
+  "longitude": "33.7703",
+  "forest_area_pct": 23.331566,
+  "co2_per_capita": 0.08757896,
+  "food_insecurity_pct": 53.5,
+  "cereal_production_tonnes": 4010714.0,
+  "meat_production_tonnes": 703100.5,
+  "fish_consumption_kg_pc": 8.77
 }
