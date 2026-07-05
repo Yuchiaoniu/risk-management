@@ -3,5 +3,6 @@
   "population": 24941.0,
   "gdp_growth": 4.89999967133534,
   "capital_city": "Marigot",
-  "income_level": "High income"
+  "income_level": "High income",
+  "forest_area_pct": 24.8
 }
