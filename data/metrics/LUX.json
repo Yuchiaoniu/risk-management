@@ -9,5 +9,11 @@
   "capital_city": "Luxembourg",
   "income_level": "High income",
   "latitude": "49.61",
-  "longitude": "6.1296"
+  "longitude": "6.1296",
+  "forest_area_pct": 34.453827,
+  "co2_per_capita": 11.134566,
+  "food_insecurity_pct": 0.6,
+  "cereal_production_tonnes": 170660.0,
+  "meat_production_tonnes": 19809.21,
+  "fish_consumption_kg_pc": 30.289955
 }
