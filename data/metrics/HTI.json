@@ -8,5 +8,11 @@
   "capital_city": "Port-au-Prince",
   "income_level": "Lower middle income",
   "latitude": "18.5392",
-  "longitude": "-72.3288"
+  "longitude": "-72.3288",
+  "forest_area_pct": 13.298259,
+  "co2_per_capita": 0.2495167,
+  "food_insecurity_pct": 42.4,
+  "cereal_production_tonnes": 340000.0,
+  "meat_production_tonnes": 108359.69,
+  "fish_consumption_kg_pc": 5.419999
 }
