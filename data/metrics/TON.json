@@ -9,5 +9,10 @@
   "capital_city": "Nuku'alofa",
   "income_level": "Upper middle income",
   "latitude": "-21.136",
-  "longitude": "-175.216"
+  "longitude": "-175.216",
+  "forest_area_pct": 12.125,
+  "co2_per_capita": 1.3951054,
+  "food_insecurity_pct": 2.6,
+  "meat_production_tonnes": 2466.62,
+  "fish_consumption_kg_pc": 28.576448
 }
