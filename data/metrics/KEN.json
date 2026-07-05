@@ -9,5 +9,11 @@
   "capital_city": "Nairobi",
   "income_level": "Lower middle income",
   "latitude": "-1.27975",
-  "longitude": "36.8126"
+  "longitude": "36.8126",
+  "forest_area_pct": 6.423604,
+  "co2_per_capita": 0.37868083,
+  "food_insecurity_pct": 28.0,
+  "cereal_production_tonnes": 3846845.0,
+  "meat_production_tonnes": 656460.0,
+  "fish_consumption_kg_pc": 2.8599994
 }
