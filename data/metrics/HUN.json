@@ -10,5 +10,11 @@
   "income_level": "High income",
   "latitude": "47.4984",
   "longitude": "19.0408",
-  "calling_code": "+36"
+  "calling_code": "+36",
+  "forest_area_pct": 22.606552,
+  "co2_per_capita": 4.674298,
+  "food_insecurity_pct": 3.6,
+  "cereal_production_tonnes": 9060660.0,
+  "meat_production_tonnes": 1037031.25,
+  "fish_consumption_kg_pc": 6.4599967
 }
