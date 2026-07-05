@@ -3,5 +3,9 @@
   "capital_city": "Asmara",
   "income_level": "Low income",
   "latitude": "15.3315",
-  "longitude": "38.9183"
+  "longitude": "38.9183",
+  "forest_area_pct": 12.11112,
+  "co2_per_capita": 0.2106724,
+  "cereal_production_tonnes": 305159.84,
+  "meat_production_tonnes": 43426.48
 }
