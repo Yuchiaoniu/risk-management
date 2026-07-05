@@ -8,5 +8,10 @@
   "capital_city": "Amman",
   "income_level": "Upper middle income",
   "latitude": "31.9497",
-  "longitude": "35.9263"
+  "longitude": "35.9263",
+  "forest_area_pct": 0.79622495,
+  "co2_per_capita": 1.9924614,
+  "cereal_production_tonnes": 50899.5,
+  "meat_production_tonnes": 382909.72,
+  "fish_consumption_kg_pc": 4.7699957
 }
