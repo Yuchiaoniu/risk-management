@@ -9,5 +9,11 @@
   "capital_city": "Port Louis",
   "income_level": "Upper middle income",
   "latitude": "-20.1605",
-  "longitude": "57.4977"
+  "longitude": "57.4977",
+  "forest_area_pct": 19.173761,
+  "co2_per_capita": 3.3826706,
+  "food_insecurity_pct": 10.2,
+  "cereal_production_tonnes": 823.1,
+  "meat_production_tonnes": 54740.84,
+  "fish_consumption_kg_pc": 29.399975
 }
