@@ -2,5 +2,11 @@
   "capital_city": "Port-of-Spain",
   "income_level": "High income",
   "latitude": "10.6596",
-  "longitude": "-61.4789"
+  "longitude": "-61.4789",
+  "forest_area_pct": 44.39493,
+  "co2_per_capita": 25.063381,
+  "food_insecurity_pct": 6.9,
+  "cereal_production_tonnes": 125.0,
+  "meat_production_tonnes": 49512.0,
+  "fish_consumption_kg_pc": 17.959904
 }
