@@ -8,5 +8,9 @@
   "capital_city": "Manama",
   "income_level": "High income",
   "latitude": "26.1921",
-  "longitude": "50.5354"
+  "longitude": "50.5354",
+  "forest_area_pct": 3.101266,
+  "co2_per_capita": 24.66764,
+  "meat_production_tonnes": 38363.56,
+  "fish_consumption_kg_pc": 19.75995
 }
