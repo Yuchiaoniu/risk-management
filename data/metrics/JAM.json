@@ -7,5 +7,11 @@
   "capital_city": "Kingston",
   "income_level": "Upper middle income",
   "latitude": "17.9927",
-  "longitude": "-76.792"
+  "longitude": "-76.792",
+  "forest_area_pct": 55.472393,
+  "co2_per_capita": 2.7852037,
+  "food_insecurity_pct": 26.6,
+  "cereal_production_tonnes": 2426.0,
+  "meat_production_tonnes": 159369.33,
+  "fish_consumption_kg_pc": 27.85005
 }
