@@ -9,5 +9,11 @@
   "capital_city": "Chisinau",
   "income_level": "Upper middle income",
   "latitude": "47.0167",
-  "longitude": "28.8497"
+  "longitude": "28.8497",
+  "forest_area_pct": 11.329279,
+  "co2_per_capita": 1.7018101,
+  "food_insecurity_pct": 5.3,
+  "cereal_production_tonnes": 1758059.0,
+  "meat_production_tonnes": 78232.38,
+  "fish_consumption_kg_pc": 16.30432
 }
