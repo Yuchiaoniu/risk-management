@@ -9,5 +9,10 @@
   "capital_city": "Bratislava",
   "income_level": "High income",
   "latitude": "48.1484",
-  "longitude": "17.1073"
+  "longitude": "17.1073",
+  "forest_area_pct": 40.205364,
+  "co2_per_capita": 5.771668,
+  "food_insecurity_pct": 2.0,
+  "cereal_production_tonnes": 3382800.0,
+  "fish_consumption_kg_pc": 10.609985
 }
