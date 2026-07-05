@@ -9,5 +9,10 @@
   "capital_city": "Libreville",
   "income_level": "Upper middle income",
   "latitude": "0.38832",
-  "longitude": "9.45162"
+  "longitude": "9.45162",
+  "forest_area_pct": 91.52109,
+  "co2_per_capita": 2.3792052,
+  "cereal_production_tonnes": 47770.23,
+  "meat_production_tonnes": 41672.85,
+  "fish_consumption_kg_pc": 27.03
 }
