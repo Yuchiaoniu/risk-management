@@ -1,0 +1,843 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>World Web Claw — Global Market Intelligence Map</title>
+<script src="https://cdn.jsdelivr.net/npm/d3@7"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3"></script>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    background: #0a0e1a;
+    color: #c8d6e5;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  header {
+    background: #111827;
+    border-bottom: 1px solid #1e3a5f;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 0;
+  }
+
+  .logo {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #38bdf8;
+  }
+  .logo span { color: #f59e0b; }
+
+  .header-stats {
+    display: flex;
+    gap: 20px;
+    font-size: 13px;
+    color: #64748b;
+  }
+  .header-stats strong { color: #94a3b8; }
+
+  .status-dot {
+    width: 8px; height: 8px;
+    border-radius: 50%;
+    background: #22c55e;
+    display: inline-block;
+    margin-right: 6px;
+    animation: pulse 2s infinite;
+  }
+  .status-dot.idle { background: #64748b; animation: none; }
+  .status-dot.loading { background: #f59e0b; }
+
+  @keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+  }
+
+  .main {
+    display: flex;
+    flex: 1;
+    overflow: hidden;
+  }
+
+  /* ── 地圖區 ── */
+  .map-container {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+    background: #0a0e1a;
+  }
+
+  #world-map {
+    width: 100%;
+    height: 100%;
+  }
+
+  .country-path {
+    stroke: #1e3a5f;
+    stroke-width: 0.5;
+    cursor: pointer;
+    transition: opacity 0.15s;
+  }
+  .country-path:hover { opacity: 0.75; stroke: #38bdf8; stroke-width: 1.5; }
+  .country-path.selected { stroke: #f59e0b; stroke-width: 2; }
+
+  /* ── Tooltip ── */
+  #tooltip {
+    position: absolute;
+    pointer-events: none;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 10px 14px;
+    font-size: 13px;
+    display: none;
+    z-index: 100;
+    min-width: 200px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.5);
+  }
+  #tooltip .tt-name { font-size: 15px; font-weight: 600; color: #f1f5f9; margin-bottom: 6px; }
+  #tooltip .tt-row { display: flex; justify-content: space-between; color: #94a3b8; margin: 2px 0; }
+  #tooltip .tt-row span { color: #e2e8f0; }
+  .tier-badge {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 12px;
+  }
+  .tier-S { background: #7c3aed; color: #ede9fe; }
+  .tier-A { background: #1d4ed8; color: #dbeafe; }
+  .tier-B { background: #065f46; color: #d1fae5; }
+  .tier-C { background: #374151; color: #9ca3af; }
+
+  /* ── 右側面板 ── */
+  .sidebar {
+    width: 320px;
+    background: #111827;
+    border-left: 1px solid #1e3a5f;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    flex-shrink: 0;
+  }
+
+  .panel {
+    padding: 16px;
+    border-bottom: 1px solid #1e3a5f;
+  }
+
+  .panel-title {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #475569;
+    margin-bottom: 10px;
+  }
+
+  /* ── 全局統計 ── */
+  .stats-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+  }
+  .stat-box {
+    background: #1e293b;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+  }
+  .stat-num { font-size: 22px; font-weight: 700; color: #38bdf8; }
+  .stat-label { font-size: 11px; color: #64748b; margin-top: 2px; }
+
+  .progress-bar {
+    height: 6px;
+    background: #1e3a5f;
+    border-radius: 3px;
+    margin-top: 10px;
+    overflow: hidden;
+  }
+  .progress-fill {
+    height: 100%;
+    background: linear-gradient(90deg, #38bdf8, #a78bfa);
+    border-radius: 3px;
+    transition: width 0.5s ease;
+  }
+
+  /* ── 操作按鈕 ── */
+  .btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s;
+    margin-bottom: 6px;
+    letter-spacing: 0.3px;
+  }
+  .btn-primary { background: #1d4ed8; color: #fff; }
+  .btn-primary:hover { background: #2563eb; }
+  .btn-success { background: #065f46; color: #d1fae5; }
+  .btn-success:hover { background: #047857; }
+  .btn-warning { background: #78350f; color: #fef3c7; }
+  .btn-warning:hover { background: #92400e; }
+  .btn:disabled { opacity: 0.4; cursor: not-allowed; }
+
+  /* ── 選中國家詳情 ── */
+  .detail-name {
+    font-size: 16px;
+    font-weight: 700;
+    color: #f1f5f9;
+    margin-bottom: 10px;
+  }
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+    color: #64748b;
+    padding: 4px 0;
+    border-bottom: 1px solid #1e293b;
+  }
+  .detail-row:last-child { border-bottom: none; }
+  .detail-row span { color: #cbd5e1; font-weight: 500; }
+
+  .score-big {
+    font-size: 36px;
+    font-weight: 800;
+    margin: 6px 0;
+  }
+
+  /* ── Top 10 ── */
+  .top-list { list-style: none; }
+  .top-item {
+    display: flex;
+    align-items: center;
+    padding: 7px 0;
+    border-bottom: 1px solid #1e293b;
+    cursor: pointer;
+    transition: background 0.1s;
+    border-radius: 4px;
+  }
+  .top-item:hover { background: #1e293b; padding: 7px 6px; }
+  .top-rank { width: 22px; font-size: 11px; color: #475569; font-weight: 700; flex-shrink: 0; }
+  .top-code { width: 40px; font-size: 12px; font-weight: 700; color: #38bdf8; flex-shrink: 0; }
+  .top-name { flex: 1; font-size: 13px; color: #94a3b8; }
+  .top-score { font-size: 13px; font-weight: 700; margin-left: 6px; }
+
+  /* ── 日誌 ── */
+  .log-area {
+    font-size: 12px;
+    color: #475569;
+    max-height: 120px;
+    overflow-y: auto;
+    font-family: monospace;
+  }
+  .log-line { padding: 2px 0; border-bottom: 1px solid #1e293b; }
+  .log-line.ok   { color: #22c55e; }
+  .log-line.warn { color: #f59e0b; }
+  .log-line.info { color: #38bdf8; }
+
+  /* ── 凡例 ── */
+  .legend { display: flex; flex-wrap: wrap; gap: 8px; font-size: 12px; }
+  .legend-item { display: flex; align-items: center; gap: 4px; }
+  .legend-dot { width: 12px; height: 12px; border-radius: 3px; flex-shrink: 0; }
+
+  .auto-controls {
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    margin-top: 6px;
+  }
+  .auto-controls input {
+    width: 60px;
+    background: #1e293b;
+    border: 1px solid #334155;
+    border-radius: 6px;
+    color: #f1f5f9;
+    padding: 6px;
+    font-size: 13px;
+    text-align: center;
+  }
+
+  .empty-state {
+    color: #475569;
+    font-size: 13px;
+    text-align: center;
+    padding: 20px 0;
+  }
+  .empty-state div { font-size: 28px; margin-bottom: 8px; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo">World <span>Web</span> Claw — Global Market Intelligence Map</div>
+  <div class="header-stats">
+    <span><span class="status-dot idle" id="status-dot"></span><span id="status-text">就緒，點擊 Bootstrap 開始</span></span>
+    <span>總國家：<strong id="hdr-total">—</strong></span>
+    <span>已填充：<strong id="hdr-filled">—</strong></span>
+    <span>最後執行：<strong id="hdr-last">—</strong></span>
+  </div>
+</header>
+
+<div class="main">
+
+  <!-- 地圖 -->
+  <div class="map-container">
+    <svg id="world-map"></svg>
+    <div id="tooltip">
+      <div class="tt-name" id="tt-name"></div>
+      <div class="tt-row">優先分數 <span id="tt-score"></span></div>
+      <div class="tt-row">人均 GDP <span id="tt-gdp"></span></div>
+      <div class="tt-row">網路普及 <span id="tt-internet"></span></div>
+      <div class="tt-row">人口 <span id="tt-pop"></span></div>
+      <div class="tt-row">狀態 <span id="tt-status"></span></div>
+    </div>
+  </div>
+
+  <!-- 右側面板 -->
+  <div class="sidebar">
+
+    <div class="panel">
+      <div class="panel-title">全球進度</div>
+      <div class="stats-grid">
+        <div class="stat-box">
+          <div class="stat-num" id="stat-total">—</div>
+          <div class="stat-label">總格子數</div>
+        </div>
+        <div class="stat-box">
+          <div class="stat-num" id="stat-filled" style="color:#22c55e">—</div>
+          <div class="stat-label">已填充</div>
+        </div>
+      </div>
+      <div class="progress-bar">
+        <div class="progress-fill" id="progress-fill" style="width:0%"></div>
+      </div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">操作控制</div>
+      <button class="btn btn-primary" id="btn-bootstrap" onclick="triggerBootstrap()">
+        🌍 重新爬取世界資料（後端 WorldBank CSV）
+      </button>
+      <button class="btn btn-success" id="btn-orchestrate" onclick="runOrchestrator()">
+        ⚡ 執行一輪 Orchestrator
+      </button>
+      <div class="auto-controls">
+        <button class="btn btn-warning" id="btn-auto" onclick="runAuto()" style="margin:0;flex:1">
+          🔄 自動執行
+        </button>
+        <input type="number" id="auto-rounds" value="20" min="1" max="190">
+        <span style="font-size:12px;color:#475569">輪</span>
+      </div>
+    </div>
+
+    <div class="panel" id="detail-panel">
+      <div class="panel-title">選中格子</div>
+      <div class="empty-state"><div>🗺️</div>點擊地圖上的國家查看詳情</div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">Top 10 優先格子</div>
+      <ul class="top-list" id="top-list">
+        <div class="empty-state"><div>📊</div>Bootstrap 完成後顯示</div>
+      </ul>
+    </div>
+
+    <div class="panel" style="flex:1">
+      <div class="panel-title">執行日誌</div>
+      <div class="log-area" id="log-area"></div>
+    </div>
+
+    <div class="panel">
+      <div class="panel-title">顏色說明</div>
+      <div class="legend">
+        <div class="legend-item"><div class="legend-dot" style="background:#dc2626"></div>極高優先（80+）</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ea580c"></div>高優先（60–80）</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#ca8a04"></div>中優先（40–60）</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#16a34a"></div>低優先（0–40）</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#22c55e;border:2px solid #4ade80"></div>已填充</div>
+        <div class="legend-item"><div class="legend-dot" style="background:#1e3a5f"></div>無資料</div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script>
+// ═══════════════════════════════════════════════════════
+// World Web Claw — 純瀏覽器版
+// 資料來源：GitHub risk-management repo（永久儲存）
+// GCP 負責爬蟲，推送後前端從 GitHub 讀取
+// ═══════════════════════════════════════════════════════
+
+const GITHUB_RAW = 'https://raw.githubusercontent.com/Yuchiaoniu/risk-management/main';
+const WWC_API    = '/wwc-api/api';  // 保留備援（Bootstrap 按鈕用）
+
+let countryData  = {};   // { ISO3: { name, gdp_per_capita, population, internet_usage, priority_score, status, cells_filled } }
+let selectedCode = null;
+let topoWorld    = null;
+let projection   = null;
+let pathGen      = null;
+let svg          = null;
+let g            = null;
+let autoTimer    = null;
+
+// ISO numeric → ISO3（地圖 TopoJSON 用 numeric ID）
+const numericToISO3 = {
+  4:"AFG",8:"ALB",12:"DZA",24:"AGO",32:"ARG",36:"AUS",40:"AUT",50:"BGD",
+  56:"BEL",64:"BTN",68:"BOL",76:"BRA",100:"BGR",104:"MMR",116:"KHM",
+  120:"CMR",124:"CAN",144:"LKA",152:"CHL",156:"CHN",170:"COL",178:"COG",
+  180:"COD",188:"CRI",191:"HRV",192:"CUB",196:"CYP",203:"CZE",204:"BEN",
+  208:"DNK",214:"DOM",218:"ECU",231:"ETH",246:"FIN",250:"FRA",266:"GAB",
+  276:"DEU",288:"GHA",300:"GRC",320:"GTM",324:"GIN",332:"HTI",340:"HND",
+  348:"HUN",356:"IND",360:"IDN",364:"IRN",368:"IRQ",372:"IRL",376:"ISR",
+  380:"ITA",388:"JAM",392:"JPN",398:"KAZ",400:"JOR",404:"KEN",410:"KOR",
+  414:"KWT",418:"LAO",422:"LBN",426:"LSO",430:"LBR",434:"LBY",440:"LTU",
+  442:"LUX",450:"MDG",458:"MYS",484:"MEX",496:"MNG",504:"MAR",508:"MOZ",
+  516:"NAM",524:"NPL",528:"NLD",554:"NZL",558:"NIC",566:"NGA",578:"NOR",
+  586:"PAK",591:"PAN",604:"PER",608:"PHL",616:"POL",620:"PRT",630:"PRI",
+  634:"QAT",642:"ROU",643:"RUS",646:"RWA",682:"SAU",686:"SEN",694:"SLE",
+  702:"SGP",703:"SVK",704:"VNM",710:"ZAF",716:"ZWE",724:"ESP",729:"SDN",
+  752:"SWE",756:"CHE",760:"SYR",762:"TJK",764:"THA",768:"TGO",780:"TTO",
+  788:"TUN",792:"TUR",800:"UGA",804:"UKR",818:"EGY",826:"GBR",840:"USA",
+  858:"URY",860:"UZB",862:"VEN",887:"YEM",894:"ZMB",31:"AZE",48:"BHR",
+  51:"ARM",112:"BLR",20:"AND",
+};
+
+// ── 顏色 ──
+function getColor(d) {
+  if (!d) return '#1e3a5f';
+  if (d.status === 'filled')  return '#22c55e';
+  if (d.status === 'skipped') return '#374151';
+  const s = d.priority_score;
+  if (s == null) return '#1e3a5f';
+  if (s >= 80) return '#dc2626';
+  if (s >= 60) return '#ea580c';
+  if (s >= 40) return '#ca8a04';
+  return '#16a34a';
+}
+
+function tierOf(s) {
+  if (s >= 80) return 'S';
+  if (s >= 60) return 'A';
+  if (s >= 40) return 'B';
+  return 'C';
+}
+
+// ── 日誌 ──
+function log(msg, type='info') {
+  const area = document.getElementById('log-area');
+  const ts   = new Date().toLocaleTimeString('zh-TW');
+  const line = document.createElement('div');
+  line.className = 'log-line ' + type;
+  line.textContent = `[${ts}] ${msg}`;
+  area.insertBefore(line, area.firstChild);
+  if (area.children.length > 60) area.removeChild(area.lastChild);
+}
+
+// ── 狀態列 ──
+function setStatus(text, state='idle') {
+  document.getElementById('status-text').textContent = text;
+  const dot = document.getElementById('status-dot');
+  dot.className = 'status-dot ' + state;
+}
+
+// ── 狀態儲存（資料在後端 SQLite，前端不需要 localStorage）──
+function saveState() { /* no-op: data lives in SQLite */ }
+function loadState() { return false; }
+
+// ── 從 GitHub 載入所有國家資料（永久儲存）──
+async function loadFromAPI() {
+  try {
+    // 主要來源：GitHub risk-management repo
+    const url  = `${GITHUB_RAW}/data/cells.json?t=${Date.now()}`;
+    const resp = await fetch(url);
+    if (!resp.ok) throw new Error(`GitHub HTTP ${resp.status}`);
+    const rows = await resp.json();
+    countryData = {};
+    for (const r of rows) {
+      countryData[r.iso3] = {
+        name:             r.name,
+        region:           r.region,
+        priority_score:   r.priority_score,
+        cells_filled:     r.cells_filled || 0,
+        status:           r.cells_filled > 0 ? 'filled' : 'empty',
+        gdp_per_capita:   r.gdp_per_capita,
+        population:       r.population,
+        internet_usage:   r.internet_users_pct,
+        gdp_growth:       r.gdp_growth,
+        inflation:        r.inflation,
+        trade_pct_gdp:    r.trade_pct_gdp,
+        // 法人層
+        company_count_total:         r.company_count_total,
+        company_count_service:       r.company_count_service,
+        company_count_manufacturing: r.company_count_manufacturing,
+        company_count_retail:        r.company_count_retail,
+        company_count_ict:           r.company_count_ict,
+        company_count_wholesale:     r.company_count_wholesale,
+      };
+    }
+    log(`從 GitHub 載入：${rows.length} 個格子`, 'ok');
+    return rows.length;
+  } catch (e) {
+    log('GitHub 載入失敗，嘗試本機 API...', 'warn');
+    // Fallback：本機 SQLite API
+    try {
+      const resp = await fetch(`${WWC_API}/cells-full`);
+      if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
+      const rows = await resp.json();
+      countryData = {};
+      for (const r of rows) {
+        countryData[r.iso3] = {
+          name: r.name, region: r.region,
+          priority_score: r.priority_score,
+          cells_filled: r.cells_filled || 0,
+          status: r.cells_filled > 0 ? 'filled' : 'empty',
+          gdp_per_capita: r.gdp_per_capita, population: r.population,
+          internet_usage: r.internet_users_pct,
+        };
+      }
+      return rows.length;
+    } catch (e2) {
+      log('載入失敗：' + e2.message, 'warn');
+      return 0;
+    }
+  }
+}
+
+// ── Bootstrap：觸發後端爬蟲重新抓取資料 ──
+async function triggerBootstrap() {
+  const btn = document.getElementById('btn-bootstrap');
+  btn.disabled = true;
+  setStatus('觸發後端爬蟲...', 'loading');
+  log('Bootstrap — 觸發後端 WorldBank CSV 爬蟲', 'info');
+
+  try {
+    // 1. 觸發後端爬蟲
+    const r1 = await fetch(`${WWC_API}/bootstrap`, { method: 'POST' });
+    const j1 = await r1.json();
+    if (j1.status === 'already_running') {
+      log('爬蟲正在執行中，請稍後再試', 'warn');
+      btn.disabled = false;
+      return;
+    }
+
+    log('爬蟲已啟動，等待完成（約 30 秒）...', 'info');
+    setStatus('爬蟲執行中...', 'loading');
+
+    // 2. 輪詢直到爬蟲完成
+    for (let i = 0; i < 60; i++) {
+      await new Promise(r => setTimeout(r, 2000));
+      const st = await fetch(`${WWC_API}/status`);
+      const sj = await st.json();
+      if (!sj.bootstrap_running) {
+        log(`爬蟲完成，${sj.cells_count} 個格子，${sj.metrics_count} 筆指標`, 'ok');
+        break;
+      }
+      if (i % 5 === 0) log(`等待爬蟲... (${i*2}s)`, 'info');
+    }
+
+    // 3. 重新載入資料
+    const n = await loadFromAPI();
+    log(`載入完成：${n} 個格子`, 'ok');
+    setStatus(`Bootstrap 完成 — ${n} 個格子`, 'idle');
+    updateUI();
+
+  } catch (err) {
+    log('Bootstrap 失敗：' + err.message, 'warn');
+    setStatus('Bootstrap 失敗', 'idle');
+  }
+
+  btn.disabled = false;
+}
+
+// ── 優先分數計算（移植自 priority_engine.py）──
+function normalize(val, maxVal, logScale=false) {
+  if (val == null || val <= 0) return 0;
+  if (logScale) return Math.min(Math.log10(Math.max(val, 1)) / Math.log10(maxVal), 1);
+  return Math.min(val / maxVal, 1);
+}
+
+function calcPriorityScore(d) {
+  const gdpScore  = normalize(d.gdp_per_capita, 80000)              * 40;
+  const netScore  = normalize(d.internet_usage, 100)                * 35;
+  const popScore  = normalize(d.population, 1_400_000_000, true)    * 25;
+  let raw = gdpScore + netScore + popScore;
+
+  // 缺口加成：中小型 GDP 資料供應者較少
+  if (d.gdp_per_capita && d.gdp_per_capita > 5000 && d.gdp_per_capita < 25000) raw *= 1.15;
+
+  // 已填充懲罰
+  const penalty = Math.min((d.cells_filled || 0) * 20, raw - 5);
+  return Math.round(Math.min(Math.max(raw - penalty, 0), 100) * 10) / 10;
+}
+
+function recalculateAll() {
+  for (const d of Object.values(countryData)) {
+    d.priority_score = calcPriorityScore(d);
+  }
+}
+
+function getTier(score) {
+  if (score >= 80) return 'S';
+  if (score >= 60) return 'A';
+  if (score >= 40) return 'B';
+  return 'C';
+}
+
+// ── Orchestrator：選最高優先未填格子 → 填充 ──
+function runOrchestrator() {
+  const total = Object.keys(countryData).length;
+  if (total === 0) { log('請先執行 Bootstrap', 'warn'); return; }
+
+  // 找優先分數最高且未填充的格子
+  const candidates = Object.entries(countryData)
+    .filter(([, d]) => d.status !== 'filled' && d.priority_score != null)
+    .sort(([, a], [, b]) => b.priority_score - a.priority_score);
+
+  if (candidates.length === 0) {
+    log('所有格子已填充完畢！', 'ok');
+    setStatus('地圖填充完成 🎉', 'idle');
+    return;
+  }
+
+  const [code, data] = candidates[0];
+  data.status = 'filled';
+  data.cells_filled = (data.cells_filled || 0) + 1;
+
+  // 計算市場潛力估算
+  const gdp  = data.gdp_per_capita || 0;
+  const pop  = data.population     || 0;
+  const net  = data.internet_usage || 0;
+  const marketPotential = ((gdp * 0.001) * (pop / 1e6) * (net / 100)) * 1000;
+  const tier = getTier(data.priority_score);
+
+  log(`✅ 填充：${data.name} (${code}) | Tier ${tier} | 分數 ${data.priority_score} | 潛力 $${(marketPotential/1000).toFixed(0)}K`, 'ok');
+
+  // 重新計算所有分數（鄰近影響）
+  recalculateAll();
+  saveState();
+  updateUI();
+
+  const now = new Date().toLocaleTimeString('zh-TW');
+  document.getElementById('hdr-last').textContent = now;
+}
+
+// ── 自動執行多輪 ──
+async function runAuto() {
+  if (autoTimer !== null) {
+    clearInterval(autoTimer);
+    autoTimer = null;
+    document.getElementById('btn-auto').textContent = '🔄 自動執行';
+    log('自動執行已停止', 'warn');
+    return;
+  }
+  const rounds = parseInt(document.getElementById('auto-rounds').value) || 20;
+  let count = 0;
+  document.getElementById('btn-auto').textContent = '⏹ 停止自動執行';
+  log(`開始自動執行 ${rounds} 輪`, 'info');
+
+  autoTimer = setInterval(() => {
+    if (count >= rounds) {
+      clearInterval(autoTimer);
+      autoTimer = null;
+      document.getElementById('btn-auto').textContent = '🔄 自動執行';
+      log(`自動執行完成 ${rounds} 輪`, 'ok');
+      return;
+    }
+    runOrchestrator();
+    count++;
+  }, 400);
+}
+
+// ── UI 更新（統計 + 地圖 + Top10）──
+function updateUI() {
+  const entries = Object.entries(countryData);
+  const total   = entries.length;
+  const filled  = entries.filter(([, d]) => d.status === 'filled').length;
+  const pct     = total > 0 ? (filled / total * 100).toFixed(1) : 0;
+
+  document.getElementById('stat-total').textContent  = total;
+  document.getElementById('stat-filled').textContent = filled;
+  document.getElementById('hdr-total').textContent   = total;
+  document.getElementById('hdr-filled').textContent  = filled;
+  document.getElementById('progress-fill').style.width = pct + '%';
+
+  updateMap();
+  updateTop10();
+}
+
+// ── 地圖更新 ──
+function updateMap() {
+  if (!g) return;
+  g.selectAll('.country-path').attr('fill', function() {
+    const iso3 = this.dataset.iso3;
+    return getColor(countryData[iso3]);
+  });
+}
+
+// ── Top 10 ──
+function updateTop10() {
+  const list = document.getElementById('top-list');
+  const top  = Object.entries(countryData)
+    .filter(([, d]) => d.priority_score != null)
+    .sort(([, a], [, b]) => b.priority_score - a.priority_score)
+    .slice(0, 10);
+
+  if (top.length === 0) return;
+  list.innerHTML = '';
+  top.forEach(([code, d], i) => {
+    const tier  = getTier(d.priority_score);
+    const color = getColor(d);
+    const li    = document.createElement('li');
+    li.className = 'top-item';
+    li.innerHTML = `
+      <span class="top-rank">${i+1}</span>
+      <span class="top-code">${code}</span>
+      <span class="top-name">${d.name || code}</span>
+      <span class="top-score" style="color:${color}">${d.priority_score}</span>
+      <span class="tier-badge tier-${tier}" style="margin-left:4px">${tier}</span>
+    `;
+    li.onclick = () => selectCountry(code);
+    list.appendChild(li);
+  });
+}
+
+// ── 選中國家詳情 ──
+function selectCountry(code) {
+  selectedCode = code;
+  const d = countryData[code];
+  const panel = document.getElementById('detail-panel');
+
+  if (!d) {
+    panel.innerHTML = '<div class="panel-title">選中格子</div><div class="empty-state"><div>❓</div>無資料</div>';
+    return;
+  }
+
+  const tier  = d.priority_score != null ? getTier(d.priority_score) : '—';
+  const color = getColor(d);
+  const gdp   = d.gdp_per_capita ? '$' + d.gdp_per_capita.toLocaleString('en', {maximumFractionDigits:0}) : '—';
+  const pop   = d.population     ? (d.population/1e6).toFixed(1) + 'M' : '—';
+  const net   = d.internet_usage ? d.internet_usage.toFixed(1) + '%'  : '—';
+
+  panel.innerHTML = `
+    <div class="panel-title">選中格子</div>
+    <div class="detail-name">${d.name || code} <small style="color:#475569;font-size:12px">(${code})</small></div>
+    <div class="score-big" style="color:${color}">${d.priority_score ?? '—'}
+      <span class="tier-badge tier-${tier}" style="font-size:16px;vertical-align:middle">${tier}</span>
+    </div>
+    <div class="detail-row">人均 GDP <span>${gdp}</span></div>
+    <div class="detail-row">網路普及率 <span>${net}</span></div>
+    <div class="detail-row">人口 <span>${pop}</span></div>
+    <div class="detail-row">地區 <span>${d.region || '—'}</span></div>
+    <div class="detail-row">收入等級 <span>${d.income_level || '—'}</span></div>
+    <div class="detail-row">狀態 <span style="color:${color}">${d.status || '—'}</span></div>
+    <div class="detail-row">已填充次數 <span>${d.cells_filled || 0}</span></div>
+  `;
+
+  // 高亮地圖
+  g && g.selectAll('.country-path')
+    .classed('selected', function() { return this.dataset.iso3 === code; });
+}
+
+// ── 地圖初始化 ──
+async function initMap() {
+  svg = d3.select('#world-map');
+  const w = svg.node().clientWidth;
+  const h = svg.node().clientHeight;
+
+  projection = d3.geoNaturalEarth1()
+    .scale(w / 6.2)
+    .translate([w / 2, h / 2]);
+  pathGen = d3.geoPath().projection(projection);
+
+  log('載入世界地圖 TopoJSON...', 'info');
+  topoWorld = await d3.json('https://cdn.jsdelivr.net/npm/world-atlas@2/countries-110m.json');
+
+  g = svg.append('g');
+
+  // 海洋
+  g.append('path')
+    .datum({type: 'Sphere'})
+    .attr('d', pathGen)
+    .attr('fill', '#0d1b2e')
+    .attr('stroke', '#1e3a5f')
+    .attr('stroke-width', 0.5);
+
+  // 國家
+  const features = topojson.feature(topoWorld, topoWorld.objects.countries).features;
+  const tooltip  = document.getElementById('tooltip');
+
+  g.selectAll('.country-path')
+    .data(features)
+    .enter().append('path')
+    .attr('class', 'country-path')
+    .attr('d', pathGen)
+    .attr('fill', d => {
+      const iso3 = numericToISO3[+d.id];
+      return getColor(countryData[iso3]);
+    })
+    .each(function(d) {
+      const iso3 = numericToISO3[+d.id] || '';
+      this.dataset.iso3 = iso3;
+    })
+    .on('mousemove', function(event, d) {
+      const iso3 = numericToISO3[+d.id];
+      const data = countryData[iso3];
+      document.getElementById('tt-name').textContent     = (data?.name || iso3 || '未知');
+      document.getElementById('tt-score').textContent    = data?.priority_score ?? '—';
+      document.getElementById('tt-gdp').textContent      = data?.gdp_per_capita ? '$' + Math.round(data.gdp_per_capita).toLocaleString() : '—';
+      document.getElementById('tt-internet').textContent = data?.internet_usage  ? data.internet_usage.toFixed(1) + '%' : '—';
+      document.getElementById('tt-pop').textContent      = data?.population ? (data.population/1e6).toFixed(1) + 'M' : '—';
+      document.getElementById('tt-status').textContent   = data?.status ?? '無資料';
+      tooltip.style.display = 'block';
+      tooltip.style.left = (event.offsetX + 14) + 'px';
+      tooltip.style.top  = (event.offsetY + 14) + 'px';
+    })
+    .on('mouseleave', () => { tooltip.style.display = 'none'; })
+    .on('click', (event, d) => {
+      const iso3 = numericToISO3[+d.id];
+      if (iso3) selectCountry(iso3);
+    });
+
+  // 縮放
+  svg.call(d3.zoom()
+    .scaleExtent([0.8, 10])
+    .on('zoom', e => g.attr('transform', e.transform)));
+
+  log('地圖載入完成', 'ok');
+
+  // 資料已由 loadFromAPI() 載入，地圖初始化後更新
+  if (Object.keys(countryData).length > 0) updateUI();
+}
+
+// ── 啟動 ──
+window.addEventListener('DOMContentLoaded', async () => {
+  setStatus('從後端 API 載入資料...', 'loading');
+  log('連接後端資料庫...', 'info');
+
+  const n = await loadFromAPI();
+  if (n > 0) {
+    log(`載入 ${n} 個格子（SQLite 後端）`, 'ok');
+    setStatus(`已載入 ${n} 個格子`, 'idle');
+  } else {
+    log('後端無資料，請點「Bootstrap 世界資料」', 'warn');
+    setStatus('無資料 — 請 Bootstrap', 'idle');
+  }
+
+  await initMap();
+  if (n > 0) updateUI();
+});
+</script>
+</body>
+</html>
