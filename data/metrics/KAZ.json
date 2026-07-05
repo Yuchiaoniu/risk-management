@@ -9,5 +9,11 @@
   "capital_city": "Astana",
   "income_level": "Upper middle income",
   "latitude": "51.1879",
-  "longitude": "71.4382"
+  "longitude": "71.4382",
+  "forest_area_pct": 1.2834426,
+  "co2_per_capita": 13.693581,
+  "food_insecurity_pct": 0.6,
+  "cereal_production_tonnes": 21722294.0,
+  "meat_production_tonnes": 1169029.5,
+  "fish_consumption_kg_pc": 3.9299982
 }
