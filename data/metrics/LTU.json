@@ -9,5 +9,11 @@
   "capital_city": "Vilnius",
   "income_level": "High income",
   "latitude": "54.6896",
-  "longitude": "25.2799"
+  "longitude": "25.2799",
+  "forest_area_pct": 35.22171,
+  "co2_per_capita": 4.5777125,
+  "food_insecurity_pct": 1.3,
+  "cereal_production_tonnes": 5623660.0,
+  "meat_production_tonnes": 200637.9,
+  "fish_consumption_kg_pc": 28.509962
 }
