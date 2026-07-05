@@ -3,5 +3,7 @@
   "population": 156263.0,
   "gdp_growth": 5.02690015475606,
   "capital_city": "Willemstad",
-  "income_level": "High income"
+  "income_level": "High income",
+  "forest_area_pct": 0.15765765,
+  "co2_per_capita": 11.920108
 }
