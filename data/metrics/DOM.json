@@ -9,5 +9,11 @@
   "capital_city": "Santo Domingo",
   "income_level": "Upper middle income",
   "latitude": "18.479",
-  "longitude": "-69.8908"
+  "longitude": "-69.8908",
+  "forest_area_pct": 46.28763,
+  "co2_per_capita": 2.7802987,
+  "food_insecurity_pct": 19.0,
+  "cereal_production_tonnes": 1069149.1,
+  "meat_production_tonnes": 555538.1,
+  "fish_consumption_kg_pc": 17.14
 }
