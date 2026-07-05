@@ -7,5 +7,10 @@
   "capital_city": "Roseau",
   "income_level": "Upper middle income",
   "latitude": "15.2976",
-  "longitude": "-61.39"
+  "longitude": "-61.39",
+  "forest_area_pct": 76.70133,
+  "co2_per_capita": 2.4663935,
+  "food_insecurity_pct": 5.8,
+  "cereal_production_tonnes": 193.13,
+  "meat_production_tonnes": 1405.45
 }
