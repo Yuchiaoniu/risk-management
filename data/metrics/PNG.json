@@ -8,5 +8,10 @@
   "capital_city": "Port Moresby",
   "income_level": "Lower middle income",
   "latitude": "-9.47357",
-  "longitude": "147.194"
+  "longitude": "147.194",
+  "forest_area_pct": 75.17546,
+  "co2_per_capita": 0.82680374,
+  "cereal_production_tonnes": 18862.9,
+  "meat_production_tonnes": 531162.2,
+  "fish_consumption_kg_pc": 7.100001
 }
