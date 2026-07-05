@@ -8,5 +8,11 @@
   "capital_city": "Tegucigalpa",
   "income_level": "Lower middle income",
   "latitude": "15.1333",
-  "longitude": "-87.4667"
+  "longitude": "-87.4667",
+  "forest_area_pct": 54.180088,
+  "co2_per_capita": 1.1221477,
+  "food_insecurity_pct": 15.3,
+  "cereal_production_tonnes": 751006.9,
+  "meat_production_tonnes": 302166.1,
+  "fish_consumption_kg_pc": 4.3899984
 }
