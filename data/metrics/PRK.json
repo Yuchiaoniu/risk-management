@@ -3,5 +3,9 @@
   "capital_city": "Pyongyang",
   "income_level": "Low income",
   "latitude": "39.0319",
-  "longitude": "125.754"
+  "longitude": "125.754",
+  "forest_area_pct": 63.80289,
+  "co2_per_capita": 2.13794,
+  "cereal_production_tonnes": 4777898.5,
+  "meat_production_tonnes": 344588.53
 }
