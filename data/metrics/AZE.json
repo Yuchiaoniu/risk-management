@@ -9,5 +9,11 @@
   "capital_city": "Baku",
   "income_level": "Upper middle income",
   "latitude": "40.3834",
-  "longitude": "49.8932"
+  "longitude": "49.8932",
+  "forest_area_pct": 14.176455,
+  "co2_per_capita": 3.999354,
+  "food_insecurity_pct": 0.7,
+  "cereal_production_tonnes": 3055969.8,
+  "meat_production_tonnes": 367361.47,
+  "fish_consumption_kg_pc": 2.1400003
 }
