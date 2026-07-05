@@ -5,5 +5,10 @@
   "income_level": "High income",
   "latitude": "24.4764",
   "longitude": "54.3705",
-  "calling_code": "+971"
+  "calling_code": "+971",
+  "forest_area_pct": 4.5513377,
+  "co2_per_capita": 20.220825,
+  "cereal_production_tonnes": 21429.0,
+  "meat_production_tonnes": 191558.31,
+  "fish_consumption_kg_pc": 23.109982
 }
