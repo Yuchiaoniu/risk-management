@@ -9,5 +9,11 @@
   "capital_city": "Tirane",
   "income_level": "Upper middle income",
   "latitude": "41.3317",
-  "longitude": "19.8172"
+  "longitude": "19.8172",
+  "forest_area_pct": 34.343067,
+  "co2_per_capita": 1.5908402,
+  "food_insecurity_pct": 8.2,
+  "cereal_production_tonnes": 690850.0,
+  "meat_production_tonnes": 66669.3,
+  "fish_consumption_kg_pc": 8.6
 }
