@@ -4,6 +4,19 @@
   "gdp_growth": 3.40000000000001,
   "capital_city": "Philipsburg",
   "income_level": "High income",
-  "forest_area_pct": 8.823529,
-  "co2_per_capita": 16.42426
+  "forest_area_pct": 10.8823529411765,
+  "co2_per_capita": 16.42426,
+  "manufacturing_pct_gdp": 1.17053397088981,
+  "school_enrollment_tertiary": 7.65284309533989,
+  "edu_expenditure_pct_gdp": 3.92363832601723,
+  "renewable_energy_pct": 0.0,
+  "tourist_arrivals": 1952000.0,
+  "mobile_subscriptions": 205.372695128029,
+  "urban_population_pct": 100.0,
+  "urban_population_growth": 1.3131397652904,
+  "slum_population_pct": 2.88821,
+  "access_to_electricity_pct": 100.0,
+  "industry_value_added_pct": 6.02852472331512,
+  "fdi_inflow_pct_gdp": 2.06435551530026,
+  "container_port_teu": 105200.0
 }
