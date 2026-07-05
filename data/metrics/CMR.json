@@ -9,5 +9,11 @@
   "capital_city": "Yaounde",
   "income_level": "Lower middle income",
   "latitude": "3.8721",
-  "longitude": "11.5174"
+  "longitude": "11.5174",
+  "forest_area_pct": 41.486416,
+  "co2_per_capita": 0.3543776,
+  "food_insecurity_pct": 25.4,
+  "cereal_production_tonnes": 3843696.2,
+  "meat_production_tonnes": 418230.8,
+  "fish_consumption_kg_pc": 18.12
 }
