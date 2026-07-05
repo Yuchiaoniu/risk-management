@@ -8,5 +8,11 @@
   "capital_city": "Sao Tome",
   "income_level": "Lower middle income",
   "latitude": "0.20618",
-  "longitude": "6.6071"
+  "longitude": "6.6071",
+  "forest_area_pct": 57.475,
+  "co2_per_capita": 0.59902877,
+  "food_insecurity_pct": 14.1,
+  "cereal_production_tonnes": 780.65,
+  "meat_production_tonnes": 1724.66,
+  "fish_consumption_kg_pc": 26.518621
 }
