@@ -8,5 +8,11 @@
   "capital_city": "Niamey",
   "income_level": "Low income",
   "latitude": "13.514",
-  "longitude": "2.1073"
+  "longitude": "2.1073",
+  "forest_area_pct": 0.8484882,
+  "co2_per_capita": 0.12645128,
+  "food_insecurity_pct": 7.5,
+  "cereal_production_tonnes": 5962437.5,
+  "meat_production_tonnes": 193878.34,
+  "fish_consumption_kg_pc": 1.8700005
 }
