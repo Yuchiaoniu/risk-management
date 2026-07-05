@@ -8,5 +8,10 @@
   "capital_city": "Bamako",
   "income_level": "Low income",
   "latitude": "13.5667",
-  "longitude": "-7.50034"
+  "longitude": "-7.50034",
+  "forest_area_pct": 8.917819,
+  "co2_per_capita": 0.3042441,
+  "food_insecurity_pct": 2.7,
+  "cereal_production_tonnes": 10289006.0,
+  "meat_production_tonnes": 177136.33
 }
