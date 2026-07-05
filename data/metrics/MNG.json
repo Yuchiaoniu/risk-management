@@ -9,5 +9,11 @@
   "capital_city": "Ulaanbaatar",
   "income_level": "Upper middle income",
   "latitude": "47.9129",
-  "longitude": "106.937"
+  "longitude": "106.937",
+  "forest_area_pct": 9.103222,
+  "co2_per_capita": 11.944179,
+  "food_insecurity_pct": 0.6,
+  "cereal_production_tonnes": 428648.88,
+  "meat_production_tonnes": 378314.47,
+  "fish_consumption_kg_pc": 1.0299976
 }
