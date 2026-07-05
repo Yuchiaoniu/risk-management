@@ -7,5 +7,13 @@
   "income_level": "High income",
   "latitude": "-14.2846",
   "longitude": "-170.691",
-  "forest_area_pct": 79.25
+  "forest_area_pct": 85.2,
+  "renewable_energy_pct": 0.4,
+  "tourist_arrivals": 899.999976158142,
+  "arable_land_pct": 5.15,
+  "urban_population_pct": 80.5123508239818,
+  "urban_population_growth": -2.1225417393941,
+  "access_to_water_pct": 100.0,
+  "pm25_exposure": 4.32593683167305,
+  "container_port_teu": 76200.0
 }
