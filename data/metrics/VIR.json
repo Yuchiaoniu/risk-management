@@ -6,5 +6,19 @@
   "capital_city": "Charlotte Amalie",
   "income_level": "High income",
   "latitude": "18.3358",
-  "longitude": "-64.8963"
+  "longitude": "-64.8963",
+  "forest_area_pct": 58.1714285714286,
+  "labor_force_participation": 54.356,
+  "female_labor_pct": 52.768,
+  "renewable_energy_pct": 5.9,
+  "tourist_arrivals": 8612000.0,
+  "broadband_subscriptions": 10.0662374143133,
+  "mobile_subscriptions": 91.4619626157421,
+  "arable_land_pct": 2.57142857142857,
+  "urban_population_pct": 95.388579075538,
+  "urban_population_growth": -0.501739000281059,
+  "slum_population_pct": 1.09573,
+  "access_to_electricity_pct": 100.0,
+  "access_to_water_pct": 99.4656802967685,
+  "pm25_exposure": 6.7926382310921
 }
