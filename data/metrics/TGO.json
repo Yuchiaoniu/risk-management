@@ -9,5 +9,10 @@
   "capital_city": "Lome",
   "income_level": "Lower middle income",
   "latitude": "6.1228",
-  "longitude": "1.2255"
+  "longitude": "1.2255",
+  "forest_area_pct": 22.289024,
+  "co2_per_capita": 0.33942214,
+  "food_insecurity_pct": 10.9,
+  "cereal_production_tonnes": 1439850.0,
+  "meat_production_tonnes": 81198.88
 }
