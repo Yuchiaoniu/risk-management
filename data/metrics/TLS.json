@@ -42,5 +42,6 @@
   "fdi_inflow_pct_gdp": 12.0853687045097,
   "freshwater_withdrawal_pct": 14.2665855143031,
   "pm25_exposure": 11.9874398587491,
-  "container_port_teu": 53289.0
+  "container_port_teu": 53289.0,
+  "gov_expenditure_pct_gdp": 52.4935012893649
 }
