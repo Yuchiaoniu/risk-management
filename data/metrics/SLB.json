@@ -38,5 +38,6 @@
   "air_passengers": 157418.179,
   "air_freight_mt_km": 9.1443765,
   "container_port_teu": 128035.7,
-  "logistics_performance": 2.8
+  "logistics_performance": 2.8,
+  "gov_expenditure_pct_gdp": 28.8903334458529
 }
