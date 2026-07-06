@@ -50,5 +50,6 @@
   "pm25_exposure": 19.5961413356991,
   "air_passengers": 11884241.039,
   "air_freight_mt_km": 53.083051825,
-  "logistics_performance": 2.7
+  "logistics_performance": 2.7,
+  "gov_expenditure_pct_gdp": 17.4457811545455
 }
