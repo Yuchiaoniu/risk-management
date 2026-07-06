@@ -42,5 +42,6 @@
   "pm25_exposure": 4.57949918534889,
   "air_passengers": 42120.0,
   "air_freight_mt_km": 0.005954,
-  "container_port_teu": 53017.0
+  "container_port_teu": 53017.0,
+  "gov_expenditure_pct_gdp": 26.6839529354459
 }
