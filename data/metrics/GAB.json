@@ -44,5 +44,6 @@
   "freshwater_withdrawal_pct": 0.0848170731707317,
   "pm25_exposure": 31.3215918230835,
   "container_port_teu": 180878.0,
-  "logistics_performance": 2.4
+  "logistics_performance": 2.4,
+  "gov_expenditure_pct_gdp": 14.0519584891347
 }
