@@ -1,7 +1,7 @@
 {
   "total_countries": 218,
   "countries_with_metrics": 218,
-  "last_updated": "2026-07-19T02:08:16Z",
+  "last_updated": "2026-07-20T02:15:52Z",
   "data_sources": [
     "WorldBank",
     "REST Countries",
